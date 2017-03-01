@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+/*banner 样式开始*/
+.banner{ background:#d1cbc1; }
+.banner .wrapperSpecial{ width: 990px; min-width: 990px; margin:0 auto;}
+/*banner 样式结束*/
+
+/*selected 样式开始*/
+.selected{ background:#eee; padding-top: 44px;}
+.selected h3 span{ font-size: 32px; color:#e5004f; font-family: '微软雅黑'; font-weight: 400;  /* line-height: 38px;*/ margin-bottom: 40px;}
+.selected h3 i{ width: 38px; height: 38px; background:url(../images/clock.png); background-size: cover; vertical-align: top; }
+.selected .coupon-list{ margin-top:38px;}
+.selected .coupon-list ul li{ width: 560px; height: 170px; background:#fff; margin:2px 28px 28px 2px; border:1px solid #eee;}
+.selected .coupon-list ul li:hover{ border:1px solid #ddd; box-shadow: 0 0 1px #666;}
+.selected .coupon-list ul .li2,.selected .coupon-list ul .li4,.selected .coupon-list ul .li6,.selected .coupon-list ul .li8{ margin-right: 0;}
+.selected .coupon-list ul li .pic{ width: 200px; padding:20px 0; float: left; text-align: center; transition:all .3s;}
+.selected .coupon-list ul li .pic:hover{ transform:scale(.97);}
+.selected .coupon-list ul li .c-type{ float: left; width: 230px; padding: 27px 0 0;}
+.selected .coupon-list ul li .big-price{ color:#e5004f;margin-bottom: 10px;}
+.selected .coupon-list ul li .big-price em{float:left;margin: 5px 0 0;font-family: verdana;font-size: 24px;}
+.selected .coupon-list .big-price strong{ float: left; line-height: 50px;margin: 0 10px 0 5px;font-size: 60px; font-family: arial;}
+.selected .coupon-list .c-type .condition span{ margin-right: 10px;color: #666;}
+.selected .coupon-list .c-type .limit{ line-height: 22px; color: #999;}
+.selected .coupon-list .c-type .get{ width: 161px; height: 170px; background: url(../images/coupon-bigbg.png); right: 0; top:0;} 
+.selected .coupon-list .c-type .get span{ display: block; width:160px;color:#fff; font-size: 16px; text-align: center; margin-top: 20px;}
+.selected .coupon-list .c-type .get a{ display: block; width: 98px; height: 32px; border-radius: 20px; border:1px solid #fff; text-align: center; font-size: 14px; text-align:center;line-height: 32px; color:#fff; margin:-18px auto; border:1px solid #fff;}   
+.selected .coupon-list .c-type .get a:hover{ background: #fff; color:#e5004f;border:1px solid #fff;}
+#indicatorContainer1,#indicatorContainer2,#indicatorContainer3,#indicatorContainer4,#indicatorContainer5,#indicatorContainer6,#indicatorContainer7,#indicatorContainer8{ display:inline-block; position:relative; margin-left:47px;margin-top: 44px;}
+#indicatorContainer1  span,#indicatorContainer2 span,#indicatorContainer3  span,#indicatorContainer4  span,#indicatorContainer5  span,#indicatorContainer6  span,#indicatorContainer7  span,#indicatorContainer8  span{ color:#fff; left:34px; top:0;}
+/*selected 样式结束*/
+
+/*clickHere 开始*/
+.clickHere .images{ margin-left: 500px;}
+.clickHere .images h3{ font-size: 18px;}
+/*clickHere 结束*/

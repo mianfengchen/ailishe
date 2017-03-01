@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>注册 -爱丽奢</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link rel="stylesheet" href="css/common.css">
+<link rel="stylesheet" href="css/register.css">
+</head>
+<body>
+<!-- 登录页顶部 -->
+<div class="head">
+    <div class="wrapper clearfix">
+        <div class="hdL fl clearfix">
+            <h1 class="logo fl" >
+                <a class="in-block" href="index.html">爱丽奢</a>
+            </h1>
+            <div class="welcome fl">    
+            </div>
+        </div>
+        <div class="hdR fr">
+            <ul class="clearfix">
+                <li class="aftermarket clearfix">
+                    <p class="pic fl"></p>
+                    <p class="content fl">
+                        <strong><i>15天</i>无忧退换货</strong><br>
+                        <span>为您提供优质售后服务</span>
+                    </p>
+                </li>
+                <li class="assurance clearfix">
+                    <p class="pic fl"></p>
+                    <p class="content fl">
+                        <strong><i>100%</i>正品保证</strong><br>
+                        <span>品质护航 购物无忧</span>
+                    </p>
+                </li>
+                <li class="freight clearfix">
+                    <p class="pic fl"></p>
+                    <p class="content fl">
+                        <strong><i>满199元</i>免运费</strong><br>
+                        <span>为您提供便利物流</span>
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- 注册部分 -->
+<div class="login">
+    <div class="wrapper clearfix">
+        <div class="cloth fl">
+            <a href="#" class="in-block"></a>
+        </div>
+        <div class="loginCase fr por">
+            <div class="lgtop clearfix">
+                <span class="fl current num">爱丽奢注册</span>
+            </div>
+
+            <!-- 登录页面 -->
+            <form action="doregister.php" method="post">
+               <div class="main poa">
+                <div class="zhuce">
+                    <span>已注册可<a href="login.html">直接登录</a></span>
+                </div>
+                <div class="por">
+                    <input autocomplete="off" class="nametxt stress" id="LoginName" maxlength="50" name="username" placeholder="已验证手机/邮箱" type="text" value="">
+                    <div class="tips">
+                        <p class="wrong">请输入正确的E-mail或已验证的手机号码！</p>
+                        <p class="true">请输入E-mail或手机号</p>
+                    </div>
+                </div>
+                <div class="por">
+                    <input autocomplete="off" class="passtxt" id="LoginPassWord" maxlength="16" name="password" placeholder="密码" type="password" value="">
+                    <div class="tips">
+                        <p class="true">请输入登录密码</p>
+                        <p class="wrong">6-16个字符,可使用字母、数字、符号任意组合!</p>
+                    </div>
+                </div>
+
+
+                <div class="por">
+                    <input autocomplete="off" class="passtxt2" id="LoginPassWord" maxlength="16" name="LoginPassword" placeholder="请再次输入密码" type="password" value="">
+                    <div class="tips">
+                        <p class="true">请再次输入密码</p>
+                        <p class="wrong">两次输入密码不一致</p>
+                    </div>
+                </div>
+                <div>
+                    <input type="text" autocomplete="off" value="" placeholder="验证码" maxlength="4" class="othertxt stress prove" id="verifyCode" name="code"><img class="code" src='code.php' onclick="this.src='./code.php?id='+Math.random();" title="点击换一张"/><br><br>
+                    <div class='tips'><p class='wrong'>请输入正确的验证码！</p></div>
+                </div>
+                <div class="clearfix" style="margin:10px auto;">
+                <input type="checkbox" class="fl" style="width: 16px;height: 16px;margin:0 0;">我已阅读并同意 <span class="fr"><a href="#" style="color:#e5004f;">《爱丽奢用户注册服务协议》 </a></span>
+                </div>
+                <button title="注册" type="submit">注册</button>
+            </div>
+  
+            </form>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <div class="wrapper">
+        <div class="links">
+            <a href="#">关于爱丽奢</a>
+            <a href="#">帮助中心</a>
+            <a href="#">退换货政策</a>
+            <a href="#">网站地图</a>
+            <a href="#">代理合作</a>
+            <a href="#">品牌招商</a>
+            <a href="#">商务合作</a>
+            <a href="#">网站联盟</a>
+            <a href="#">联系我们</a>
+            <a href="#">加入爱丽奢</a>
+            <a href="#">版权声明</a>
+            <a href="#">法律声明</a>
+        </div>
+        <div class="license">
+            <p class="">
+                <a href="#" target="_blank">浙ICP备10200233号</a>
+                <a>京公网安备110105019085</a>
+                <a>增值电信业务经营许可证：浙B2-20110005</a>
+            </p>
+            <p>Yintai © 2016, 爱丽奢电子商务有限公司.</p>
+        </div>
+        <div class="bottomPhoto">
+            <a href="#" class="in-block"><img src="images/butt01.png"></a>
+            <a href="#" class="in-block"><img src="images/butt02.png" alt=""></a>
+            <a href="#" class="in-block"><img src="images/butt03.gif" alt=""></a>
+        </div>
+    </div>
+</div>
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/register.js"></script>
+</body>
+</html>

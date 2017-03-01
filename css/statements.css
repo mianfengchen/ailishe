@@ -1,0 +1,14 @@
+﻿@charset "UTF-8";
+
+/*顶部样式*/
+.head{width: 100%;min-width: 1190px;background-color: #fff;height: 96px;padding-top: 20px;}
+.head h1 a{ width: 215px; height: 76px; background: #fff url(../images/top.png) 0 0 no-repeat;text-indent: -9999em;}
+.head .welcome{width: 124px;height: 24px;margin-top: 52px;background: url(../images/header-login.png) 0 0 no-repeat;}
+.head .wrapper .hdR>ul>li{width: 178px;height: 41px;padding: 0 0 0 45px;float: left;/*outline: 1px solid red;*/margin-top: 35px;}
+
+.head .wrapper ul .aftermarket .pic{width: 32px;height: 36px;background: url(../images/footer-sprite.png) 0 -84px no-repeat;margin-right: 10px}
+.head .wrapper ul .assurance .pic{width: 35px;height: 33px;background: url(../images/footer-sprite.png) 0 -161px no-repeat;margin-right: 10px}
+.head .wrapper ul .freight .pic{width: 47px;height: 32px;background: url(../images/footer-sprite.png) 0 -234px no-repeat;margin-right: 10px;vertical-align: middle;}
+.head .wrapper ul .aftermarket .content strong,.head .wrapper .hdR>ul .assurance .content strong,.head .wrapper .hdR>ul .freight .content strong{font-size: 16px;font-weight: 400;color: #000;font-family: "\5fae\8f6f\96c5\9ed1";}
+.head .wrapper ul .aftermarket .content>strong>i,.head .wrapper .hdR>ul .assurance .content>strong>i,.head .wrapper .hdR>ul .freight .content>strong>i{font-style: normal;color: #e5004f;}
+.head .wrapper ul .aftermarket .content>span,.head .wrapper .hdR>ul .assurance .content>span,.head .wrapper .hdR>ul .freight .content>span{font-weight: 400;color: #888;font-family: "\5fae\8f6f\96c5\9ed1";}

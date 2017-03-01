@@ -1,0 +1,61 @@
+﻿@charset "UTF-8";
+
+/*country部分*/
+.country{margin-top: 20px;}
+.country ul>li{float: left;}
+.country ul>li>a{display: block;width:100%;height: 100%;overflow: hidden;transition:all .5s;}
+.country ul>li a:hover img{transform:scale(1.1);transition:all .5s;}
+
+/*banner开始*/
+.banner{min-width: 1190px;}
+.banner a{display:block;width: 100%;min-width: 1190px;height: 320px;background:url(../images/banner.jpg) no-repeat center top;}
+.sale{margin-top: 30px;}
+.hotTopic ul>li{width:570;height:372px;margin:10px 10px;}
+.hotTopic{height:786px;overflow: hidden;}
+/*.hotTopic .firstUl{left: -580px;}
+.hotTopic .secondUl{left: 580px;}*/
+/*.hotTopic ul>li .pic01,.hotTopic ul>li .pic03{left: -100px;}
+.hotTopic ul>li .pic02,.hotTopic ul>li .pic04{left: 100px;}*/
+.goods_list{overflow: hidden;height: 270px}
+.goods_list .allgoods ul>li{float: left;width: 172px;padding:0 10px;overflow: hidden;text-align: center;}
+.goods_list .allgoods ul>li img{width: 170px;}
+.goods_list .allgoods ul>li .intro>p{color: #392f26;font-size: 12px;margin-bottom: 2px;text-align: center;text-overflow: ellipsis;white-space: nowrap;overflow: hidden;}
+.goods_list>span{width: 30px;height: 60px;background-color: #000;opacity: 0.6;top:50%;margin-top:-30px;border-radius: 3px; color: gray;font-size: 16px;text-align: center;line-height: 60px;cursor: pointer;}
+.goods_list>.right{right: -1px;}
+
+/*.sale:before{content:"";display:block;width: 50px;height: 350px;transform:skewx(-30deg);position: absolute;background-color: red;}*/
+.sale{text-align: center;}
+.sale .light{width: 50px;height: 350px;transform:skewx(-30deg);position: absolute;background-color: #fff;opacity:0.1;top: -20px;/*left: 0;*/}
+/*美妆洁面 样式开始*/
+.category{width: 1000px;margin:0 auto;}
+.category .category_left{width: 830px;}
+.category_tit{line-height: 36px;font-size: 13px;color: #7b7b7b;border-bottom: 2px solid #ff7892;}
+.category_tit h3{font-size: 18px;color: #3e3e3e;float: left;margin-right: 15px;}
+.category_tit a{margin:0 5px;}
+.category_item .item_top>a{width: 214px;height: 255px;display: block;
+    background: url(../images/meizhuang_link.jpg) no-repeat left bottom;text-align: center;margin-right: 17px;float: left;}
+.category_item .item_top p img{width: 599px;height: 255px;}
+.category_slide{overflow: hidden;text-align: center;height: 256px;width: 830px;border:1px solid #eee;}
+.category_slide .slide_list{top:0;left: 0;}
+.category_slide .slide_list>ul{float: left;}
+.category_slide .slide_list>ul>li{float: left;width: 200px;/*outline: 1px solid red*/}
+.category_slide .slide_list>ul>li img{width: 170px;}
+.category_slide>span{width: 20px;height: 50px;background-color: #000;opacity: 0.6;top:50%; margin-top:-30px;border-radius: 3px; color: gray;font-size: 12px;text-align: center;line-height: 50px;cursor: pointer;}
+.category_slide>.left{left:0;}
+.category_slide>.right{right: -1px;}
+.category_slide .slide_list>ul>li .intro>p{color: #392f26;font-size: 12px;margin-bottom: 2px;text-align: center;text-overflow: ellipsis;white-space: nowrap;overflow: hidden;width: 170px;/*outline: 1px solid red;*/margin:0 auto;}
+.category_right{width: 170px;text-align: center;padding-top: 17px;}
+.category_right h4{font-size: 14px;font-weight: normal;color: #2e2e2e;}
+.category_right .categorylist{padding: 17px 17px 0;}
+.category_right .categorylist>li{margin-bottom: 30px;border:1px solid transparent;transition:all .5s;}
+.category_right .categorylist>li:hover{border:1px solid #666;}
+.category_right .categorylist>li>a{border: 1px solid #f3f3f3;display: block;padding: 9px 0;overflow: hidden;background-color: #fcfafd;}
+.category_right .categorylist>li>span{font-size: 12px;color: #848484;display: block;margin: 3px 0 5px;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+/*热销专场*/
+.special{width:1050px;margin:0 auto;padding: 15px 0;}
+.special>img{width:1000px;margin:0 auto;padding: 15px 0;}
+.special .change{text-decoration: underline;font-size: 14px;right: 0;bottom: 10px;cursor :pointer;}
+.specialCont{width: 1000px;margin:0 auto;}
+.specialCont>ul>li{float: left;margin:0 5px 5px 0;}
+.specialCont>ul>li>a>img{width: 490px;
+    height: 235px;}

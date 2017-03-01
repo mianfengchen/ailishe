@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+/*顶部样式*/
+.head{width: 100%;min-width: 1190px;background-color: #fff;height: 116px;}
+.head h1 a{ width: 215px; height: 76px; background: #fff url(../images/top.png) 0 0 no-repeat;text-indent: -9999em;}
+.head .welcome{width: 124px;height: 24px;margin-top: 52px;background: url(../images/header-login.png) 0 -23px no-repeat;}
+.head .wrapper .hdR>ul>li{width: 178px;height: 41px;padding: 0 0 0 45px;float: left;/*outline: 1px solid red;*/margin-top: 35px;}
+
+.head .wrapper ul .aftermarket .pic{width: 32px;height: 36px;background: url(../images/footer-sprite.png) 0 -84px no-repeat;margin-right: 10px}
+.head .wrapper ul .assurance .pic{width: 35px;height: 33px;background: url(../images/footer-sprite.png) 0 -161px no-repeat;margin-right: 10px}
+.head .wrapper ul .freight .pic{width: 47px;height: 32px;background: url(../images/footer-sprite.png) 0 -234px no-repeat;margin-right: 10px;vertical-align: middle;}
+.head .wrapper ul .aftermarket .content strong,.head .wrapper .hdR>ul .assurance .content strong,.head .wrapper .hdR>ul .freight .content strong{font-size: 16px;font-weight: 400;color: #000;font-family: "\5fae\8f6f\96c5\9ed1";}
+.head .wrapper ul .aftermarket .content>strong>i,.head .wrapper .hdR>ul .assurance .content>strong>i,.head .wrapper .hdR>ul .freight .content>strong>i{font-style: normal;color: #e5004f;}
+.head .wrapper ul .aftermarket .content>span,.head .wrapper .hdR>ul .assurance .content>span,.head .wrapper .hdR>ul .freight .content>span{font-weight: 400;color: #888;font-family: "\5fae\8f6f\96c5\9ed1";}
+
+
+/*登录部分样式*/
+.login{width: 100%;min-width: 1190px;height: 570px;background-color:#f1f1f1;}
+.login .wrapper{padding:60px 0 50px;}
+.login .wrapper .cloth a{width: 780px;height: 460px;background: url(../images/babycloth.jpg);}
+.login .wrapper .loginCase{width: 320px;min-height:460px;background: #fff; }
+.login .loginCase .lgtop{height: 45px;border-bottom: 1px solid #cdcdcd;}
+.login .loginCase .lgtop span{width: 100%;height: 45px;line-height: 45px;text-align: center;cursor: pointer;font-family: "\5fae\8f6f\96c5\9ed1";font-size: 16px;border-radius: 3px;}
+.login .loginCase .lgtop .current{background: #e5004f;color: #fff;}
+.login .loginCase .main{padding:0 20px;}
+.login .loginCase .zhuce{text-align: right;height: 50px;line-height: 50px;}
+.login .loginCase .zhuce a{color: #e5004f;}
+.login .loginCase .main input{height: 40px;line-height: 40px;padding: 0 5px;margin-bottom:20px;border: 1px solid #ccc;background-color: #f5f5f5;color: #333;outline: none;border-radius: 2px;font-size: 14px; margin-right:40px;}
+.login .loginCase .main .code{ vertical-align: middle;}
+.login .loginCase .main .nametxt,.login .loginCase .main .passtxt{width: 268px;}
+.login .loginCase .main .prove{width: 100px;}
+.login .loginCase .main .tips{/*height: 24px;*/position: absolute;line-height: 22px;font-size: 13px;text-align: left;color: #999;/*border:1px solid red;*/top:40px;left:0}
+.login .loginCase .main button{border: none;
+    font-family: "\5fae\8f6f\96c5\9ed1";
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 2px;
+    color: #fff;
+    outline: none;
+    vertical-align: top;
+    background-color: #e5004f;margin: 20px auto;}
+.login .loginCase .main a{padding:0 5px;}
+.login .loginCase .main .hezuo p{text-align: center;margin-bottom: 10px;}
+.login .loginCase .erweima .remind{text-align: center;font-size: 14px;padding-top: 10px;}
+.login .loginCase .erweima .code{height: 145px;margin: 35px 0 20px;}
+.login .loginCase .ma{z-index: 2;margin-left: 100px;top: 5px;}
+.login .loginCase .code .phone{position: absolute;right: 20px;width: 135px;height: 175px;margin-top: -15px;
+background: url(../images/login-phone.png) 0 0 no-repeat;display: none;}
+.login .loginCase .erweima .txt{text-align: center;}
+.login .erweima .txt p:nth-of-type(1)>a{font-size: 14px;color: #666;}
+.login .erweima .txt p:nth-of-type(2){width: 140px;margin: 20px auto;padding: 3px 0;text-align: center;border: 1px solid #e5004f;color: #e5004f;}
+.login .erweima .refresh{width: 140px;filter: alpha(opacity=95);background-color: #fff;background: rgba(255, 255, 255, 0.95);left: 90px;top:40px;z-index: 2;text-align: center;}
+.login .erweima .refresh p{font-weight: 700;color: #333;line-height: 20px;margin-bottom: 8px;}
+.login .erweima .refresh span{width: 100px;height: 36px;line-height: 36px;text-align: center;margin: 0 auto;
+    background: #e5004f;
+    display: block;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;}
+/*底部样式 开始*/
+.footer{width: 100%;min-width: 1190px;font-family: "\5fae\8f6f\96c5\9ed1";margin-top: 50px;}
+.footer .wrapper .links{text-align: center;margin-bottom: 25px;}
+.footer .wrapper .links a{color: #757575;display: inline-block;padding: 0 10px;border-right: 1px solid #757575;}
+.footer .wrapper .links a:hover{color: #e5004f};
+.footer .wrapper .license{}
+.footer .wrapper .license p{text-align: center;line-height: 22px;color: #b2b2b2;}
+.footer .wrapper .license a{margin:0 6px;color: #b2b2b2;}
+
+
+.footer .wrapper .bottomPhoto{padding: 10px 0 20px;text-align: center;}
+.footer .wrapper .bottomPhoto a{vertical-align: middle;margin:0 12px;}

@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+i{font-style: normal;}
+/*购物袋02开始*/
+.shopping-bag02 .bag .bagLine .line2{background-position:-234px -52px;  color: #e4004d;}
+.shopping-bag02 .common h3{font-size: 14px;font-weight: bold; color:#666; margin-bottom: 15px; border-bottom: 1px dotted #e2e2e2; height: 30px; line-height: 24px; margin-bottom: 15px;}
+.shopping-bag02 .common{margin-bottom: 15px; border: solid #e2e2e2; border-width: 1px 1px 2px; padding: 20px;}
+
+.shopping-bag02 .common h3 span a{color: #e5004f; font-size:12px; font-weight:normal;}
+.shopping-bag02 .addressInformation .userAddress li{padding-right: 30px;}
+.shopping-bag02 .addressInformation .userAddress .name{width: 50px;}
+.shopping-bag02 .addressInformation .userAddress .userPhone{width: 130px;}
+.shopping-bag02 .addressInformation .userAddress .sendAddress{width: 450px;}
+.shopping-bag02 .addressInformation .userAddress .hidden{display:none;}
+.shopping-bag02 .addressInformation .userAddress .sendTime{width: 100px;}
+.shopping-bag02 .addressInformation .userAddress p{line-height: 24px; margin-bottom: 15px;}
+.shopping-bag02 .addressInformation .userAddress p input{vertical-align: middle;}
+.shopping-bag02 .addressInformation .userAddress .defaultAddress .compileRemove{cursor: pointer; padding-right: 10px;}
+.shopping-bag02 .queren button{background: #525252 url(../images/shopping-rpt.png) repeat-x 0 -160px; color: #eee; border: 1px solid #333; font-size: 14px; line-height: 1; cursor: pointer; overflow: visible; outline: none; padding: 6px 15px 8px;height: 30px;}
+.shopping-bag02 .queren button:hover{background-position: 0 -37px; background-color: #4c4c4c; color: #fff;}
+.shopping-bag02 .address{border: 1px solid #E2E2E2; margin: 0 80px 15px 40px; padding: 20px 0 10px; background: #f9f9f9;}
+.shopping-bag02 .addressInformation .address li{padding-bottom: 10px; line-height: 20px;}
+.shopping-bag02 .addressInformation .address li .tit{width: 96px; text-align: right;}
+.shopping-bag02 .addressInformation .address li input{padding-left: 2px; vertical-align: middle; height: 20px;}
+.shopping-bag02 .addressInformation .address li .name{width: 70px;}
+.shopping-bag02 .addressInformation .address .jinggao{background: url(../images/shopping-icon.png) 0 -29px no-repeat; padding-left: 16px; margin-left: 10px; color: #E5004F; line-height: 17px; display:none;}
+.shopping-bag02 .addressInformation .address li .phone{width: 116px;}
+.shopping-bag02 .addressInformation .address li .or{color: #999; margin: 0 6px; font-style:normal;}
+.shopping-bag02 .addressInformation .address li .phone01{width: 40px;}
+.shopping-bag02 .addressInformation .address li .phone02{width: 116px;}
+.shopping-bag02 .addressInformation .address li .phone03{width: 60px;}
+.shopping-bag02 .addressInformation .address li .sh{margin-top: 8px; margin-left: 100px;}
+.shopping-bag02 .addressInformation .address li .shouhuo{width: 288px;}
+.shopping-bag02 .addressInformation .address li .mail{width: 76px;}
+.shopping-bag02 .addressInformation .address .line{height: 1px; overflow: hidden; border-top: 1px dotted #cbcbcb; margin: 5px 16px;}
+.shopping-bag02 .addressInformation form{display:none;}
+.invoice .invoiceInform{margin-bottom: 20px; padding-left: 40px;}
+.invoice .CheRadio{padding-left: 8px; margin-bottom: 8px;}
+.invoice .InvoiceBtnBox{text-indent: 40px;}
+.invoice .InvoiceBtnBox .invoiceBtn{background: #525252 url(../images/shopping-rpt.png) repeat-x 0 -160px; color: #eee; border: 1px solid #333; font-size: 14px; line-height: 1; cursor: pointer; overflow: visible; outline: none; padding: 6px 15px 8px; height:30px;}
+.shopping-bag02 .invoice .invoiceChoose{display:none;}
+.shopping-bag02 .invoice .invoiceChoose .CompanyTitle{display:none;}
+.shopping-bag02 .invoice .invoiceChoose .BillText input,.shopping-bag02 .invoice .invoiceChoose .BillText select{height: 24px; color: #999; vertical-align: middle;}
+.shopping-bag02 .account .mentDisplay{border: 1px solid #ddd; background-color: #fff; margin-top:10px; display:none;}
+.shopping-bag02 .account .couponsTitle{height: 30px; line-height: 30px; border-bottom: 1px solid #e2e2e2; background-color: #f7f7f7; font-weight: 700;}
+.shopping-bag02 .unified{margin-right: 10px; height: 30px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; text-indent: 15px;}
+.shopping-bag02 .account .coupons-amount,.shopping-bag02 .account .coupons-category{width: 170px; padding-left: 10px;}
+.shopping-bag02 .account .coupons-category{width: 260px;}
+.shopping-bag02 .account .coupons-time{width: 200px;}
+.shopping-bag02 .account .coupons-note{width: 240px;}
+.shopping-bag02 .account .coupons-one{ height: 44px; border-bottom: 1px solid #e2e2e2; line-height: 44px;}
+.shopping-bag02 .account .coupons-one div{height: 44px; line-height: 44px;}
+.shopping-bag02 .account .coupons-one .J-changeRa{vertical-align: middle; margin-right: 5px;}
+.shopping-bag02 .account .display2{padding: 0 10px; border: 1px solid #ddd;}
+.shopping-bag02 .account .display2 .jifen-show{height: 34px; padding-top: 10px; border-bottom: 1px solid #e2e2e2;}
+.shopping-bag02 .account .display2 .jifen-use{height: 32px; padding-top: 2px;}
+.shopping-bag02 .account .display2 .jifen-use .JiFenOverpay{width: 60px; height: 22px; line-height: 22px; padding: 0 2px; border: 1px solid; border-color: #aeaeae #e6e6e6 #e6e6e6 #aeaeae;}
+.shopping-bag02 .account .display2 .jifen-prompt{height: 38px; padding-left: 10px;}
+.shopping-bag02 .account .display2 .jifen-prompt p{line-height: 34px;}
+.shopping-bag02 .account .display2 .jifen-prompt strong i{color: #e5004f;}
+.shopping-bag02 .account .display3{padding: 0 10px; border: 1px solid #ddd;}
+.shopping-bag02 .account .display3 .yintai-show{height: 44px; line-height: 44px;}
+.shopping-bag02 .account .display3 .yintai-show .yintai-use input{height: 22px; line-height: 22px; padding: 0 2px; margin-right: 10px; border: 1px solid; border-color: #aeaeae #e6e6e6 #e6e6e6 #aeaeae;}
+.shopping-bag02 .account .display3 .yintai-prompt{padding: 10px; border-top: 1px solid #e2e2e2;}
+.shopping-bag02 .account .display3 .yintai-prompt .yintai-intime{border: 1px solid #ddd;}
+.shopping-bag02 .account .display3 .yintai-prompt .intime-title{height: 32px; line-height: 32px; border-bottom: 1px solid #e2e2e2; background-color: #f7f7f7; font-weight: 700;}
+.shopping-bag02 .account .display3 .intime-cardid{padding-left:30px;width: 205px;}
+.shopping-bag02 .account .display3 .intime-usable{width: 150px;}
+.shopping-bag02 .account .display3 .intime-use{width: 150px;}
+.shopping-bag02 .account .display3 .intime-balance{width: 150px;}
+.shopping-bag02 .account .display3 .intime-type{width: 150px;}
+.shopping-bag02 .account .ment i{transition:all .2s;}
+
+.shopping-bag02 .payWays .payment{height: 26px;}
+.shopping-bag02 .payWays .payment span{font-weight: 700; color: #e5004f;}
+.shopping-bag02 .payWays .alipay{vertical-align:middle;}
+.shopping-bag02 .payWays .zhifubao{background:url(../images/shopping-alipay.gif) no-repeat 0 0; width:136px; height:36px; vertical-align: middle; border-radius: 2px; border: 1px solid #bbb; padding: 1px; background-color: #f9f9f9;}
+
+
+
+/*购物袋02结束*/
+
+/*商品清单 开始*/
+.goodsList{margin-bottom: 15px; width: 940px;}
+.goodsList h3{line-height: 30px; color: #fff; padding: 0 32px 0 10px; height: 30px; background-color: #666; font-weight: bold;}
+.goodsList h4{height: 32px; line-height: 32px; margin-top: 10px; font-size: 14px; font-weight: bold; line-height: 32px;}
+.goodsList .list{width: 938px; border: 1px solid #e2e2e2;}
+.goodsList .list .titName{height: 30px;}
+.goodsList .list .titName span{line-height: 30px; padding-left: 10px; text-align: left; background-color: #eee; color: #999;}
+.goodsList .list .titName .goodsNum{width: 100px;}
+.goodsList .list .titName .goodsDetail{width: 376px;}
+.goodsList .list .titName .integral{width: 80px;}
+.goodsList .list .titName .count{width: 102px;}
+.goodsList .list .titName .money{width: 110px;}
+.goodsList .list .titName .subtotal{width: 110px;}
+.goodsList .goodsInformation{border-bottom: 1px solid #e2e2e2;}
+.goodsList .goodsInformation>div{padding: 28px 0 8px 10px;}
+.goodsList .goodsInformation .goodsNumInf{width: 100px;}
+.goodsList .goodsInformation .goodsDetailInf{width: 376px;}
+.goodsList .goodsInformation .goodsDetailInf .pic{margin-right: 10px;}
+.goodsList .goodsInformation .goodsDetailInf .txt{width: 310px;}
+.goodsList .goodsInformation .goodsDetailInf .teli{width:40px; height: 16px;}
+.goodsList .goodsInformation .goodsDetailInf .teli span{display:block; background: #c4b697 url(../images/shopping-icon.png) right -214px no-repeat; height: 16px; line-height: 16px; vertical-align: top; padding: 0 7px 0 5px; color: #fff;}
+.goodsList .goodsInformation .goodsDetailInf .pic img{width: 45px; height: 60px;}
+.goodsList .goodsInformation .integralInf{width: 80px;}
+.goodsList .goodsInformation .countInf{width: 102px;}
+.goodsList .goodsInformation .moneyInf{width: 110px;}
+.goodsList .goodsInformation .subtotalInf{width: 110px;}
+ /*商品清单 结束*/
+
+ /*账户信息 开始*/
+ .account{width: 940px; margin-bottom: 15px;}
+ .account .chooseShow{height: 20px;}
+ .account .chooseShow input{vertical-align: middle;}
+ .account .chooseShow i{width: 12px; height: 16px;background:url(../images/shopping-icon.png) 0 -394px no-repeat; cursor: pointer;}
+ .account .ment{margin-top: 10px; height: 24px; width:107px; line-height: 24px;margin-right: 10px; padding-right: 10px; border: solid #e5004f; border-width: 1px 1px 1px 5px; background-color: #fff; cursor: pointer; text-indent: 7px;}
+ .account .ment i{width: 10px; height: 6px; margin-top: 10px; background:url(../images/shopping-button.png) no-repeat -284px -61px;}
+.PayofTable{border: solid #ddd; background-color: #eee; border-width: 1px 1px 2px; margin-bottom: 20px;}
+.PayofTable .CheckoutInfor{border-bottom: 1px solid #d2d2d2; margin: 0 10px; padding: 15px 0;}
+.PayofTable .CheckoutInfor .TotalAmount{font-family: "\5b8b\4f53";}
+.PayofTable .CheckoutInfor .TotalAmount .hidden{display:none;}
+.PayofTable .CheckoutInfor .TotalAmount p{line-height: 22px; text-align: right; padding-right: 34px; font-size: 12px; font-family: Verdana;}
+.PayofTable .CheckoutInfor .TotalAmount span{display:inline-block; *display:inline; *zoom:1; width: 210px; text-align: right; color: #666;
+    padding-right: 5px;} 
+.PayofTable .CheckoutInfor .TotalAmount b{font-weight:normal; text-align: left; display:inline-block; *display:inline; *zoom:1; width: 102px;}
+.PayofTable .CheckoutInfor .TotalAmount strong{color: #E40150; font-weight:bold;}
+.PayofTable .CheckoutInfor .TotalAmount .AmountNumsTwo{font-weight: 700; font-size: 16px; padding: 5px 34px 0 0;}
+.PayofTable .CheckoutInfor .TotalAmount .AmountNumsTwo span{color: #333;}
+.PayofTable .CheckoutInfor .TotalAmount .AmountNumsTwo b{text-align: left; color: #e40150; font-weight: 700;}
+.PayofTable .Settlement{padding: 10px 0 15px; border-top: 1px solid #fff; margin: 0 10px; position: relative;}
+.PayofTable .Settlement .Selectkey .c-lbtn{height: 16px; line-height: 16px; font-size: 12px; background-color: #fff; border: 1px solid #e0e0e0; color: #000; background:url(../images/shopping-rpt.png) repeat-x  0 -301px; padding: 5px 15px 6px;}
+.PayofTable .Settlement .Selectkey .c-lbtn:hover{color: #000; background-position: 0 -485px; background-color: #f0f0f0;}
+.PayofTable .Settlement .SubmitOrder{width: 147px; height: 43px; cursor: pointer; background: url(../images/shopping-button.png) 0 0 no-repeat;}
+.PayofTable .Settlement .SubmitOrder:hover{background-position: -147px 0;}
+.PayofTable .Settlement .SubmitOrder .Accounts{width: 143px; height: 38px; background: none; border: none; cursor: pointer; line-height: 100px; overflow: hidden; opacity: 0; -webkit-filter:alpha (opacity=0); filter:alpha (opacity=0);}
+ /*账户信息 结束*/

@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+/*购物袋开始*/
+.shopping-bag{padding-top:20px; padding-bottom:20px; background-color:#eee;}
+.shopping-bag .bag{width:940px; background-color:#eee; padding:20px; background-color:#fff;}
+.shopping-bag .bg{background: url(../images/shopping-head.jpg) 0 0 no-repeat;}
+.shopping-bag .bag .tit{margin-bottom: 10px;}
+.shopping-bag .bag .tit h2{background-position: 0 0; width: 112px; height: 80px; text-indent: -999px; overflow: hidden;}
+.shopping-bag .bag .bagLine{background-position:-158px 5px; width: 538px; height: 60px; overflow: hidden; padding-top: 3px; margin-right: 10px;}
+.shopping-bag .bag .line{height: 80px; overflow: hidden; font-size: 14px; color: #999; text-align: center; font-family: "\5fae\8f6f\96c5\9ed1";}
+.shopping-bag .bag .bagLine .line1{background-position:-158px -52px; width: 76px;}
+.shopping-bag .bag .bagLine .bg{color: #e4004d;}
+.shopping-bag .bag .bagLine i{font-style:normal; display:block; font-size: 10px; padding-top: 18px; text-align: center;}
+.shopping-bag .bag .bagLine .line2{background-position:-158px -49px; width: 402px;}
+.shopping-bag .form .titName span{display:block;}
+.shopping-bag .form .titName{height: 30px; background-color: #666;}
+.shopping-bag .form .titName span{line-height: 30px; text-align: left; font-weight: 700; overflow: hidden; color: #fff;}
+.shopping-bag .form .checkAll{width: 100px; padding-left: 24px;}
+.shopping-bag .form i{width: 14px; height: 13px; overflow: hidden; cursor: pointer; background: url(../images/shopping-icon.png) 0 -73px no-repeat; margin-top: 10px;}
+.shopping-bag .form input.ck{left:-15px; top:0;}
+.shopping-bag .form .goods{width: 372px;}
+.shopping-bag .form .price{width: 130px;}
+.shopping-bag .form .count{width: 126px;}
+.shopping-bag .form .money{width: 90px;}
+.shopping-bag .form .handle{width: 92px;}
+.shopping-bag .form .ordinaryGoods{height: 30px; border: 1px solid #e2e2e2; border-bottom: none; background-color: #eee; line-height: 30px;}
+.shopping-bag .form .ordinaryGoods h3{color: #666; padding: 0 32px 0 10px; font-size: 12px;}
+.shopping-bag .form .ordinaryGoods .active>a{padding-left: 15px; color: #e5004f; font-family: simsun; text-decoration: underline; display:none;}
+.shopping-bag .form .ordinaryGoods .active{overflow:hidden; padding-right: 15px;}
+.shopping-bag .form .information{background-color: #f9f9f9; padding: 15px 0 0; border-bottom: 1px solid #e2e2e2; color: #999;}
+.shopping-bag .form .information .goodsInf a{color: #666;}
+.shopping-bag .form .information i{margin-top: 22px; vertical-align: top;}
+.shopping-bag .form .information .checkInf{width: 40px; height: 62px; padding-left: 26px;}
+.shopping-bag .form .information .goodsInf{width: 435px; margin-bottom: 10px;}
+.shopping-bag .form .information .goodsInf .pic{margin-right: 10px; width: 45px; height: 60px; border: 1px solid #efefef;}
+.shopping-bag .form .information .goodsInf img{vertical-align: top; width: 45px; height: 60px;}
+.shopping-bag .form .information .goodsInf a>img{vertical-align: top; width: 45px; height: 60px;}
+.shopping-bag .form .information .goodsInf .big{padding:8px; background:#eee; border:1px solid #e2e2e2; border-radius:5px; left:60px; top:-30px;}
+.shopping-bag .form .information .big img{width:150px; height:200px;}
+.shopping-bag .form .information .goodsInf .txt1{width: 328px;}
+.shopping-bag .form .information .goodsInf .teli{width:40px; height: 16px; background: url(../images/shopping-icon.png) 0 -198px no-repeat;}
+.shopping-bag .form .information .teli span{display:block; background: #c4b697 url(../images/shopping-icon.png) right -214px no-repeat; height: 16px; line-height: 16px; vertical-align: top; padding: 0 7px 0 5px; color: #fff;}
+.shopping-bag .form .information .priceInf{width: 130px; padding-top: 19px; line-height: 20px; color: #e5004f; font-weight: bold;}
+.shopping-bag .form .information .countInf{margin-top: 19px; width: 66px; height: 20px; padding-right: 60px; text-align: center;}
+.shopping-bag .form .information .countInf a,.shopping-bag .form .information .countInf input.num{height: 18px; line-height: 18px; overflow: hidden; color: #666;}
+.shopping-bag .form .information .countInf a{width: 16px; border: 1px solid #dfdfdf; background-color: #eee;}
+.shopping-bag .form .information .countInf a:hover{border: 1px solid #e5004f; color: #e5004f;}
+.shopping-bag .form .information .countInf input.num{padding: 1px 0px; width: 28px; text-align: center; border: 1px solid #ccc; background-color: #fff; height:16px;}
+.shopping-bag .form .information .moneyInf{margin-top: 19px; width: 90px; line-height: 20px; color: #666;}
+.shopping-bag .form .information .handleInf{margin-top: 11px; width: 91px;}
+.shopping-bag .form .information .handleInf a{ display:block; width: 52px; height: 18px; padding-left: 16px; color: #666; background: url(../images/shopping-icon.png) 0 -177px no-repeat;}
+.shopping-bag .form .information .handleInf a:hover{color: #e5004f;}
+.shopping-bag .form .information .handleInf .collect a{background-position: 0 -92px;}
+.shopping-bag .form .information .remove>a{background-position: 1px -125px;}
+.shopping-bag .form .information .remove .select{top: -62px; left: -48px; width: 158px; height: 40px; border: 1px solid #cecece; background-color: #fffeed; padding: 8px 0; text-align: center; color:#666;}
+.shopping-bag .form .information .remove i{font-style:normal; background:none;}
+.shopping-bag .form .information .remove .select{display:none;}
+.shopping-bag .form .information .remove .select a{display:inline-block; *display:inline; *zoom:1; background:none; width: 30px; height: 20px; line-height: 20px;}
+.shopping-bag .form .information .remove .decrow{background: url(../images/shopping-icon.png) 0 -193px no-repeat; top: 56px; left: 80px; width: 7px; height: 5px; overflow: hidden;}
+.shopping-bag .form .goodsInformation1 .teli{display:none;}
+.shopping-bag .form .result{width: 938px; margin: 10px 0 20px; border: solid #ddd; border-width: 1px 1px 2px; background-color: #eee; line-height: 24px;}
+.shopping-bag .form .result .choose{min-height: 24px; margin: 15px 20px 5px;}
+.shopping-bag .form .result .choose .all{width: 55px; padding-left: 6px;}
+.shopping-bag .form .result .choose i{vertical-align: middle; margin-top: -1px;}
+.shopping-bag .form .result .checkRemove a{margin-right: 15px;}
+.shopping-bag .form .result .choose .che{padding: 0 6px 0 21px; font-weight: 700; font-size: 14px;background: url(../images/shopping-icon.png) 0 -299px no-repeat; color: #666;}
+.shopping-bag .form .result .goodsCheckOut{margin: 0 20px; padding-bottom: 15px; border-bottom: 1px solid #d2d2d2;     min-height: 24px;}
+.shopping-bag .form .result .TotalIntegral{text-align: right; padding-right: 6px; font-size: 14px; color: #666;}
+.shopping-bag .form .result .cO{color:#666; font-size: 14px;}
+.shopping-bag .form .result .cO strong{font-family: Verdana; font-weight: 400; color: #e5004f;}
+.shopping-bag .form .result .cO .rul{font-size: 16px;}
+.shopping-bag .form .result .line{height: 0px; overflow: hidden; margin: 0 20px; border-top: 1px solid #fff;}
+.shopping-bag .form .result .payment{width: 886px; height: 42px; padding: 8px 26px 15px;}
+.shopping-bag .form .result .payment a{width: 108px; height: 35px; line-height: 35px; text-indent: 45px; background: url(../images/shopping-huangou.png) left 0 no-repeat; color: #fff;}
+.shopping-bag .form .result .payment a:hover{background-position: right 0;}
+.shopping-bag .form .result .payment .true{width: 143px; height: 43px; margin-left: 15px; overflow: hidden; cursor: pointer; background: url(../images/shopping-submit.png) 0 0 no-repeat;}
+.shopping-bag .form .result .payment .true:hover{background-position: -147px 0;}
+.shopping-bag .form .result .payment button{width: 143px; height: 38px; background: none; border: none; cursor: pointer; line-height: 50em; overflow: hidden; opacity: 0; -webkit-filter:alpha (opacity=0); filter:alpha (opacity=0);}
+.shopping-bag .form .result .payment .AccountsNum{height: 42px; line-height: 42px; font-size: 14px; font-weight: 700; color: #333;}
+.shopping-bag .form .result .payment .cue{font-size: 12px; font-weight: 400; margin-left: -5px; font-style: normal; color: #666; background:none;}
+.shopping-bag .form .result .payment .pay{padding: 0 5px; font-size: 16px; font-family: Verdana; color: #e5004f; vertical-align: middle; font-weight: bold;}
+.shopping-bag .form .result .payment>span{color: #bfbebe; font-size: 12px; font-weight: 400; vertical-align: middle;}
+.shopping-bag .form .result .payment .num{padding-left: 5px; font-size: 14px; font-family: Verdana; font-weight: 400; color: #666;}
+.shopping-bag .form .result .payment s{font-style: normal; color: #666; text-decoration: none; position: relative; top: -1px; font-size: 12px; font-weight: 400;}
+
+/*推荐开始*/
+.shopping-bag .recommend .recommendTit{border-bottom: 1px solid #e2e2e2; background-color: #f4f4f4; height: 32px;}
+.shopping-bag .recommend .recommendTit i{top: 22px; left: 50%; margin-left: -9px; width: 18px; height: 9px; background-image:none;}
+.shopping-bag .recommend .recommendTit li{height: 32px; line-height: 32px; padding: 0 20px; text-align: center; color: #666; background: url(../images/shopping-icon01.png) no-repeat 0 0; cursor: pointer;}
+.shopping-bag .recommend .recommendTit .li1{background-image:none;}
+.shopping-bag .recommend .recommendTit .lihover{background-color: #e1e1e1;}
+.shopping-bag .recommend .recommendTit .lihover i{background: url(../images/shopping-icon01.png) no-repeat 0 -36px;}
+.shopping-bag .recommend .goodsList{padding-top: 25px;}
+.shopping-bag .recommend .goodsList span{width: 21px; height: 303px; background: url(../images/shopping-icon01.png) no-repeat -42px -51px; cursor: pointer;}
+.shopping-bag .recommend .goodsPicture{height: 303px; padding-top: 25px; width: 850px; overflow:hidden;}
+.shopping-bag .recommend .goodsList .left{ margin-right: 22px;}
+.shopping-bag .recommend .goodsList .left:hover{ margin-right: 22px; background-position: 0 -51px;}
+.shopping-bag .recommend .goodsList .right{background-position: -63px -51px;}
+.shopping-bag .recommend .goodsList .right:hover{background-position: -21px -51px;}
+.shopping-bag .recommend .goodsList .reG{left:0; top:0; width:2550px; display:none;}
+.shopping-bag .recommend .goodsList li{width: 150px; height: 303px; margin-right: 20px;}
+.shopping-bag .recommend .goodsList .reG li>a{display:block; width: 150px; height: 200px; overflow: hidden; border: 1px solid #e1e1e1; background-color: #f4f4f4;}
+.shopping-bag .recommend .goodsList .reG img{width: 150px; height: 200px;}
+.shopping-bag .recommend .goodsList .reG p{height: 38px; overflow: hidden; padding-top: 5px; line-height: 18px;}
+.shopping-bag .recommend .goodsList .reG strong{color: #e5004f; font-weight: bold; display:block; height: 20px;}
+.shopping-bag .recommend .goodsList .reG a.bag{height: 18px; width:60px; padding-top: 10px; background-color: #fff; border: 1px solid #e0e0e0; background: url(../images/shopping-rpt.png) repeat-x 0 -301px; padding: 5px 15px 6px; font-size: 12px; color: #666;}
+.shopping-bag .recommend .reG a.bag:hover{background-position: 0 -485px; background-color: #f0f0f0;}
+/*推荐结束*/
+
+/*弹出层开始*/
+.removeSelect{width:100%; opacity:0.4; -webkit-filter:alpha (opacity=40); filter:alpha (opacity=40); background:#000; top:0; left:0;}
+.rsBox{position:fixed; height: auto; width: 320px; left: 790px; top: 300px; z-index: 1000; font-size: 12px; font-family: Tahoma; background: #fff; border: 5px solid #e1e1e1;}
+.rsBox .tit{color: #000; background: #f4f4f4; border-bottom: 1px solid #e1e1e1; text-align: left; height: 14px; padding: 5px 0 6px 10px;  cursor: move;}
+.rsBox .tit i{background: url(../images/shopping-close.png) no-repeat; width: 16px; height: 16px; overflow: hidden; display: block; text-indent: -999em; zoom: 1; margin-right:5px; vertical-align:top; cursor:pointer;}
+.rsBox .text{height: auto; padding-left: 36px; padding-top: 26px; padding-right: 36px; padding-bottom: 26px; color: #666;}
+.rsBox .text p{height: 32px; line-height: 30px; font-size: 14px; padding-left: 40px; background: url(../images/shopping-jinggao.png) 0 0 no-repeat;}
+.rsBox .foot{border-top: 1px solid #e1e1e1; margin: 0 10px 10px; padding-top: 10px; text-align: center;}
+.rsBox .foot button{background: #525252 url(../images/shopping-rpt.png) repeat-x 0 -160px; font-size: 12px; line-height: 22px; height: 22px; padding: 0 12px 3px; cursor: pointer;}
+.rsBox .foot .yes{background-position: 0 -347px; background-color: #fff; border: 1px solid #e0e0e0; margin-right:6px;}
+.rsBox .foot .no{color: #eee; border: 1px solid #333;}
+.rsBox .foot .no:hover{background-position: 0 -73px;}
+.rsBox .foot .yes:hover{background-position: 0 -535px;}
+.removeSelect,.rsBox{display:none;}
+/*弹出层结束*/
+
+.side{position: fixed; bottom:200px; right:22%; width: 32px; height: 258px; background-color: #c1c1c1; display: block; width: 32px;}
+.side a{color:#666;}
+.side i{display: block; width: 32px; height: 35px; background: url(../images/shopping-title.png) -168px -85px no-repeat;}
+.side strong{display: block; width: 14px; line-height: 16px; padding: 0 8px 0 10px; font-size: 14px; font-weight: 400; color: #fff;}
+
+/*购物袋结束*/

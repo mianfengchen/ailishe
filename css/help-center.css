@@ -1,0 +1,385 @@
+@charset "UTF-8";
+
+body {
+    color:#f7f7f7;
+    font:12px arial,"微软雅黑";
+    min-width:1190px;
+}
+
+h1,h2,span {
+    cursor:default;
+}
+
+.help-header {
+    height:257px;
+    background:#285087 url(../images/help-header-bg.png);
+}
+.help-logo {
+    padding-top:25px;
+    width:900px;
+    margin:0 auto;
+    color:#fff;
+}
+.help-logo h1,.help-logo h2 ,.help-logo .tips{
+    display:inline-block;
+    *display:inline;
+    *zoom:1;
+    vertical-align:bottom;
+    line-height:1;
+}
+.help-logo h1 {
+    padding-right:10px;
+    margin-right:10px;
+    border-right:2px solid #fff;
+}
+.help-logo h1 b {
+    font-size:32px;
+    font-weight:500;
+    height:54px;
+}
+.help-logo h1 small {
+    font-size:18px;
+    font-weight:400;
+}
+.help-logo h2 {
+    font-size:24px;
+    font-weight:500;
+}
+.help-logo .tips {
+    margin-left:112px;
+    padding-bottom:5px;
+    font-size:18px;
+    letter-spacing:3px;
+}
+.help-hnav ul {
+    text-align:center;
+}
+.help-hnav li.hnav-item {
+    width:208px;
+    height:208px;
+    margin:20px 25px 0 0;
+    border-radius:4px;
+    box-shadow:0 1px 35px hsla(0,0%,39%,.5);
+    background:#fff;
+    letter-spacing:2px;
+    display:inline-block;
+    *display:inline;
+    *zoom:1;
+    vertical-align:middle;
+    position:relative;
+}
+.help-hnav li.hnav-item img{
+    width:99px;
+    height:91px;
+    margin:25px auto;
+}
+.help-hnav li.hnav-item p {
+    line-height:1.5;
+}
+.help-hnav li.hnav-item p.tit {
+    color:#333;
+    font-size:18px;
+    font-weight:500;
+}
+.help-hnav li.hnav-item p.desc {
+    color:#999;
+    font-size:12px;
+}
+.help-hnav li.hnav-item p.info {
+    color:#fff;
+    font-size:16px;
+    font-weight:500;
+}
+.help-hnav li.hnav-item a.hov {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    border-radius:4px;
+    display:none;
+}
+.help-hnav li.hnav-item:hover a.hov {
+    display:block;
+}
+.help-hnav li.item1 a.hov {
+    background:rgb(87,164,255);
+}
+.help-hnav li.item2 a.hov {
+    background:rgb(13,203,91);
+}
+.help-hnav li.item3 a.hov {
+    background:rgb(234,178,78);
+}
+.help-solution {
+    padding:66px 0 20px;
+    background:#eee;
+}
+h3 {
+    text-align:center;
+    padding:10px 0;
+    padding-bottom:6px;
+    color:#333;
+    font-size:14px;
+    letter-spacing:2px;
+}
+h3 span {
+    color:#bbb;
+    font-size:14px;
+    letter-spacing:0;
+    padding-right:10px;
+    padding-left:10px
+}
+.hs-serbox {
+    width:700px;
+    margin:15px auto 0;
+    text-align:center;
+}
+.hs-serbox .ser {
+    width:600px;
+    margin:0 auto;
+}
+.hs-serbox input {
+    font-size:14px;
+    border-radius:15px 0 0 0;
+    outline:none;
+    height:41px;
+    line-height:30px;
+    vertical-align:middle;
+    border:1px solid #dcdcdc;
+    border-right:none;
+    padding-left:23px;
+    padding-right:30px;
+    width:462px;
+}
+.hs-serbox button {
+    width:70px;
+    height:43px;
+    line-height:44px;
+    border-radius:0 40px 40px 0;
+    border:none;
+    background:#57a4ff;
+    vertical-align:middle;
+    color:#fff;
+    font-size:16px;
+    outline:none;
+    cursor:pointer;
+}
+.hs-serbox button i {
+    color:#fff;
+    font-size:16px;
+}
+.hs-serbox .tips {
+    width:600px;
+    margin-left:50px;
+    margin-top:10px;
+    text-align:left;
+    padding-left:30px;
+}
+.hs-serbox .tips a {
+    margin-right:19px;
+    color:#666;
+}
+.hs-serbox .tips a:hover {
+    color:#57a4ff;
+}
+.hs-toolbox {
+    padding-top:35px;
+}
+.hs-toolbox ul.tool {
+    width:100%;
+    text-align:center;
+    margin-top:6px;
+    padding:24px 0;
+}
+.hs-toolbox li.toolitem {
+    display:inline-block;
+    *display:inline;
+    *zoom:1;
+    vertical-align:middle;
+    margin-left:90px;
+    padding:10px;
+}
+.hs-toolbox li.toolitem:first-child {
+    margin-left:0px;
+}
+.hs-toolbox li.toolitem i {
+    display:block;
+    width:72px;
+    height:72px;
+    line-height:74px;
+    border-radius:50% 50%;
+    border:1px solid #57a4ff;
+    background:#fff;
+    color:#57a4ff;
+    font-size:24px;
+}
+.hs-toolbox li.toolitem p {
+    padding-top:10px;
+    cursor:pointer;
+}
+.hs-toolbox li.toolitem i:hover {
+    background:#57a4ff;
+}
+.hs-toolbox li.toolitem i:hover:before {
+    color:#fff;
+}
+.hs-toolbox li.toolitem:hover a {
+    color:#57a4ff;
+}
+
+
+/*--------------社区开始-----------------*/
+
+
+.help-cm {
+    padding-top:38px;
+    padding-bottom:15px;
+    text-align:center;
+}
+.help-cm li {
+    display:inline-block;
+    *display:inline;
+    *zoom:1;
+    vertical-align:middle;
+    position:relative;
+}
+ul.hc-question {
+    padding:20px 0 38px;
+}
+ul.hc-question li {
+    width:242px;
+    height:130px;
+    padding:22px 18px 18px;
+    margin:0 14px 20px;
+    border-radius:6px;
+    box-shadow:0 1px 6px hsla(0,0%,39%,.2);
+}
+ul.hc-question li:hover {
+    border:1px solid #57a4ff;
+    cursor:pointer;
+    width:240px;
+    height:128px;
+}
+ul.hc-question .user img {
+    width:42px;
+    height:42px;
+    border-radius:50% 50%;
+}
+ul.hc-question p.Q-cont {
+    word-break:break-all;
+    word-wrap:break-word;
+    color:#666;
+    font-size:13px;
+    text-align:left; 
+}
+ul.hc-question p.user {
+    position:absolute;
+    width:242px;
+    height:42px;
+    line-height:42px;
+    left:18px;
+    bottom:12px;
+    text-align:left;
+}
+ul.hc-question p.user span {
+    position:absolute;
+    width:100%;
+    height:100%;
+    right:0;
+    text-align:right;
+    color:#999;
+}
+ul.hc-contributor {
+    padding-top:38px;
+}
+ul.hc-contributor img {
+    width:98px;
+    height:98px;
+    line-height:102px;
+    border-radius:50%;
+    border:4px solid #ddd;
+}
+ul.hc-contributor .arrow {
+    position:absolute;
+    top:104px;
+    left:46px;
+    width:0;
+    height:0;
+    border-left:6px solid transparent;
+    border-right:6px solid transparent;
+    border-top:6px solid #ddd;
+}
+ul.hc-contributor p {
+    color:#999;
+    padding-top:15px;
+}
+ul.hc-contributor li {
+    margin:0 52px;
+}
+ul.hc-contributor li:hover img {
+    border-color:#57a4ff;
+}
+ul.hc-contributor li:hover .arrow {
+    border-top-color:#57a4ff;
+}
+ul.hc-contributor li:hover p {
+    color:#57a4ff;
+}
+.help-cm .gotoc {
+    margin:75px auto 30px;
+}
+.help-cm .gotoc a {
+    display:block;
+    margin:0 auto;
+    border-radius: 40px;
+    width:220px;
+    height:30px;
+    background:#57a4ff;
+    font-size:20px;
+    padding:15px 0;
+    text-align:center;
+    color:#fff;
+    letter-spacing:2px;
+}
+.help-cm .gotoc a:hover {
+    background:#3c82d2;
+}
+
+/*--------------社区结束-----------------*/
+
+
+/*--------------常见知识与公告-----------------*/
+
+.help-reference {
+    padding-top:50px;
+    padding-bottom:80px;
+    background:#57a4ff;
+    letter-spacing:3px;
+    text-align:left;
+    overflow:hidden;
+}
+.help-reference dl {
+    padding-left:38px;
+    float:left;
+}
+.help-reference dl.hre-question {
+    margin-right:280px;
+}
+.help-reference dt {
+    margin-bottom:20px;
+    font-size:20px;
+}
+.help-reference dd {
+    padding:3px 0;
+}
+.help-reference dd a {
+    color:#ddecff;
+    line-height:1;
+}
+.help-reference dd a:hover {
+    color:#ddecff;
+    text-decoration:underline;
+}
+
+/*--------------常见知识与公告结束-----------------*/

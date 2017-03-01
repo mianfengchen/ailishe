@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+
+/*通用样式*/
+.hide{display:none;}
+
+.cont{background:#fcf5ed;}
+
+/*banner样式*/
+.banner{width:100%; height:500px; overflow:hidden;}
+.banner .banner-bk{width:1920px; height:452px; background:url(../images/baby-top.jpg); padding-top:48px; top:50%; left:50%; margin-top:-250px; margin-left:-960px;}
+.banner .banner-cont{width:1166px; height:438px;/* margin:0 10px;*/ padding:12px 12px 0px; background:rgba(255,255,255,.7); box-shadow:0px 0px 8px #aaa;}
+.banner .banner-cont>.banner-pic{overflow:hidden; height:400px;}
+.banner .banner-cont>.banner-pic li{position:absolute; top:0; left:0;  display:none;}
+.banner .banner-cont>.banner-pic>span{width:33px; height:66px; background:rgba(50,50,50,.6); line-height:66px; color:#fff; font-size:22px; font-family:"宋体"; font-weight:bold; top:177px; cursor:pointer; text-align:center; opacity:.6; transition:all .4s; border-radius:3px;}
+.banner .banner-cont>.banner-pic>.banner-btn1{left:0; transform:translateX(-33px); transition:all .4s;}
+.banner .banner-cont>.banner-pic>.banner-btn2{right:0; transform:translateX(33px); transition:all .4s;}
+.banner .banner-cont>.banner-pic:hover .banner-btn1{transform:translateX(0);}
+.banner .banner-cont>.banner-pic:hover .banner-btn2{transform:translateX(0);}
+.banner .banner-cont>.banner-pic>span:hover{opacity:1;}
+
+.banner .banner-cont>.banner-tab{width:687px; height:37px; margin:0 auto; text-align:center;}
+.banner .banner-cont>.banner-tab>ul>li{width:229px; height:37px; line-height:37px;}
+.banner .banner-cont>.banner-tab>ul>li>a{color:#666;}
+.banner .banner-cont>.banner-tab>span{width:229px; height:3px; background:#e5004f; bottom:-3px; left:0; display:block;/*transform:translateX(0);*/ transition:all .4s;}
+
+/*kid样式*/
+.kid div{width:960px; height:103px; margin:20px auto;}
+
+
+/*show样式*/
+.showtit{margin-bottom:80px;}
+.showtit .cardindex{width:308px; height:331px; background:#fff;}
+.showtit .cardindex h4{width: 100%;height: 40px;line-height: 40px;background-color: #fd628d;font-size: 16px;color: #fff;text-align: center;}
+.showtit .cardindex form{padding:20px;}
+.showtit .cardindex form .baby-birthday,.showtit .cardindex form .baby-name,.showtit .cardindex form .baby-sex{margin-bottom:20px;}
+.showtit .cardindex form .baby-birthday input,.showtit .cardindex form .baby-name input{    height: 18px;line-height: 18px;width: 245px;position: relative;background: 0 0; padding: 6px 10px; border: 1px solid #b2b2b2; outline:none; border-radius: 3px;}
+.showtit .cardindex form .baby-birthday input:hover,.showtit .cardindex form .baby-name input:hover{border:1px solid #777;}
+.showtit .cardindex form .baby-birthday i{width: 23px;height: 19px;right: 10px;top: 6px;background: url(../images/babyspecial.png) -183px -85px no-repeat;}
+.showtit .cardindex form .baby-sex span{display: block;float: left;width: 82px;height: 32px;line-height: 32px;margin-right: 7px;background-color: #e4e4e4;color: #999;cursor: pointer;text-align: center;border-radius: 3px;}
+.showtit .cardindex form .baby-sex span:hover{color: #fff;background-color: #fd628d;}
+.showtit .cardindex form>a{width: 100%;padding: 0;margin-bottom: 10px; background-color: #fd628d; border: 0; height: 46px; border-radius: 3px; font-size:18px; color:#fff; text-align:center; line-height:46px;}
+.showtit .cardindex form>a i{width: 20px; height: 20px; vertical-align: text-bottom; background:url(../images/babyspecial.png) -269px -85px;}
+.showtit .cardindex form>p{text-align: center; line-height: 30px; font-size: 14px; color: #374551;}
+.showtit .cardindex form>p>span{color: #fd628d;}
+
+.showtit .cat{width:835px; height:331px;}
+.showtit .cat ul li{margin:2px 0 0 2px; background:#fff;}
+.showtit .cat ul li a{width:276px; height:164px;}
+.showtit .cat ul li a i{width:90px; height:30px; background:url(../images/kid-push-img-d.png); top:40px; left:30px;}
+.showtit .cat ul li a b{width:171px; height:148px; background:url(../images/kid-push-img-d.png); bottom:0; right:20px;}
+.showtit .cat ul li a .title-list1{background-position:0 -154px;}
+.showtit .cat ul li a .title-list2{background-position:-172px -154px;}
+.showtit .cat ul li a .title-list3{background-position:-344px -154px;}
+.showtit .cat ul li a .title-list4{background-position:-516px -154px;}
+.showtit .cat ul li a .title-list5{background-position:-688px -154px;}
+
+.showtit .cat ul li a .img-list1{background-position:0 0;}
+.showtit .cat ul li a .img-list2{background-position:-172px 0;}
+.showtit .cat ul li a .img-list3{background-position:-344px 0;}
+.showtit .cat ul li a .img-list4{background-position:-516px 0;}
+.showtit .cat ul li a .img-list5{background-position:-688px 0;}
+
+.showtit .cat ul li .img-list6{background:url(../images/img-list-06-e.png) no-repeat bottom center;}
+
+.showtit .cat ul li:hover{animation:anim 1s;}
+
+@keyframes anim{
+    0%{opacity:1;}
+    50%{opacity:.8;}
+    100%{opacity:1;}
+}
+
+
+/*space样式*/
+.space{margin-bottom:40px;}
+.space .space-title{margin-bottom:20px; }
+.space .space-title1,.space .space-title2{display:none;}
+.space .space-title span{width:36px; height:36px; font-size:24px; line-height:36px; text-align:center; top:48px;}
+.space .space-title .time-h{left:659px;}
+.space .space-title .time-m{left:711px;}
+.space .space-title .time-s{left:763px;}
+.space .space-title .time-gif{left:815px; width:23px;}
+
+.space .space-cont{width:570px; height:312px; margin:0 25px 20px 0; background:#fff;}
+.space .space-cont .space-pic img{width:570px; height:273px;}
+.space .space-cont .space-txt{width:530px; height:40px; margin:0 20px; line-height:40px; color:#4d4d4d;}
+.space .space-cont .space-txt .txt-l{font-size:14px;}
+.space .space-cont .space-txt .txt-l .span-l{color:#f10582; font-size:24px; font: tahoma,arial,Hiragino Sans GB,WenQuanYi Micro Hei,\5FAE\8F6F\96C5\9ED1,\5B8B\4F53,sans-serif; font-weight:800;}
+.space .space-cont .space-txt .txt-r i{width:16px; height:16px; background:url(../images/index_imgs.png) -50px 0; margin-right:5px; margin-top:12px;}
+.space .space-cont>a>span{width:71px; height:18px; border: 1px solid #ededed; background: #fff; border-radius: 12px; line-height: 18px; padding: 0 6px; top:248px; right:10px; color:#4d4d4d; /*display:none;*/ opacity:0; transition:opacity .5s;}
+.space .space-cont>a>span>i{color:#f10582;}
+.space .space-cont:hover{animation:anim 1s;}
+.space .space-cont>a:hover>span{/*display:block;*/ opacity:1;}
+.space .space-cont>a>span:hover{background:#f10582; color:#fff; border: 1px solid #f10582;}
+.space .space-cont>a>span:hover>i{color:#fff;}
+.space .space-cont>a>p{width:430px; height:30px; top:243px; left:0; background: rgba(0,0,0,.6); line-height: 30px; padding: 0 102px 0 38px; color:#fff;}
+.space .space-cont>a>p:after{position:absolute; top:11px; left:22px; width:8px; height:9px; content:""; background:url(../images/index_imgs.png);}
+
+
+/*最后疯抢 样式*/
+.last .space-cont{width:370px; height:237px; margin:0 25px 20px 0;}
+.last .space-cont .space-pic img{width:370px; height:177px;}
+.last .space-cont>a>p{width:230px; height:26px; top:151px; left:0; background: rgba(0,0,0,.6); line-height: 26px; padding: 0 110px 0 30px; color:#fff;}
+.last .space-cont>a>p:after{top:9px; left:18px; }
+.last .space-cont>a>span{top:154px; right:5px;}
+.last .space-cont>a>.space-txt{width:340px; height:50px; padding:10px 15px 0; margin:0;}
+.last .space-cont>a>.space-txt>.txt-top{height:18px; margin-bottom:5px; line-height:18px;}
+.last .space-cont>a>.space-txt>.txt-bottom{line-height:21px; height:21px;}
+.last .space-cont>a>.space-txt>.txt-bottom>.txt-l>span{font-size:18px;}
+.last .space-cont .space-txt .txt-r i{margin-top:3px;}
+
+/*即将上线 样式*/
+.coming .space-cont{width:270px; height:169px; margin:0 25px 20px 0;}
+.coming .space-cont .space-pic img{width:270px; height:129px;}
+.coming .space-cont .space-pic span{cursor: pointer; position: absolute; font-size: 14px; border-radius: 3px; top: 40px; margin-left: -70px; left: 50%; width: 140px; height: 40px; line-height: 40px; color: #fff; text-align: center; background: #000; background: rgba(0,0,0,.8);}
+.coming .space-cont>a>p{width:130px; height:26px; top:103px; left:0; background: rgba(0,0,0,.6); line-height: 26px; padding: 0 110px 0 30px; color:#fff;overflow: hidden;text-overflow: ellipsis; white-space: nowrap;}
+.coming .space-cont>a>p:after{top:9px; left:18px; }
+.coming .space-cont>a>span{top:106px; right:5px;}
+.coming .space-cont>a>.space-txt{width:240px; height:34px; padding:3px 15px 0; margin:0; }
+.coming .space-cont>a>.space-txt>p{height:18px; line-height:18px;}
+.coming .space-cont>a>.space-txt>p>span{color:#f10582;}
+.coming .space-cont>form{top:154px; left:0; background:#fff; display:none;}
+.coming .space-cont:hover>form{display:block;}
+.coming .space-cont>form>div{width:210px; height:23px; margin-left:13px; padding-left:5px; line-height: 23px; border: 1px solid #d2d2d2; border-radius: 2px;}
+.coming .space-cont>form>div>input{color: #d2d2d2; border: 0; background: #fff; float: left; width: 138px; height: 17px; line-height: 17px; outline:none; font-family: inherit; font-style: inherit; font-weight: inherit; border-right:1px solid #d2d2d2; margin-top:3px;}
+.coming .space-cont>form>div>button{float: left; width: 62px; height: 23px; line-height: 23px; color: #42a7db; background: 0 0; border: 0 none; cursor: pointer; outline:none;}
+
+/*底部背景样式*/
+.btom{width:100%; height:450px; overflow:hidden;}
+.btom>div>div{width:1920px; height:450px; top:50%; left:50%; margin-top:-225px; margin-left:-960px; background:url(../images/baby-bottom.jpg);}

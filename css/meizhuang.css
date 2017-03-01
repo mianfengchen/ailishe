@@ -1,0 +1,340 @@
+@charset "UTF-8";
+
+/*banner*/
+.bannerBox{overflow: hidden; position: relative; width: 100%; height: 272px;min-width:1160px;}         
+.bannerStage{ width: 1160px; height: 272px; margin: 0 auto;position: relative;}
+.bannerBox .bannerStage>.banner_ul{position: absolute; width: 11520px; height: 272px;top: 0px;margin-left:-380px;}
+.bannerBox .bannerStage .banner_ul li{width: 1920px;height: 272px;float: left;}
+.leftBtn,.rightBtn{border-radius: 3px;background: #888; position: absolute; width: 30px;height: 50px;cursor: pointer;top: 50%;  margin-top: -25px; z-index: 2; opacity: .35;-webkit-transition: all .3s ease-in;-moz-transition: all .3s ease-in;-o-transition: all .3s ease-in;}
+.leftBtn .icon-angle-left{font-size: 30px; color: #fff;line-height: 50px; vertical-align:middle}
+.rightBtn .icon-angle-right{font-size:30px;color: #fff; line-height: 50px; vertical-align:middle;}
+.rightBtn{right:0px;}
+.bannerBtnbox{bottom: 8px;height: 22px; position: absolute;text-align: center; width: 1160px;z-index:2}
+.bannerBtn{background: rgba(0, 0, 0, 0.2) none repeat scroll 0 0;border-radius: 10px; height: 22px;padding: 0 10px;width:100px;position: absolute;bottom:3%;left:44%;}
+.bannerBox .bannerBtn li{cursor: pointer;font: 28px/1 tahoma;margin: 0 1px;color:#E5DFD5; position: relative;top: -6px; margin-left:10px;float:left;}
+.bannerBox .bannerBtn>li.current{color:#fff;}
+
+/*中部商品种类*/
+.g-wrap {width: 1160px;margin: 0 auto;padding-top: 20px;}
+.beauty-mads-list,.goodshot_list {width: 1180px; float: left;padding: 5px 0;}
+.beauty-mads-list {position: relative;}
+.beauty-mads-item{float: left; margin: 0 20px 0 0;width: 273px;border: 1px solid #e8e8e8;}
+.beauty-mads-item:hover{border: 1px solid #f10180;}
+
+/*今日新品*/
+.h_title {margin-bottom: 10px;margin-top:10px;}
+.h_title h2 {overflow: hidden;margin-left: -15px;}
+img {vertical-align: top}
+.goodsnew_list {width: 976px;}
+.goodsnew_item {float: left; width: 438px;margin: 0 20px 20px 0;border: 1px solid #e8e8e8;background: #fff;height: 230px;}    
+.trans200{transition:.2s;}
+.goodsnew_box {width: 100%;position:relative;height: 190px}   
+.goodsnew_promot { position: absolute;left: 0;bottom: 30px;height: 25px;line-height: 25px;}
+.goodsnew_time { display:block; width: 100%;text-align: left; height: 25px;line-height: 25px;color:#fff;position: relative;left: 0;bottom:0;background-color: rgba(0,0,0,.6)}
+.fwr{ font-family: \5FAE\8F6F\96C5\9ED1,sans-serif;}
+.goodsnew_promot .goodsnew_promot_t {background-color: #eb437a; color: #fff;float: left;padding-left: 10px;overflow: hidden; max-width: 220px;text-overflow: ellipsis;white-space: nowrap;font-size: 14px;}  
+.goodsnew_item .ui-btn-fav{display:none;position: absolute;bottom: 2px;right: 10px;}    
+.ui-btn-fav {width: auto;height: 21px;line-height: 21px;min-width: 34px;} 
+.ui-btn-fav {display:none;border-radius: 11px; font-size: 12px;background-color: #f2f2f2;text-align: center;overflow: hidden;-webkit-transform: translateZ(0);
+transform: translateZ(0);vertical-align: top;}     
+.goodsnew_infos { padding: 4px 10px 5px 10px;height: 31px;line-height: 31px;position: relative;background: #fff; z-index: 1;}    
+.ui-btn-fav .ui-btn-fav-like { background: #ededed;padding: 0 7px;width: 20px;}  
+.goodsnew_time {text-align: left;line-height: 25px;}   
+.vipFont { font-family: vipFont;speak: none;font-style: normal;font-weight: 400;font-variant: normal;text-transform: none;-webkit-font-smoothing: antialiased}
+.ui-btn-fav-like {color: #f32b80;}
+.ui-btn-fav a {-webkit-transition: .3s;transition: .3s;}
+.g-change-l {float: left; width: 900px;}
+.goodsnew_item:hover .goodsnew_time{ bottom: 25px;} 
+.goodsnew_time span{color:#fff;margin-left:10px;}
+.goodsnew_promot .goodsnew_promot_t {background-color: #eb437a;color: #fff;float: left;padding-left: 10px;overflow: hidden;max-width: 220px;text-overflow: ellipsis;white-space: nowrap; font-size: 14px;} 
+.goodsnew_promot i {float: left;width: 16px;height: 25px;background: url(../images/beauty_index_imgs.png) no-repeat 0 -150px;}
+.goodsnew_item:hover .ui-btn-fav{display:block;}    
+.goodsnew_item:hover{outline: 1px solid #f10180;}    
+.fav-hidden{color:#f10180}
+.g-fixed-r {padding-top: 48px;float: right;width: 240px;}
+.sd-sort-wrap{border: 1px solid #ebebeb;background-color:#fcfefe;text-align: center;position: relative;z-index: 2;margin-bottom: 20px;max-height: 219px;box-shadow: 0 0 3px #ccc;}   
+ .sd-sort-inner {padding: 10px;position: relative;border-top: #e8467b 3px solid;}  
+    
+.sd-sort-inner h3 {text-align: left;font-size: 14px;color: #666;margin-bottom: 6px; line-height: 100%; padding-top: 5px;}   
+.sort-hd-ico { width: 10px;height: 10px;border: 2px #e8467b solid;display: inline-block;vertical-align: text-bottom;color: #e8467b;line-height: 9px;text-align: left;font-size: 18px; position: relative;}  
+.sd-sort-inner .sd-sort-w217 {overflow: hidden;margin-left: auto;margin-right: auto;} 
+.sort-hd-ico {width: 10px;height: 10px;border: 2px #e8467b solid;display: inline-block;vertical-align: text-bottom;color: #e8467b; line-height: 9px;text-align: left; font-size: 18px;position: relative;}    
+.sort-hd-ico i { position: absolute;left: -2px;top: 0;}    
+.sd-sort-inner ul {margin-top: -1px;margin-right: -2%;} 
+.sd-sort-inner ul li {width: 49%;height: 34px;text-align: center;line-height: 34px;float: left; border-top: 1px #f9e1e9 dashed;border-right: 1px #f9e1e9 dashed;color: #666;font-size: 14px;}
+
+/*侧边广告位*/
+.br_img_box{ border: 1px solid #ebebeb;padding: 14px;margin-bottom: 20px;background: #fff; width: 210px;height: 310px;float:right;}    
+a{background: 0 0; -webkit-tap-highlight-color: rgba(255,255,255,0);}
+a, img {vertical-align: top}   
+.AdsR { width: 210px; height:220px;background: #fff; position: absolute;} 
+.AdsR .br_title { display: block;margin-top: 0;background: 0 0;padding-left: 0;font-weight: 400;}
+.br_title {font-size: 15px;line-height: 20px;font-family: '\5FAE\8F6F\96C5\9ED1';color: #333;}   
+.AdsR .bannerAdsR_pic {width: 100%;height: 200px;overflow: hidden;}
+.AdsR .br_title { font-weight: 400;}  
+.AdsR .br_title {display: block; margin-top: 0;background: 0 0;padding-left: 0;font-weight: 400;}
+.br_img_box2{ border: 1px solid #ebebeb;padding: 14px;margin-bottom: 20px;background: #fff; width: 210px;height:210px;float:right;}      
+.AdsR .bannerAdsR_pic { width: 100%; height: 200px;overflow: hidden;}
+.AdsR .br_title span{margin-top:10px;}
+
+/*新品预告开始*/
+
+.br_title2{
+    margin-top: 15px;
+    font-size: 15px;
+    line-height: 20px;
+    font-family: '\5FAE\8F6F\96C5\9ED1';
+    height: 26px;
+    color: #333;
+    padding: 3px 0 3px 26px;
+    float:right;
+    margin-right:100px;}
+
+.notice{
+    display:inline-block;
+    margin-top:2px;
+    font-weight: bold;} 
+.notice1{
+/*  border: 1px solid red;*/
+  float:right;
+}
+
+.notice1 .modCn{
+    border: 1px solid #ebebeb;
+    box-shadow: 0 0 3px #f1f1f1;
+    background: #fff;
+    width:240px;
+    height:456px;
+    position:relative;}
+
+.tobe_list_hd li{
+  float:left;  
+}
+
+.tobe_list_hd {
+    overflow-y: auto;
+    padding: 10px 13px 0;
+    background: #fcfafd}
+
+.tobe_list_hd span {
+    display: block;
+    width: 53px;
+    height: 28px;
+    border-bottom: 1px solid #ddd;
+    padding: 0 0 8px;
+    line-height: 14px;
+    color: #999;
+    text-align: center;
+    cursor: pointer;}      
+
+.t_hd .current span, .tobe_list_hd span:hover {
+    height: 27px;
+    border-bottom: 2px solid #e8467b;
+    color:#e8467b;}
+
+.tobleList .swit,.swit1,.swit2,.swit3,.swit4{width:238px;height:380px;
+
+} 
+
+.tobe_tips {
+    height: 22px;
+    line-height: 22px;
+    border-bottom: 1px solid #eae8ea;
+    font-size: 12px;
+    color: #4d4d4d;
+    font-weight: 700;
+    text-align: center;
+    clear: both;
+    overflow: hidden;
+    padding: 5px 0;
+    margin-top:10px;}
+
+.ico_day {
+    background-position: -87px -199px;
+    height: 16px;
+/*    margin-right: 5px;*/
+    vertical-align: middle;
+    background-image:url(../images/te_ico_png24.png);
+    display:inline-block;
+    line-height: 1;
+    width:15px;}
+
+.tobe_list_li {
+    position: relative;
+    width: 100px;
+    min-height: 56px;
+    cursor: pointer;
+    float: left;
+    text-align: center;
+/*    padding-right:9px;*/
+    overflow: hidden;
+    border-bottom: 1px solid #eae8ea;
+    display: list-item;
+    padding-right:8px;
+/*    margin-left:10px;*/}
+
+
+.tobe_list_li .sale-list-fav-link {
+    position: relative;
+    padding: 4px 1px 4px 1px;
+   }
+.tobe_list_li a {
+    display: block;
+    height: 48px;
+}
+
+.sale-list-fav-pop {
+    display: block;
+    position: absolute;
+    left: -999px;
+    width: 98px;
+    height: 48px;
+    line-height: 48px;
+    padding: 0;
+    filter: alpha(opacity=70);
+    background: rgba(230,153,0,.7);
+    color: #fff;
+    text-align: center;
+    font-family: "\5B8B\4F53";}
+
+.tobe_list_in{height:328px;
+    overflow: hidden;
+    padding: 0 10px;
+    background: #fcfafd;
+    width:220px;}
+
+.rightLine{border-right: 1px solid #eae8ea;}
+.tobe_list_ft {
+    overflow: hidden;
+    margin: 0 8px;
+    padding: 16px 0 20px;
+    text-align: center;
+    background-color: #fff;
+    border-top: 1px solid #999;
+    color: #999;
+    letter-spacing: 3px;}
+
+.merch{padding:0 11px;}
+
+.merchBox ul li a:hover{
+        background: url(../images/home_index_imgs.png) no-repeat -150px -147px;
+}     
+
+.remind{position:absolute;width:308px;height:219px;left:-310px;top:89px;z-index:10;background-color:#fff;border: #ccc 1px solid}    
+.remind p{text-align: center;color: #999;margin-top:20px;
+margin-bottom:10px;
+}
+.remind {
+    text-align:center;
+}
+.remind img {
+    width:308px;
+    height:134px;
+}
+.remind input{    
+    width: 157px;
+    height:28px;
+    line-height:28px;
+    padding:0 5px;
+    color:#999;
+    outline:0;
+    border:1px solid #bfbfbf;
+    vertical-align:middle;
+    font:12px "微软雅黑";
+    border-right:none;
+}
+.remind button {
+    height:30px;
+    line-height:26px;
+    width:96px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #c88101;
+    border-radius: 0 3px 3px 0;
+    background-color: #e9af46;
+    color:#fff;
+    vertical-align:middle;
+    font-size:12px;
+    font-family:"微软雅黑";
+    letter-spacing:1px;
+}
+
+/*即将推出开始*/
+
+.h_title2 h2 {
+    margin-left: -15px;
+    overflow: hidden;
+}
+.remind_con{width:1180px;height:800px;}
+.remind_item {
+    float: left;
+    margin: 0 12px 10px 0;
+    width: 371px;
+    border: 1px solid #e8e8e8;
+    background-color: #fff;
+    height:202px;
+    position: relative;
+    margin-bottom:30px;
+}
+
+.remindBox{margin-top:20px;width:1160px;}
+.remind_Box img{width:371px;height:161px;}
+.remind_time {
+    text-align: left;
+    text-indent: 1em;
+    left: 0;
+    bottom:39px;
+    height: 25px;
+    background-color: #000;
+    opacity: .6;
+    color:#fff;
+    position:absolute;
+     width:100%;
+    line-height: 25px;
+    font-size:14px;}
+.remind_Box{position: relative;}
+.remind_Box .collect{position:absolute;right:0;top:138px;left:320px;color:#f32b80;background-color:#fff;display:inline-block;border-radius:10px;height:21px;text-align:center;line-height:21px;margin-right:10px;display:none;}
+.remind_infos {
+    height:39px;}
+.remind_name {
+    line-height: 39px;
+    width: 268px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: '\5B8B\4F53';
+    color: #666;padding-left:10px;}
+.remind_infos .remind_book{width:373px;height:54px;position:absolute;bottom:-60px;display:none;background-color:#fff;}
+.shu{text-align: center;line-height:54px;}
+.shuru{
+    width: 210px;
+    border: #ccc 1px solid;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 0 0 5px;}
+
+.shu .warn{display: inline-block;
+    border-radius: 3px;
+    text-decoration: none;
+    text-align: center;
+    background-color: #f32b80;
+    padding: 0 19px;
+    color:#fff;
+    line-height:31px;
+    margin-left:30px;
+    cursor:pointer;}
+
+.shuru:focus{  
+    outline:none;}
+
+.remind_item:hover .remind_book{display:block;z-index:10;}
+.rim{width:373px;height:260px;position:absolute;top:0}
+.remind_item:hover .collect{display:block;z-index:10;}
+.remind_item:hover .rim{outline:1px solid #f32b80;z-index:5;}   
+.remind_item:hover .shu{z-index:20;}
+.gray{-webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);  
+    filter: grayscale(100%);
+    filter: gray;}   

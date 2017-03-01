@@ -1,0 +1,2355 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>我的爱丽奢</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link rel="stylesheet" href="css/common.css">
+<link rel="stylesheet" href="css/myInformation.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<!--[if IE 7]>
+    <link rel="stylesheet" href="css/font-awesome-ie7.min.css">
+<![endif]-->
+</head>
+<body>
+<!-- 顶部开始 -->
+<div class="headerTop">
+    <div class="wrapper clearfix">
+        <div class="topL clearfix fl por">
+          <div class="city"><i class="icon-map-marker"></i><span>郑州</span></div>
+            <div class="cityChoose poa">
+                <div class="line poa"></div>
+                <div class="nowCity">当前城市：<span>郑州</span> <i>[设为默认城市]</i></div>
+                <ul class="always clearfix">
+                    <li><a href="javascript:void(0);">全国</a></li>
+                    <li><a href="javascript:void(0);">北京</a></li>
+                    <li><a href="javascript:void(0);">上海</a></li>
+                    <li><a href="javascript:void(0);">广州</a></li>
+                    <li><a href="javascript:void(0);">深圳</a></li>
+                    <li><a href="javascript:void(0);">成都</a></li>
+                    <li><a href="javascript:void(0);">西安</a></li>
+                    <li><a href="javascript:void(0);">天津</a></li>
+                    <li><a href="javascript:void(0);">武汉</a></li>
+                    <li><a href="javascript:void(0);">重庆</a></li>
+                    <li><a href="javascript:void(0);">南京</a></li>
+                </ul>
+                <div class="cityInput clearfix">
+                    <input type="text" class="fl">
+                    <button class="fl">搜索</button>
+                </div>
+                <div class="char">
+                    <span>A</span>
+                    <span>B</span>
+                    <span>C</span>
+                    <span>D</span>
+                    <span>E</span>
+                    <span>F</span>
+                    <span>G</span>
+                    <span>H</span>
+                    <span>J</span>
+                    <span>K</span>
+                    <span>L</span>
+                    <span>M</span>
+                    <span>N</span>
+                    <span>P</span>
+                    <span>Q</span>
+                    <span>R</span>
+                    <span>S</span>
+                    <span>T</span>
+                    <span>W</span>
+                    <span>X</span>
+                    <span>Y</span>
+                    <span>Z</span>
+                </div>
+                <ul class="manyCities por">
+                    <li>
+                        <span class="fl">A</span>
+                        <div>
+                            <a href="javascript:void(0);">鞍山</a>
+                            <a href="javascript:void(0);">安阳</a>
+                            <a href="javascript:void(0);">安庆</a>
+                            <a href="javascript:void(0);">安顺</a>
+                            <a href="javascript:void(0);">安康</a>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="fl">B</span>
+                        <div>
+                            <a href="javascript:void(0);">北京</a>
+                            <a href="javascript:void(0);">保定</a>
+                            <a href="javascript:void(0);">包头</a>
+                            <a href="javascript:void(0);">巴彦扎尔蒙</a>
+                            <a href="javascript:void(0);">本溪</a>
+                            <a href="javascript:void(0);">亳州</a>
+                            <a href="javascript:void(0);">贝尔</a>
+                            <a href="javascript:void(0);">滨州</a>
+                            <a href="javascript:void(0);">宝鸡</a>
+                            <a href="javascript:void(0);">巴音郭楞</a>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="fl">C</span>
+                        <div>
+                            <a href="javascript:void(0);">承德</a>
+                            <a href="javascript:void(0);">沧州</a>
+                            <a href="javascript:void(0);">长治</a>
+                            <a href="javascript:void(0);">赤峰</a>
+                            <a href="javascript:void(0);">长春</a>
+                            <a href="javascript:void(0);">常州</a>
+                            <a href="javascript:void(0);">滁州</a>
+                            <a href="javascript:void(0);">长沙</a>
+                            <a href="javascript:void(0);">常德</a>
+                            <a href="javascript:void(0);">长洲</a>
+                            <a href="javascript:void(0);">重庆</a>
+                            <a href="javascript:void(0);">成都</a>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="fl">D</span>
+                        <div>
+                            <a href="javascript:void(0);">大同</a>
+                            <a href="javascript:void(0);">大连</a>
+                            <a href="javascript:void(0);">丹东</a>
+                            <a href="javascript:void(0);">大庆</a>
+                            <a href="javascript:void(0);">东营</a>
+                            <a href="javascript:void(0);">德州</a>
+                            <a href="javascript:void(0);">东莞</a>
+                            <a href="javascript:void(0);">德阳</a>
+                            <a href="javascript:void(0);">达州</a>
+                            <a href="javascript:void(0);">詹舟</a>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="fl">E</span>
+                        <div>
+                            <a href="javascript:void(0);">恩施</a>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="fl">F</span>
+                        <div>
+                            <a href="javascript:void(0);">抚顺</a>
+                            <a href="javascript:void(0);">阜阳</a>
+                            <a href="javascript:void(0);">福州</a>
+                            <a href="javascript:void(0);">佛山</a>
+                            <a href="javascript:void(0);">福清</a>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="fl">G</span>
+                        <div>
+                            <a href="javascript:void(0);">赣州</a>
+                            <a href="javascript:void(0);">广州</a>
+                            <a href="javascript:void(0);">桂林</a>
+                            <a href="javascript:void(0);">广元</a>
+                            <a href="javascript:void(0);">贵阳</a>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="fl">H</span>
+                        <div>
+                            <a href="javascript:void(0);">邯郸</a>
+                            <a href="javascript:void(0);">衡水</a>
+                            <a href="javascript:void(0);">呼和浩特</a>
+                            <a href="javascript:void(0);">呼伦贝尔</a>
+                            <a href="javascript:void(0);">哈尔滨</a>
+                            <a href="javascript:void(0);">淮安</a>
+                            <a href="javascript:void(0);">杭州</a>
+                            <a href="javascript:void(0);">湖州</a>
+                            <a href="javascript:void(0);">合肥</a>
+                            <a href="javascript:void(0);">淮南</a>
+                            <a href="javascript:void(0);">淮北</a>
+                            <a href="javascript:void(0);">鹤壁</a>
+                            <a href="javascript:void(0);">黄石</a>
+                            <a href="javascript:void(0);">衡阳</a>
+                            <a href="javascript:void(0);">怀化</a>
+                            <a href="javascript:void(0);">惠州</a>
+                            <a href="javascript:void(0);">海口</a>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="fl">J</span>
+                        <div>
+                            <a href="javascript:void(0);">晋同</a>
+                            <a href="javascript:void(0);">锦州</a>
+                            <a href="javascript:void(0);">吉林</a>
+                            <a href="javascript:void(0);">佳木斯</a>
+                            <a href="javascript:void(0);">嘉兴</a>
+                            <a href="javascript:void(0);">金华</a>
+                            <a href="javascript:void(0);">九江</a>
+                            <a href="javascript:void(0);">吉安</a>
+                            <a href="javascript:void(0);">济南</a>
+                            <a href="javascript:void(0);">济宁</a>
+                            <a href="javascript:void(0);">焦作</a>
+                            <a href="javascript:void(0);">荆州</a>
+                            <a href="javascript:void(0);">荆门</a>
+                            <a href="javascript:void(0);">江门</a>
+                            <a href="javascript:void(0);">嘉峪关</a>
+                            <a href="javascript:void(0);">济源</a>
+                            <a href="javascript:void(0);">句容</a>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="fl">K</span>
+                        <div>
+                            <a href="javascript:void(0);">昆明</a>
+                            <a href="javascript:void(0);">克拉玛以</a>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="fl">L</span>
+                        <div>
+                            <a href="javascript:void(0);">临汾</a>
+                            <a href="javascript:void(0);">吕梁</a>
+                            <a href="javascript:void(0);">辽阳</a>
+                            <a href="javascript:void(0);">连云港</a>
+                            <a href="javascript:void(0);">丽水</a>
+                            <a href="javascript:void(0);">六安</a>
+                            <a href="javascript:void(0);">龙岩</a>
+                            <a href="javascript:void(0);">莱菔</a>
+                            <a href="javascript:void(0);">临芹</a>
+                            <a href="javascript:void(0);">聊城</a>
+                            <a href="javascript:void(0);">洛阳</a>
+                            <a href="javascript:void(0);">漯河</a>
+                            <a href="javascript:void(0);">娄底</a>
+                            <a href="javascript:void(0);">柳城</a>
+                            <a href="javascript:void(0);">泸州</a>
+                            <a href="javascript:void(0);">乐山</a>
+                            <a href="javascript:void(0);">兰州</a>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="fl">M</span>
+                        <div>
+                            <a href="javascript:void(0);">牡丹江</a>
+                            <a href="javascript:void(0);">马鞍山</a>
+                            <a href="javascript:void(0);">绵阳</a>
+                            <a href="javascript:void(0);">眉山</a>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="fl">N</span>
+                        <div>
+                            <a href="javascript:void(0);">南京</a>
+                            <a href="javascript:void(0);">南通</a>
+                            <a href="javascript:void(0);">宁波</a>
+                            <a href="javascript:void(0);">南昌</a>
+                            <a href="javascript:void(0);">南阳</a>
+                            <a href="javascript:void(0);">南宁</a>
+                            <a href="javascript:void(0);">内江</a>
+                            <a href="javascript:void(0);">南充</a>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="fl">P</span>
+                        <div>
+                            <a href="javascript:void(0);">盘棉</a>
+                            <a href="javascript:void(0);">莆田</a>
+                            <a href="javascript:void(0);">萍乡</a>
+                            <a href="javascript:void(0);">平顶山</a>
+                            <a href="javascript:void(0);">濮阳</a>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="fl">Q</span>
+                        <div>
+                            <a href="javascript:void(0);">秦皇岛</a>
+                            <a href="javascript:void(0);">齐齐哈尔</a>
+                            <a href="javascript:void(0);">乾州</a>
+                            <a href="javascript:void(0);">泉州</a>
+                            <a href="javascript:void(0);">青岛</a>
+                            <a href="javascript:void(0);">清远</a>
+                            <a href="javascript:void(0);">曲靖</a>
+                            <a href="javascript:void(0);">庆阳</a>
+                            <a href="javascript:void(0);">琼海</a>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="fl">R</span>
+                        <div>
+                            <a href="javascript:void(0);">日照</a>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="fl">S</span>
+                        <div>
+                            <a href="javascript:void(0);">石家庄</a>
+                            <a href="javascript:void(0);">苏州</a>
+                            <a href="javascript:void(0);">朔州</a>
+                            <a href="javascript:void(0);">沈阳</a>
+                            <a href="javascript:void(0);">四平</a>
+                            <a href="javascript:void(0);">松原</a>
+                            <a href="javascript:void(0);">上海</a>
+                            <a href="javascript:void(0);">宿迁</a>
+                            <a href="javascript:void(0);">绍兴</a>
+                            <a href="javascript:void(0);">宿州</a>
+                            <a href="javascript:void(0);">上饶</a>
+                            <a href="javascript:void(0);">三门峡</a>
+                            <a href="javascript:void(0);">十堰</a>
+                            <a href="javascript:void(0);">随州</a>
+                            <a href="javascript:void(0);">邵阳</a>
+                            <a href="javascript:void(0);">深圳</a>
+                            <a href="javascript:void(0);">汕头</a>
+                            <a href="javascript:void(0);">三亚</a>
+                            <a href="javascript:void(0);">遂宁</a>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="fl">T</span>
+                        <div>
+                            <a href="javascript:void(0);">天津</a>
+                            <a href="javascript:void(0);">唐山</a>
+                            <a href="javascript:void(0);">太原</a>
+                            <a href="javascript:void(0);">通辽</a>
+                            <a href="javascript:void(0);">泰州</a>
+                            <a href="javascript:void(0);">台州</a>
+                            <a href="javascript:void(0);">铜陵</a>
+                            <a href="javascript:void(0);">泰安</a>
+                            <a href="javascript:void(0);">太仓</a>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="fl">W</span>
+                        <div>
+                            <a href="javascript:void(0);">乌尔查步</a>
+                            <a href="javascript:void(0);">无锡</a>
+                            <a href="javascript:void(0);">温州</a>
+                            <a href="javascript:void(0);">芜湖</a>
+                            <a href="javascript:void(0);">潍坊</a>
+                            <a href="javascript:void(0);">威海</a>
+                            <a href="javascript:void(0);">武汉</a>
+                            <a href="javascript:void(0);">乌鲁木齐</a>
+                            <a href="javascript:void(0);">文昌</a>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="fl">X</span>
+                        <div>
+                            <a href="javascript:void(0);">邢台</a>
+                            <a href="javascript:void(0);">徐州</a>
+                            <a href="javascript:void(0);">厦门</a>
+                            <a href="javascript:void(0);">新乡</a>
+                            <a href="javascript:void(0);">许昌</a>
+                            <a href="javascript:void(0);">襄阳</a>
+                            <a href="javascript:void(0);">孝感</a>
+                            <a href="javascript:void(0);">湘潭</a>
+                            <a href="javascript:void(0);">西安</a>
+                            <a href="javascript:void(0);">咸阳</a>
+                            <a href="javascript:void(0);">西宁</a>
+                            <a href="javascript:void(0);">仙桃</a>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="fl">Y</span>
+                        <div>
+                            <a href="javascript:void(0);">运城</a>
+                            <a href="javascript:void(0);">盐城</a>
+                            <a href="javascript:void(0);">扬州</a>
+                            <a href="javascript:void(0);">宜春</a>
+                            <a href="javascript:void(0);">烟台</a>
+                            <a href="javascript:void(0);">宜昌</a>
+                            <a href="javascript:void(0);">岳阳</a>
+                            <a href="javascript:void(0);">益阳</a>
+                            <a href="javascript:void(0);">永州</a>
+                            <a href="javascript:void(0);">玉林</a>
+                            <a href="javascript:void(0);">宜宾</a>
+                            <a href="javascript:void(0);">银川</a>
+                            <a href="javascript:void(0);">伊利</a>
+                            <a href="javascript:void(0);">宜兴</a>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="fl">Z</span>
+                        <div>
+                            <a href="javascript:void(0);">张家口</a>
+                            <a href="javascript:void(0);">镇江</a>
+                            <a href="javascript:void(0);">漳州</a>
+                            <a href="javascript:void(0);">淄博</a>
+                            <a href="javascript:void(0);">枣庄</a>
+                            <a href="javascript:void(0);">郑州</a>
+                            <a href="javascript:void(0);">周口</a>
+                            <a href="javascript:void(0);">驻马店</a>
+                            <a href="javascript:void(0);">株洲</a>
+                            <a href="javascript:void(0);">珠海</a>
+                            <a href="javascript:void(0);">镇江</a>
+                            <a href="javascript:void(0);">中山</a>
+                            <a href="javascript:void(0);">资阳</a>
+                            <a href="javascript:void(0);">遵义</a>
+                            <a href="javascript:void(0);">昭通</a>
+                            <a href="javascript:void(0);">张掖</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <p class="apart"></p>
+
+            <div class="weixin por">
+                <a href="#" class=""><b class="in-block ico"></b>微信&nbsp;<i class="icon-angle-down icon-large" style="display:inline-block"></i></a>
+                <p class="over"></p>
+                <div class="wechat poa"><img src="images/wechat.png" alt="二维码"></div>
+            </div>
+            <p class="apart"></p>
+
+            <div class="phone por">
+                <a href="#"><b class="in-block ico"></b>手机爱丽奢&nbsp;<i class="icon-angle-down icon-large" style="display:inline-block"></i></a>
+                <p class="over"></p>
+
+                <div class="phonechat poa"><img src="images/phone-erwei.png" alt="二维码"></div>
+            </div>
+        </div>
+        <div class="topR fr clearfix">
+            <div class="Welcome">Hi,<span><?php if($_COOKIE['isregister']==1){echo $_COOKIE['username'];}?></span>欢迎来到爱丽奢！</div>
+            <div class="login"><a href="login.html">登录</a></div>
+            <div><a href="register.html">注册</a></div>
+            <p class="apart"></p>
+
+            <div><a href="#">我的订单</a></div>
+            <p class="apart"></p>
+
+            <div class="my por"><a href="myInformation.html" class="mine">我的爱丽奢&nbsp;<i class="icon-angle-down icon-large" style="display:inline-block"></i></a>
+                <p class="over"></p>
+
+                <div class="myMsg poa">
+                    <ul>
+                        <li><a href="favorites.html">我的收藏</a></li>
+                        <li><a href="#">我的余额</a></li>
+                        <li><a href="#">我的银元</a></li>
+                        <li><a href="#">我的优惠券</a></li>
+                        <li><a href="#">我的积分</a></li>
+                    </ul>
+                </div>
+            </div>
+            <p class="apart"></p>
+
+            <div class=""><a href="coupon.html">优惠券</a></div>
+            <p class="apart"></p>
+
+            <div class=""><a href="help-center.html">帮助中心</a></div>
+        </div>
+    </div>
+</div>
+<!-- 顶部html结束 -->
+
+<!-- 搜索栏开始 -->
+<div class="search clearfix wrapper">
+    <h1 class="logo fl" >
+        <a class="in-block" href="index.html">爱丽奢</a>
+    </h1>
+    <div class="itype fl clearfix">
+        <div class="line fl"></div>
+        <a class="fr" href="#"></a>
+    </div>
+    <div class="icart fr">
+        <a class="clearfix" href="#">
+            <span class="fl">购物袋<strong>0</strong>件</span>
+            <b></b>
+        </a>
+    </div>
+    <div class="isearch fr">
+        <div class="searchbox por">
+            <input class="txt" type="text" value="女士针织衫" name="keyword"  id="searchBoxxxx" >
+            <button title="搜索">搜索</button>
+            <div class="searchResult"  id="containers"></div>
+        </div>
+        <div class="hotkeyword" >
+            <a href="#">女装配饰满399减150</a>
+            <a class="colorR" href="#">奢品羽绒服</a>
+            <a href="#">New Balance满减</a>
+            <a class="colorR" href="#">运动品牌联合</a>
+        </div>
+    </div>
+</div>
+<!-- 搜索栏结束 -->
+
+<!-- nav start -->
+    <div class="nav por">
+        <div class="wrapper navCont clearfix">
+            <div class="all fl por">
+                <a class="in-block poa" href="#">全部分类</a>
+                <div class="sort poa">
+                <!-- //名品 -->
+                    <dl>
+                        <dt  class="por mingpin">
+                            <a href="#"><i class="in-block famous"></i>名品</a><b class="in-block"></b><a href="#" class="hot">秋冬上新</a>  <s class="in-block"></s>
+                        </dt>
+                        <dd class="poa" style=>
+                            <div class="details clearfix">
+                                <div class="left fl">
+                                    <!-- //男装 -->
+                                    <div class="list">
+                                        <h3><a href="#">男装</a></h3>
+                                        <p class="clearfix">
+                                            <a href="#" class="hotword">新品</a>
+                                            <a href="#">卫衣</a>
+                                            <a href="#" class="hotword">针织衫</a>
+                                            <a href="#">裤装</a>
+                                            <a href="#">外套</a>
+                                        </p>
+                                    </div>
+                                    <!-- //女装 -->
+                                    <div class="list">
+                                        <h3><a href="#">女装</a></h3>
+                                        <p class="clearfix">
+                                            <a href="#" class="hotword">新品</a>
+                                            <a href="#">卫衣</a>
+                                            <a href="#" class="hotword">针织衫</a>
+                                            <a href="#">裤装</a>
+                                            <a href="#">外套</a>
+                                            <a href="#">裙装</a>
+                                        </p>
+                                    </div>
+                                    <!-- //鞋靴 -->
+                                    <div class="list">
+                                        <h3><a href="#">鞋靴</a></h3>
+                                        <p class="clearfix">
+                                            <a href="#" class="hotword">新品</a>
+                                            <a href="#">女士单鞋</a>
+                                            <a href="#" class="hotword">针织衫</a>
+                                            <a href="#">男鞋</a>
+                                            <a href="#">靴子</a>
+                                        </p>
+                                    </div>
+                                    <!-- //女包 -->
+                                    <div class="list">
+                                        <h3><a href="#">女包</a></h3>
+                                        <p class="clearfix">
+                                            <a href="#" class="hotword">新品</a>
+                                            <a href="#">手提斜跨包</a>
+                                            <a href="#" class="hotword">单肩包</a>
+                                            <a href="#">钱夹</a>
+                                            <a href="#">手拿包</a>
+                                        </p>
+                                    </div>
+                                    <!-- //男包 -->
+                                    <div class="list">
+                                        <h3><a href="#">男包</a></h3>
+                                        <p class="clearfix">
+                                            <a href="#" class="hotword">新品</a>
+                                            <a href="#">钱包</a>
+                                            <a href="#" class="hotword">单肩包</a>
+                                            <a href="#">手拿包</a>
+                                            <a href="#">手提包</a>
+                                        </p>
+                                    </div>
+                                    <!-- //配饰 -->
+                                    <div class="list">
+                                        <h3><a href="#">配饰</a></h3>
+                                        <p class="clearfix">
+                                            <a href="#" class="hotword">新品</a>
+                                            <a href="#">围巾</a>
+                                            <a href="#" class="hotword">帽子</a>
+                                            <a href="#">腰带</a>
+                                        </p>
+                                    </div>
+                                    <!-- //婴童 -->
+                                    <div class="list no">
+                                        <h3><a href="#">婴童</a></h3>
+                                        <p class="clearfix">
+                                            <a href="#" class="hotword">童装</a>
+                                            <a href="#">童鞋</a>
+                                            <a href="#" class="hotword">婴童配饰</a>
+                                        </p>
+                                    </div>
+                                    <!-- 结束 -->
+                                </div>
+                                <div class="right fr">
+                                    <h3><a href="#">品牌</a></h3>
+                                    <p>
+                                        <a href="#">BURBERRY</a>
+                                        <a href="#">FERRAGAMO</a>
+                                        <a href="#">GUCCI</a>
+                                        <a href="#">COACH</a>
+                                        <a href="#">ARMANI JEANS</a>
+                                        <a href="#">DIESEL</a>
+                                        <a href="#">VERSACE</a>
+                                        <a href="#">MAX&CO</a>
+                                        <a href="#">FRED PERRY</a>
+                                        <a href="#">CELINE</a>
+                                        <a href="#">SPORTMAX</a>
+                                        <a href="#">MAX MARA</a>
+                                        <a href="#">MICHAEL KORS</a>
+                                        <a href="#">ZEGNA</a>
+                                        <a href="#">FENDI</a>
+                                        <a href="#">EMPORIO ARMANI</a>
+                                        <a href="#">BALLY</a>
+                                        <a href="#">ALEXANDER&nbsp;MCQUEEN</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </dd>
+                    </dl>
+                <!-- //女装-->
+                    <dl>
+                        <dt  class="por">
+                            <a href="#"><i class="in-block women"></i>女装</a><b class="in-block"></b><a href="#" class="hot">秋冬上新</a>  <s class="in-block"></s>
+                        </dt>
+                        <dd class="poa" style="">
+                            <div class="details clearfix">
+                                <div class="left fl">
+                                    <!-- //热门搜索 -->
+                                    <div class="list">
+                                        <h3><a href="#">热门搜索</a></h3>
+                                        <p class="clearfix">
+                                            <a href="#" class="hotword">商场同款</a>
+                                            <a href="#">连衣裙</a>
+                                            <a href="#" class="hotword">打底裤</a>
+                                            <a href="#">风衣</a>
+                                            <a href="#">大衣</a>
+                                            <a href="#">裤装</a>
+                                            <a href="#">羽绒服</a>
+                                            <a href="#">棉服</a>
+                                            <a href="#">皮衣/皮草</a>
+                                        </p>
+                                    </div>
+                                    <!-- //流行元素 -->
+                                    <div class="list">
+                                        <h3><a href="#">流行元素</a></h3>
+                                        <p class="clearfix">
+                                            <a href="#" class="hotword">欧美风</a>
+                                            <a href="#">英伦风</a>
+                                            <a href="#" class="hotword">韩范</a>
+                                            <a href="#">简约风</a>
+                                            <a href="#">刺绣</a>
+                                            <a href="#">休闲风</a>
+                                            <a href="#">纯色</a>
+                                            <a href="#">森女棉麻</a>
+                                            <a href="#">绣花</a>
+                                            <a href="#">蕾丝衫</a>
+                                        </p>
+                                    </div>
+                                    <!-- //上装 -->
+                                    <div class="list">
+                                        <h3><a href="#">上装</a></h3>
+                                        <p class="clearfix">
+                                            <a href="#" class="hotword">卫衣/绒衣</a>
+                                            <a href="#">针织衫</a>
+                                            <a href="#" class="hotword">外套</a>
+                                            <a href="#">风衣</a>
+                                            <a href="#">小西装</a>
+                                            <a href="#">大衣</a>
+                                            <a href="#">衬衫</a>
+                                            <a href="#">吊带/马甲</a>
+                                        </p>
+                                    </div>
+                                    <!-- //下装 -->
+                                    <div class="list">
+                                        <h3><a href="#">下装</a></h3>
+                                        <p class="clearfix">
+                                            <a href="#" class="hotword">牛仔裤</a>
+                                            <a href="#">休闲裤</a>
+                                            <a href="#" class="hotword">连体裤</a>
+                                            <a href="#">哈伦裤</a>
+                                            <a href="#">西装裤</a>
+                                            <a href="#">长裤</a>
+                                            <a href="#">九分裤</a>
+                                            <a href="#">七分裤</a>
+                                            <a href="#">铅笔裤</a>
+                                        </p>
+                                    </div>
+                                    <!-- //裙装 -->
+                                    <div class="list">
+                                        <h3><a href="#">裙装</a></h3>
+                                        <p class="clearfix">
+                                            <a href="#" class="hotword">半身裙</a>
+                                            <a href="#">长袖裙</a>
+                                            <a href="#" class="hotword">牛仔裙</a>
+                                            <a href="#">连衣裙</a>
+                                        </p>
+                                    </div>
+                                    <!-- //女士内衣 -->
+                                    <div class="list no">
+                                        <h3><a href="#">女士内衣</a></h3>
+                                        <p class="clearfix">
+                                            <a href="#" class="hotword">文胸</a>
+                                            <a href="#">底裤</a>
+                                            <a href="#" class="hotword">家居服</a>
+                                            <a href="#">束身衣</a>
+                                            <a href="#">吊带/背心</a>
+                                            <a href="#">袜品</a>
+                                            <a href="#">泳衣</a>
+                                        </p>
+                                    </div>
+                                    <!-- 结束 -->
+                                </div>
+                                <div class="right fr">
+                                    <h3><a href="#">品牌</a></h3>
+                                    <p>
+                                        <a href="#">江南布衣</a>
+                                        <a href="#">茵曼</a>
+                                        <a href="#">洛可可</a>
+                                        <a href="#">苏安真</a>
+                                        <a href="#">颜域</a>
+                                        <a href="#">莉莉的</a>
+                                        <a href="#">衣之纯</a>
+                                        <a href="#">年歌</a>
+                                        <a href="#">Miss Lisa</a>
+                                        <a href="#">XG</a>
+                                        <a href="#">BEAUTY SAID</a>
+                                        <a href="#">breadnbutter</a>
+                                        <a href="#">鸭鸭</a>
+                                        <a href="#">欧杯</a>
+                                        <a href="#">vanillachocolate</a>
+                                        <a href="#">Bees do</a>
+                                        <a href="#">CMYK</a>
+                                        <a href="#">初语</a>
+                                        <a href="#">axelledesoie</a>
+                                        <a href="#">贝瑞英格</a>
+                                        <a href="#">雨中邂逅</a>
+                                        <a href="#">B.Dcuk</a>
+                                        <a href="#">格子廊</a>
+                                        <a href="#">茵佳兰迪</a>
+                                        <a href="#">奈希雅</a>
+                                        <a href="#">INXX</a>
+                                        <a href="#">G-STAR RAW</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </dd>
+                    </dl>
+                    <!-- //男装 -->
+                    <dl>
+                        <dt  class="por">
+                            <a href="#"><i class="in-block men"></i>男装</a><b class="in-block"></b><a href="#" class="hot">型男专场</a>  <s class="in-block"></s>
+                        </dt>
+                        <dd class="poa" style="">
+                            <div class="details clearfix">
+                                <div class="left fl">
+                                    <!-- //热门搜索 -->
+                                    <div class="list">
+                                        <h3><a href="#">热门搜索</a></h3>
+                                        <p class="clearfix">
+                                            <a href="#" class="hotword">T恤</a>
+                                            <a href="#">衬衫</a>
+                                            <a href="#" class="hotword">卫衣</a>
+                                            <a href="#">外套</a>
+                                            <a href="#">休闲裤</a>
+                                            <a href="#">牛仔裤</a>
+                                            <a href="#">短裤</a>
+                                        </p>
+                                    </div>
+                                    <!-- //秋季上新 -->
+                                    <div class="list">
+                                        <h3><a href="#">秋季上新</a></h3>
+                                        <p class="clearfix">
+                                            <a href="#" class="hotword">长袖衬衫</a>
+                                            <a href="#">长袖POLO</a>
+                                            <a href="#" class="hotword">长袖T恤</a>
+                                            <a href="#">针织衫</a>
+                                            <a href="#">夹克/外套</a>
+                                            <a href="#">休闲裤</a>
+                                            <a href="#">牛仔</a>
+                                        </p>
+                                    </div>
+                                    <!-- //上装 -->
+                                    <div class="list">
+                                        <h3><a href="#">上装</a></h3>
+                                        <p class="clearfix">
+                                            <a href="#" class="hotword">衬衫</a>
+                                            <a href="#">T恤</a>
+                                            <a href="#" class="hotword">卫衣</a>
+                                            <a href="#">夹克</a>
+                                            <a href="#">外套</a>
+                                            <a href="#">针织衫</a>
+                                            <a href="#">POLO衫</a>
+                                            <a href="#">短袖Y恤</a>
+                                            <a href="#">短袖衬衫</a>
+                                        </p>
+                                    </div>
+                                    <!-- //下装 -->
+                                    <div class="list">
+                                        <h3><a href="#">下装</a></h3>
+                                        <p class="clearfix">
+                                            <a href="#" class="hotword">牛仔裤</a>
+                                            <a href="#">休闲裤</a>
+                                            <a href="#">西裤</a>
+                                            <a href="#">九分裤</a>
+                                            <a href="#">短裤</a>
+                                        </p>
+                                    </div>
+                                    <!-- //男士内衣-->
+                                    <div class="list no">
+                                        <h3><a href="#">男士内衣</a></h3>
+                                        <p class="clearfix">
+                                            <a href="#" class="hotword">底裤</a>
+                                            <a href="#">背心/T恤</a>
+                                            <a href="#" class="hotword">家居服</a>
+                                            <a href="#">男士袜品</a>
+                                        </p>
+                                    </div>
+                                    <!-- 结束 -->
+                                </div>
+                                <div class="right fr">
+                                    <h3><a href="#">品牌</a></h3>
+                                    <p>
+                                        <a href="#">欧林浦</a>
+                                        <a href="#">华帝卡尼</a>
+                                        <a href="#">俞兆林</a>
+                                        <a href="#">IZOD</a>
+                                        <a href="#">欧塞卡</a>
+                                        <a href="#">菲克</a>
+                                        <a href="#">威秀</a>
+                                        <a href="#">Magic power</a>
+                                        <a href="#">美国马球协会</a>
+                                        <a href="#">啄木鸟</a>
+                                        <a href="#">战地吉普</a>
+                                        <a href="#">伯爵卓尔</a>
+                                        <a href="#">JASONWOOD</a>
+                                        <a href="#">迪赛吉普</a>
+                                        <a href="#">朗悦</a>
+                                        <a href="#">GENIO LaMODE</a>
+                                        <a href="#">BEE ARMOR</a>
+                                        <a href="#">高尔普</a>
+                                        <a href="#">英雄之鹰</a>
+                                        <a href="#">浮世绘</a>
+                                        <a href="#">罗朗巴特</a>
+                                        <a href="#">COLLEGE HOME</a>
+                                        <a href="#">摩都登</a>
+                                        <a href="#">北纬30度</a>
+                                        <a href="#">依文</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </dd>
+                    </dl>
+                    <!-- //鞋靴 -->
+                    <dl>
+                        <dt  class="por">
+                            <a href="#"><i class="in-block shoe"></i>鞋靴</a><b class="in-block"></b><a href="#" class="hot">时尚鞋品</a>  <s class="in-block"></s>
+                        </dt>
+                        <dd class="poa" style="">
+                            <div class="details clearfix">
+                                <div class="left fl">
+                                    <!-- //热门搜索 -->
+                                    <div class="list">
+                                        <h3><a href="#">热门搜索</a></h3>
+                                        <p class="clearfix">
+                                            <a href="#" class="hotword">单鞋</a>
+                                            <a href="#">粗跟鞋</a>
+                                            <a href="#" class="hotword">平底鞋</a>
+                                            <a href="#">上新</a>
+                                            <a href="#">内增高</a>
+                                            <a href="#">雪地靴</a>
+                                        </p>
+                                    </div>
+                                    <!-- //女鞋 -->
+                                    <div class="list">
+                                        <h3><a href="#">女鞋</a></h3>
+                                        <p class="clearfix">
+                                            <a href="#" class="hotword">单鞋</a>
+                                            <a href="#">粗跟鞋</a>
+                                            <a href="#" class="hotword">中跟</a>
+                                            <a href="#">浅口鞋</a>
+                                            <a href="#">尖头鞋</a>
+                                            <a href="#">乐福鞋</a>
+                                            <a href="#">坡跟鞋</a>
+                                            <a href="#">女鞋出清</a>
+                                        </p>
+                                    </div>
+                                    <!-- //男鞋 -->
+                                    <div class="list">
+                                        <h3><a href="#">男鞋</a></h3>
+                                        <p class="clearfix">
+                                            <a href="#" class="hotword">休闲鞋</a>
+                                            <a href="#">商务鞋</a>
+                                            <a href="#" class="hotword">帆布鞋</a>
+                                            <a href="#">单鞋</a>
+                                            <a href="#">个性潮鞋</a>
+                                            <a href="#">男鞋出清</a>
+                                        </p>
+                                    </div>
+                                    <!-- //广告 -->
+                                    <div class="list">
+                                        <h3><a href="#">歌牧斯秋冬款低价购</a></h3>
+                                    </div>
+                                   <!-- //广告 -->
+                                    <div class="list">
+                                        <h3><a href="#">寒冬来袭，莫蕾蔻蕾折后满就送，给你暖冬</a></h3>
+                                    </div>
+                                    <!-- //女士内衣 -->
+                                    <!-- //广告 -->
+                                    <div class="list">
+                                        <h3><a href="#">法国UZXG雪地靴 温暖冬日 低至0.9折起</a></h3>
+                                    </div>
+                                    <!-- //广告 -->
+                                    <div class="list">
+                                        <h3><a href="#">O'SHELL & ELEISE潮流冬靴&雪地靴 全场低至128元起数量有限 抢完为止</a></h3>
+                                    </div>
+                                    <!-- //广告 -->
+                                    <div class="list no">
+                                        <h3><a href="#">爱丽奢集团庆 哈森专场 满699元减50元 满1199元减100元</a></h3>
+                                    </div>
+                                    <!-- 结束 -->
+                                </div>
+                                <div class="right fr">
+                                    <h3><a href="#">品牌</a></h3>
+                                    <p>
+                                        <a href="#">玖熙</a>
+                                        <a href="#">FED</a>
+                                        <a href="#">莱尔斯丹</a>
+                                        <a href="#">百丽</a>
+                                        <a href="#">天美意</a>
+                                        <a href="#">茵奈儿</a>
+                                        <a href="#">他她</a>
+                                        <a href="#">星期六</a>
+                                        <a href="#">大洋洲袋鼠</a>
+                                        <a href="#">朗蒂维</a>
+                                        <a href="#">哈森</a>
+                                        <a href="#">美国U牌</a>
+                                        <a href="#">UZXG</a>
+                                        <a href="#">奈绮儿</a>
+                                        <a href="#">西瑞</a>
+                                        <a href="#">康奈</a>
+                                        <a href="#">华伦世家</a>
+                                        <a href="#">帕达索</a>
+                                        <a href="#">美丽佳人</a>
+                                        <a href="#">歌牧斯</a>
+                                        <a href="#">玛菲玛图</a>
+                                        <a href="#">初语</a>
+                                        <a href="#">COZYSTEPS</a>
+                                        <a href="#">百年纪念</a>
+                                        <a href="#">欧希尔</a>
+                                        <a href="#">朵牧</a>
+                                        <a href="#">才子</a>
+                                        <a href="#">爱乐</a>
+                                        <a href="#">帝卡文迪</a>
+                                        <a href="#">花花公子</a>
+                                        <a href="#">圣大保罗</a>
+                                        <a href="#">Paolo Conte</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </dd>
+                    </dl>
+                    <!-- //美妆 -->
+                    <dl>
+                        <dt  class="por">
+                            <a href="#"><i class="in-block beauty"></i>美妆</a><b class="in-block"></b><a href="#" class="hot">护肤套装</a>  <s class="in-block"></s>
+                        </dt>
+                        <dd class="poa" style="">
+                            <div class="details clearfix">
+                                <div class="left fl">
+                                    <h3><a href="#">寒潮来袭 海淘购</a></h3>
+                                    <!-- //热门搜索 -->
+                                    <div class="list">
+                                        <h3><a href="#">面部保养</a></h3>
+                                        <p class="clearfix">
+                                            <a href="#" class="hotword">面膜</a>
+                                            <a href="#">护肤套装</a>
+                                            <a href="#" class="hotword">洁面</a>
+                                            <a href="#">爽肤水</a>
+                                            <a href="#">乳液</a>
+                                            <a href="#">精华</a>
+                                            <a href="#">眼霜/啫喱</a>
+                                            <a href="#">日霜</a>
+                                            <a href="#">晚霜</a>
+                                            <a href="#">去角质</a>
+                                            <a href="#">精油</a>
+                                        </p>
+                                    </div>
+                                    <!-- //魅力彩妆 -->
+                                    <div class="list">
+                                        <h3><a href="#">魅力彩妆</a></h3>
+                                        <p class="clearfix">
+                                            <a href="#" class="hotword">粉底液/粉底膏</a>
+                                            <a href="#">BB霜</a>
+                                            <a href="#" class="hotword">遮瑕</a>
+                                            <a href="#">散粉/蜜粉</a>
+                                            <a href="#">卸妆</a>
+                                            <a href="#">睫毛膏</a>
+                                            <a href="#">唇膏/口红</a>
+                                            <a href="#">唇彩/唇蜜</a>
+                                            <a href="#">彩妆工具</a>
+                                            <a href="#">美甲</a>
+                                            <a href="#">彩妆套装</a>
+                                        </p>
+                                    </div>
+                                    <!-- //香氛洗护 -->
+                                    <div class="list">
+                                        <h3><a href="#">香氛洗护</a></h3>
+                                        <p class="clearfix">
+                                            <a href="#" class="hotword">女士香水</a>
+                                            <a href="#">男士香水</a>
+                                            <a href="#" class="hotword">其他香氛</a>
+                                            <a href="#">香薰精油</a>
+                                            <a href="#">洗发</a>
+                                            <a href="#">护发</a>
+                                        </p>
+                                    </div>
+                                    <!-- //身体护理 -->
+                                    <div class="list">
+                                        <h3><a href="#">身体护理</a></h3>
+                                        <p class="clearfix">
+                                            <a href="#" class="hotword">身体套装</a>
+                                            <a href="#">沐浴露</a>
+                                            <a href="#" class="hotword">身体乳</a>
+                                            <a href="#">身体清洁</a>
+                                            <a href="#">丰胸瘦身</a>
+                                            <a href="#">手足护理</a>
+                                            <a href="#">个人护理</a>
+                                        </p>
+                                    </div>
+                                    <!-- //男士护理 -->
+                                    <div class="list no">
+                                        <h3><a href="#">男士护理</a></h3>
+                                        <p class="clearfix">
+                                            <a href="#" class="hotword">面部清洁</a>
+                                            <a href="#">爽肤水/须后水</a>
+                                            <a href="#" class="hotword">乳液/面霜</a>
+                                            <a href="#">男士香水</a>
+                                            <a href="#">洗发水/沐浴露</a>
+                                        </p>
+                                    </div>
+                                    <!-- 结束 -->
+                                </div>
+                                <div class="right fr">
+                                    <h3><a href="#">品牌</a></h3>
+                                    <p>
+                                        <a href="#">江南布衣</a>
+                                        <a href="#">茵曼</a>
+                                        <a href="#">洛可可</a>
+                                        <a href="#">苏安真</a>
+                                        <a href="#">颜域</a>
+                                        <a href="#">莉莉的</a>
+                                        <a href="#">衣之纯</a>
+                                        <a href="#">年歌</a>
+                                        <a href="#">Miss Lisa</a>
+                                        <a href="#">XG</a>
+                                        <a href="#">BEAUTY SAID</a>
+                                        <a href="#">breadnbutter</a>
+                                        <a href="#">鸭鸭</a>
+                                        <a href="#">欧杯</a>
+                                        <a href="#">vanillachocolate</a>
+                                        <a href="#">Bees do</a>
+                                        <a href="#">CMYK</a>
+                                        <a href="#">初语</a>
+                                        <a href="#">axelledesoie</a>
+                                        <a href="#">贝瑞英格</a>
+                                        <a href="#">雨中邂逅</a>
+                                        <a href="#">B.Dcuk</a>
+                                        <a href="#">格子廊</a>
+                                        <a href="#">茵佳兰迪</a>
+                                        <a href="#">奈希雅</a>
+                                        <a href="#">INXX</a>
+                                        <a href="#">G-STAR RAW</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </dd>
+                    </dl>
+                    <!-- 箱包 -->
+                    <dl>
+                        <dt  class="por">
+                            <a href="#"><i class="in-block bag"></i>箱包</a><b class="in-block"></b><a href="#" class="hot">女神单肩</a>  <s class="in-block"></s>
+                        </dt>
+                        <dd class="poa" style="">
+                            <div class="details clearfix">
+                                <div class="left fl">
+                                    <!-- //热门搜索 -->
+                                    <div class="list">
+                                        <h3><a href="#">热门搜索</a></h3>
+                                        <p class="clearfix">
+                                            <a href="#" class="hotword">女士印花</a>
+                                            <a href="#">鳄鱼纹</a>
+                                            <a href="#" class="hotword">男士斜跨包</a>
+                                            <a href="#">链条包</a>
+                                            <a href="#">减龄女包</a>
+                                            <a href="#">女士小资</a>
+                                            <a href="#">拉杆箱</a>
+                                            <a href="#">女士双肩</a>
+                                            <a href="#">海蛇皮</a>
+                                        </p>
+                                    </div>
+                                    <!-- //时尚女包 -->
+                                    <div class="list">
+                                        <h3><a href="#">时尚女包</a></h3>
+                                        <p class="clearfix">
+                                            <a href="#" class="hotword">外交官</a>
+                                            <a href="#">超值推荐</a>
+                                            <a href="#" class="hotword">单肩包</a>
+                                            <a href="#">手提包</a>
+                                            <a href="#">斜挎包</a>
+                                            <a href="#">手拿包</a>
+                                            <a href="#">双肩包</a>
+                                            <a href="#">手提/斜跨多用包</a>
+                                            <a href="#">帆布包</a>
+                                            <a href="#">杀手包</a>
+                                            <a href="#">贝壳包</a>
+                                            <a href="#">欧美包</a>
+                                            <a href="#">韩版包</a>
+                                            <a href="#">链条包</a>
+                                            <a href="#">编织包</a>
+                                        </p>
+                                    </div>
+                                    <!-- //精品男包 -->
+                                    <div class="list">
+                                        <h3><a href="#">精品男包</a></h3>
+                                        <p class="clearfix">
+                                            <a href="#" class="hotword">双肩包</a>
+                                            <a href="#">单肩包</a>
+                                            <a href="#" class="hotword">手提包</a>
+                                            <a href="#">斜挎包</a>
+                                            <a href="#">手拿包</a>
+                                            <a href="#">手提/斜跨多用包</a>
+                                            <a href="#">商务包</a>
+                                            <a href="#">帆布包</a>
+                                            <a href="#">休闲包</a>
+                                        </p>
+                                    </div>
+                                    <!-- //功能包 -->
+                                    <div class="list">
+                                        <h3><a href="#">功能包</a></h3>
+                                        <p class="clearfix">
+                                            <a href="#" class="hotword">女士钱包</a>
+                                            <a href="#">男士钱包</a>
+                                            <a href="#" class="hotword">电脑包</a>
+                                            <a href="#">登山包</a>
+                                            <a href="#">证件夹</a>
+                                            <a href="#">零钱包</a>
+                                            <a href="#">卡包</a>
+                                            <a href="#">防水包</a>
+                                        </p>
+                                    </div>
+                                    <!-- //旅行箱包 -->
+                                    <div class="list no">
+                                        <h3><a href="#">旅行箱包</a></h3>
+                                        <p class="clearfix">
+                                            <a href="#" class="hotword">旅行包</a>
+                                            <a href="#">旅行箱</a>
+                                            <a href="#" class="hotword">万向滚轮拉杆箱</a>
+                                        </p>
+                                    </div>
+                                    <!-- 结束 -->
+                                </div>
+                                <div class="right fr">
+                                    <h3><a href="#">品牌</a></h3>
+                                    <p>
+                                        <a href="#">ELLE</a>
+                                        <a href="#">外交官</a>
+                                        <a href="#">阿特密</a>
+                                        <a href="#">幸福里</a>
+                                        <a href="#">克路驰</a>
+                                        <a href="#">琪熙</a>
+                                        <a href="#">柒格格</a>
+                                        <a href="#">WEEKENDER</a>
+                                        <a href="#">佛莱尔唐.阿隆索</a>
+                                        <a href="#">JESSIE & JANE</a>
+                                        <a href="#">only</a>
+                                        <a href="#">妮维奥</a>
+                                        <a href="#">那袄</a>
+                                        <a href="#">RIMOWA</a>
+                                        <a href="#">歌莉娅</a>
+                                        <a href="#">波斯丹顿</a>
+                                        <a href="#">海森梅尔</a>
+                                        <a href="#">Y6</a>
+                                        <a href="#">卓凡尼.华伦天奴</a>
+                                        <a href="#">袋妍人</a>
+                                        <a href="#">微缇</a>
+                                        <a href="#">法国大使</a>
+                                        <a href="#">GUCCI</a>
+                                        <a href="#">珑骧</a>
+                                        <a href="#">OMTO</a>
+                                        <a href="#">BABAMA</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </dd>
+                    </dl>
+                    <!-- 运动 -->
+                    <dl>
+                        <dt  class="por">
+                            <a href="#"><i class="in-block sport"></i>运动</a><b class="in-block"></b><a href="#" class="hot">运动鞋服</a>  <s class="in-block"></s>
+                        </dt>
+                        <dd class="poa" style="">
+                            <div class="details clearfix">
+                                <div class="left fl">
+                                    <!-- //运动休闲服 -->
+                                    <div class="list">
+                                        <h3><a href="#">运动休闲服</a></h3>
+                                        <p class="clearfix">
+                                            <a href="#" class="hotword">运动裤</a>
+                                            <a href="#">卫衣/连帽衫</a>
+                                            <a href="#" class="hotword">夹克/外套</a>
+                                            <a href="#">长袖T恤</a>
+                                            <a href="#">运动短T</a>
+                                            <a href="#">休闲裤</a>
+                                            <a href="#">POLO衫</a>
+                                        </p>
+                                    </div>
+                                    <!-- //健身运动服 -->
+                                    <div class="list">
+                                        <h3><a href="#">健身运动服</a></h3>
+                                        <p class="clearfix">
+                                            <a href="#" class="hotword">瑜伽服</a>
+                                            <a href="#">女士泳装</a>
+                                            <a href="#" class="hotword">男士泳装</a>
+                                        </p>
+                                    </div>
+                                    <!-- //户外鞋 -->
+                                    <div class="list">
+                                        <h3><a href="#">户外鞋</a></h3>
+                                        <p class="clearfix">
+                                            <a href="#" class="hotword">徒步鞋</a>
+                                            <a href="#">休闲鞋</a>
+                                            <a href="#" class="hotword">登山鞋</a>
+                                            <a href="#">越野跑鞋</a>
+                                            <a href="#">溯溪鞋</a>
+                                        </p>
+                                    </div>
+                                    <!-- //户外休闲装 -->
+                                    <div class="list">
+                                        <h3><a href="#">户外休闲装</a></h3>
+                                        <p class="clearfix">
+                                            <a href="#" class="hotword">运动裤</a>
+                                            <a href="#">冲锋衣</a>
+                                            <a href="#" class="hotword">户外短袖</a>
+                                            <a href="#">外套/夹克</a>
+                                            <a href="#">长袖T恤</a>
+                                            <a href="#">皮肤衣</a>
+                                        </p>
+                                    </div>
+                                    <!-- //户外专业服 -->
+                                    <div class="list">
+                                        <h3><a href="#">户外专业服</a></h3>
+                                        <p class="clearfix">
+                                            <a href="#" class="hotword">冲锋衣</a>
+                                            <a href="#">抓绒衣</a>
+                                            <a href="#" class="hotword">冲锋裤</a>
+                                            <a href="#">速干裤</a>
+                                        </p>
+                                    </div>
+                                    <!-- //运动户外装备 -->
+                                    <div class="list no">
+                                        <h3><a href="#">运动户外装备</a></h3>
+                                        <p class="clearfix">
+                                            <a href="#" class="hotword">运动背包</a>
+                                            <a href="#">户外背包</a>
+                                            <a href="#" class="hotword">运动配件</a>
+                                            <a href="#">户外装备</a>
+                                        </p>
+                                    </div>
+                                    <!-- 结束 -->
+                                </div>
+                                <div class="right fr">
+                                    <h3><a href="#">品牌</a></h3>
+                                    <p>
+                                        <a href="#">New Balance</a>
+                                        <a href="#">阿迪达斯</a>
+                                        <a href="#">耐克</a>
+                                        <a href="#">匡威</a>
+                                        <a href="#">彪马</a>
+                                        <a href="#">万斯</a>
+                                        <a href="#">鬼冢虎</a>
+                                        <a href="#">乐卡克</a>
+                                        <a href="#">斯凯奇</a>
+                                        <a href="#">海秦客</a>
+                                        <a href="#">狼爪</a>
+                                        <a href="#">RAX瑞行</a>
+                                        <a href="#">DC</a>
+                                        <a href="#">锐步</a>
+                                        <a href="#">李宁</a>
+                                        <a href="#">婴童阿迪达斯</a>
+                                        <a href="#">莎帷</a>
+                                        <a href="#">沐琅</a>
+                                        <a href="#">PONY&爱世克斯</a>
+                                        <a href="#">阿雷拉&路伊梵</a>
+                                        <a href="#">圣大保罗</a>
+                                        <a href="#">颂拓</a>
+                                        <a href="#">肯拓普骆驼</a>
+                                        <a href="#">婴童耐克</a>
+                                        <a href="#">哈瓦那</a>
+                                        <a href="#">MVPBOY</a>
+                                        <a href="#">天弗兰</a>
+                                        <a href="#">天伦天</a>
+                                        <a href="#">北陆</a>
+                                        <a href="#">探拓</a>
+                                        <a href="#">杜嘎地</a>
+                                        <a href="#">玩觅</a>
+                                        <a href="#">AC米兰</a>
+                                        <a href="#">迈途</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </dd>
+                    </dl>
+                    <!-- 配饰 -->
+                    <dl>
+                        <dt  class="por">
+                            <a href="#"><i class="in-block  ornament"></i>配饰</a><b class="in-block"></b><a href="#" class="hot">黄金饰品</a>  <s class="in-block"></s>
+                        </dt>
+                        <dd class="poa" style=" top:20px">
+                            <div class="details clearfix">
+                                <div class="left fl">
+                                    <!-- //最新热卖 -->
+                                    <div class="list">
+                                        <h3><a href="#">最新热卖</a></h3>
+                                        <p class="clearfix">
+                                            <a href="#" class="hotword">银饰</a>
+                                            <a href="#">戒指</a>
+                                            <a href="#" class="hotword">黄金吊坠</a>
+                                            <a href="#">潮流饰品</a>
+                                            <a href="#">胸针</a>
+                                            <a href="#">晴雨伞</a>
+                                        </p>
+                                    </div>
+                                    <!-- //配饰 -->
+                                    <div class="list">
+                                        <h3><a href="#">配饰</a></h3>
+                                        <p class="clearfix">
+                                            <a href="#" class="hotword">太阳镜</a>
+                                            <a href="#">眼镜框</a>
+                                            <a href="#" class="hotword">女丝巾</a>
+                                        </p>
+                                    </div>
+                                    <!-- //品质手表 -->
+                                    <div class="list">
+                                        <h3><a href="#">品质手表</a></h3>
+                                        <p class="clearfix">
+                                            <a href="#" class="hotword">瑞士表</a>
+                                            <a href="#">机械表</a>
+                                            <a href="#" class="hotword">防水表</a>
+                                            <a href="#">石英表</a>
+                                            <a href="#">电子表</a>
+                                            <a href="#">女士手表</a>
+                                            <a href="#">男士手表</a>
+                                            <a href="#">情侣表</a>
+                                        </p>
+                                    </div>
+                                    <!-- //珠宝 -->
+                                    <div class="list">
+                                        <h3><a href="#">珠宝</a></h3>
+                                        <p class="clearfix">
+                                            <a href="#" class="hotword">珍珠吊坠</a>
+                                            <a href="#">黄金</a>
+                                            <a href="#" class="hotword">彩宝</a>
+                                            <a href="#">铂金</a>
+                                            <a href="#">K金</a>
+                                            <a href="#">琥珀蜜蜡</a>
+                                            <a href="#">翡翠玉石</a>
+                                            <a href="#">钻石</a>
+                                        </p>
+                                    </div>
+                                    <!-- //精选饰品 -->
+                                    <div class="list no">
+                                        <h3><a href="#">精选饰品</a></h3>
+                                        <p class="clearfix">
+                                            <a href="#" class="hotword">手镯/项链</a>
+                                            <a href="#">耳环</a>
+                                            <a href="#" class="hotword">发饰</a>
+                                            <a href="#">项链</a>
+                                            <a href="#">银饰</a>
+                                            <a href="#">血珀</a>
+                                            <a href="#">碧玺手链</a>
+                                            <a href="#">菩提</a>
+                                            <a href="#">戒指/指环</a>
+                                            <a href="#">水晶</a>
+                                            <a href="#">佛珠</a>
+                                        </p>
+                                    </div>
+                                    <!-- 结束 -->
+                                </div>
+                                <div class="right fr">
+                                    <h3><a href="#">品牌</a></h3>
+                                    <p>
+                                        <a href="#">米莱</a>
+                                        <a href="#">米润</a>
+                                        <a href="#">周大福</a>
+                                        <a href="#">潮宏基</a>
+                                        <a href="#">卡西欧</a>
+                                        <a href="#">佐卡伊</a>
+                                        <a href="#">老庙黄金</a>
+                                        <a href="#">宝庆银楼</a>
+                                        <a href="#">FILA</a>
+                                        <a href="#">佐奈美</a>
+                                        <a href="#">翠云间</a>
+                                        <a href="#">颜韵</a>
+                                        <a href="#">玺之语</a>
+                                        <a href="#">李维斯</a>
+                                        <a href="#">珍珠皇后</a>
+                                        <a href="#">尊爵珠宝</a>
+                                        <a href="#">润德典藏</a>
+                                        <a href="#">珠韵首饰</a>
+                                        <a href="#">石玥珠宝</a>
+                                        <a href="#">Simida</a>
+                                        <a href="#">春生木缘</a>
+                                        <a href="#">上海故事</a>
+                                        <a href="#">艾尔蒂</a>
+                                        <a href="#">Inmix</a>
+                                        <a href="#">花珠</a>
+                                        <a href="#">ELLE</a>
+                                        <a href="#">景大福</a>
+                                        <a href="#">昊天琥珀</a>
+                                        <a href="#">聚利时</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </dd>
+                    </dl>
+                    <!-- 婴童 -->
+                    <dl>
+                        <dt  class="por">
+                            <a href="#"><i class="in-block children"></i>婴童</a><b class="in-block"></b><a href="#" class="hot">母婴&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>  <s class="in-block"></s>
+                        </dt>
+                        <dd class="poa" style="">
+                            <div class="details clearfix">
+                                <div class="left fl">
+                                    <!-- //本周推荐 -->
+                                    <div class="list">
+                                        <h3><a href="#">本周推荐</a></h3>
+                                        <p class="clearfix">
+                                            <a href="#" class="hotword">跨品牌满399减100可累计</a>
+                                        </p>
+                                    </div>
+                                    <!-- //女童装 -->
+                                    <div class="list">
+                                        <h3><a href="#">女童装</a></h3>
+                                        <p class="clearfix">
+                                            <a href="#" class="hotword">羽绒服</a>
+                                            <a href="#">外套</a>
+                                            <a href="#" class="hotword">棉服</a>
+                                            <a href="#">毛衣</a>
+                                            <a href="#">长袖T恤</a>
+                                            <a href="#">内衣</a>
+                                            <a href="#">礼服&裙装</a>
+                                            <a href="#">打底裤</a>
+                                            <a href="#">休闲裤</a>
+                                        </p>
+                                    </div>
+                                    <!-- //男童装 -->
+                                    <div class="list">
+                                        <h3><a href="#">男童装</a></h3>
+                                        <p class="clearfix">
+                                            <a href="#" class="hotword">羽绒服</a>
+                                            <a href="#">卫衣&绒衫</a>
+                                            <a href="#" class="hotword">棉服</a>
+                                            <a href="#">长袖T恤</a>
+                                            <a href="#">毛衣</a>
+                                            <a href="#">内衣</a>
+                                            <a href="#">裤装</a>
+                                            <a href="#">外套</a>
+                                        </p>
+                                    </div>
+                                    <!-- //孕产幼婴 -->
+                                    <div class="list">
+                                        <h3><a href="#">孕产幼婴</a></h3>
+                                        <p class="clearfix">
+                                            <a href="#" class="hotword">爬服</a>
+                                            <a href="#">婴幼儿上衣</a>
+                                            <a href="#" class="hotword">婴幼儿裤子</a>
+                                            <a href="#">婴儿礼盒</a>
+                                            <a href="#">套装</a>
+                                            <a href="#">学步鞋</a>
+                                            <a href="#">孕产用品</a>
+                                            <a href="#">孕妈装</a>
+                                            <a href="#">纸尿裤</a>
+                                        </p>
+                                    </div>
+                                    <!-- //童装 -->
+                                    <div class="list">
+                                        <h3><a href="#">童装</a></h3>
+                                        <p class="clearfix">
+                                            <a href="#" class="hotword">雪地靴</a>
+                                            <a href="#">靴子</a>
+                                            <a href="#" class="hotword">男童运动鞋</a>
+                                            <a href="#">男帆布鞋</a>
+                                            <a href="#">男棉鞋</a>
+                                            <a href="#">女运动鞋</a>
+                                            <a href="#">女棉鞋</a>
+                                            <a href="#">女帆布鞋</a>
+                                        </p>
+                                    </div>
+                                    <!-- //用品 -->
+                                    <div class="list no">
+                                        <h3><a href="#">用品</a></h3>
+                                        <p class="clearfix">
+                                            <a href="#" class="hotword">喂养用品</a>
+                                            <a href="#">益智玩具</a>
+                                            <a href="#" class="hotword">洗护用品</a>
+                                            <a href="#">童车</a>
+                                            <a href="#">安全座椅</a>
+                                        </p>
+                                    </div>
+                                    <!-- 结束 -->
+                                </div>
+                                <div class="right fr">
+                                    <h3><a href="#">品牌</a></h3>
+                                    <p>
+                                        <a href="#">戴维贝拉</a>
+                                        <a href="#">贝贝怡</a>
+                                        <a href="#">偶飞</a>
+                                        <a href="#">馨颂</a>
+                                        <a href="#">秀扬</a>
+                                        <a href="#">卡卢比</a>
+                                        <a href="#">卡帕KIDS</a>
+                                        <a href="#">丑丑婴幼</a>
+                                        <a href="#">子初</a>
+                                        <a href="#">大黄蜂</a>
+                                        <a href="#">安杰娜波比</a>
+                                        <a href="#">派克兰帝</a>
+                                        <a href="#">巴布豆</a>
+                                        <a href="#">花王</a>
+                                        <a href="#">百丽</a>
+                                        <a href="#">迪士尼</a>
+                                        <a href="#">五羊</a>
+                                        <a href="#">十月妈咪</a>
+                                        <a href="#">瓢虫之家</a>
+                                        <a href="#">Anne Geddes</a>
+                                        <a href="#">费雪</a>
+                                        <a href="#">冬已</a>
+                                        <a href="#">苏黎世家</a>
+                                        <a href="#">淘帝</a>
+                                        <a href="#">亿婴儿</a>
+                                        <a href="#">帕菲帕贝</a>
+                                        <a href="#">贝吻</a>
+                                        <a href="#">卡丁</a>
+                                        <a href="#">波亚米特</a>
+                                        <a href="#">泰迪珍藏</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </dd>
+                    </dl>
+                    <!-- 内衣 -->
+                    <dl>
+                        <dt  class="por">
+                            <a href="#"><i class="in-block bras"></i>内衣</a><b class="in-block"></b><a href="#" class="hot">舒适内衣</a>  <s class="in-block"></s>
+                        </dt>
+                        <dd class="poa" style="top:40px">
+                            <div class="details clearfix">
+                                <div class="left fl">
+                                    <!-- //塑身文胸 -->
+                                    <div class="list">
+                                        <h3><a href="#">塑身文胸</a></h3>
+                                        <p class="clearfix">
+                                            <a href="#" class="hotword">聚拢文胸</a>
+                                            <a href="#">无痕文胸</a>
+                                            <a href="#" class="hotword">无钢圈文胸</a>
+                                            <a href="#">少女文胸</a>
+                                            <a href="#">塑身连体衣</a>
+                                        </p>
+                                    </div>
+                                    <!-- //睡衣/家居服 -->
+                                    <div class="list">
+                                        <h3><a href="#">睡衣/家居服</a></h3>
+                                        <p class="clearfix">
+                                            <a href="#" class="hotword">秋款家居服</a>
+                                            <a href="#">女士家居服</a>
+                                            <a href="#" class="hotword">男士家居服</a>
+                                            <a href="#">睡裙</a>
+                                            <a href="#">情趣内衣</a>
+                                            <a href="#">家居服套装</a>
+                                        </p>
+                                    </div>
+                                    <!-- //保暖内衣 -->
+                                    <div class="list">
+                                        <h3><a href="#">保暖内衣</a></h3>
+                                        <p class="clearfix">
+                                            <a href="#" class="hotword">女士保暖</a>
+                                            <a href="#">男士保暖</a>
+                                        </p>
+                                    </div>
+                                    <!-- //底裤 -->
+                                    <div class="list">
+                                        <h3><a href="#">底裤</a></h3>
+                                        <p class="clearfix">
+                                            <a href="#" class="hotword">女士底裤</a>
+                                            <a href="#">男士底裤</a>
+                                        </p>
+                                    </div>
+                                    <!-- //背心/吊带/T恤-->
+                                    <div class="list">
+                                        <h3><a href="#">背心/吊带/T恤</a></h3>
+                                        <p class="clearfix">
+                                            <a href="#" class="hotword">女士吊带/背心</a>
+                                            <a href="#">男士背心/T恤</a>
+                                        </p>
+                                    </div>
+                                    <!-- //袜品 -->
+                                    <div class="list">
+                                        <h3><a href="#">袜品</a></h3>
+                                        <p class="clearfix">
+                                            <a href="#" class="hotword">丝袜</a>
+                                            <a href="#">短袜</a>
+                                        </p>
+                                    </div>
+                                    <!-- //运动内衣 -->
+                                    <div class="list no">
+                                        <h3><a href="#">运动内衣</a></h3>
+                                    </div>
+                                    <!-- 结束 -->
+                                </div>
+                                <div class="right fr">
+                                    <h3><a href="#">品牌</a></h3>
+                                    <p>
+                                        <a href="#">爱慕</a>
+                                        <a href="#">顶瓜瓜</a>
+                                        <a href="#">夏娃的诱惑</a>
+                                        <a href="#">红豆</a>
+                                        <a href="#">尼特名</a>
+                                        <a href="#">康妮雅</a>
+                                        <a href="#">缘分</a>
+                                        <a href="#">诗丽妃</a>
+                                        <a href="#">优黛儿</a>
+                                        <a href="#">北极绒</a>
+                                        <a href="#">棉花共和国</a>
+                                        <a href="#">安缇芬</a>
+                                        <a href="#">007 JAMESNOMD</a>
+                                        <a href="#">仙子宜岱</a>
+                                        <a href="#">U.S.POLO ASSN</a>
+                                        <a href="#">爱美丽</a>
+                                        <a href="#">猫人裤袜</a>
+                                        <a href="#">圣大保罗</a>
+                                        <a href="#">俞兆林内衣</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </dd>
+                    </dl>
+                </div>
+            </div>
+            <ul class="fl clearfix">
+                <li><a href="store.html">爱丽奢百货</a></li>
+                <li><a href="international.html">国际</a></li>
+                <li><a href="famous.html">名品馆</a></li>
+                <li><a href="special.html">特卖</a></li>
+                <li><a href="tao.html">海淘馆</a></li>
+                <li><a href="baby.html">母婴</a></li>
+                <li><a href="meizhuang.html">美妆</a></li>
+            </ul>
+        </div>
+    </div>
+<!-- nav end -->
+
+    <!-- myInformation start -->
+    <div class="wrapper myInformation">
+        <div class="addre">您现在的位置：<a href="#">首页</a> > 我的爱丽奢</div>
+        <div class="informCont clearfix">
+            <div class="informTit fl">
+                <h2>我的爱丽奢</h2>
+                <ul class="container">
+                  <li class="menu">
+                      <ul>
+                        <li class="button tab"><a href="#">我的首页</a></li>
+                      </ul>
+                  </li>
+                  <li class="menu">
+                      <ul>
+                        <li class="button"><a href="#">订单中心</a></li>
+                        <li class="dropdown">
+                            <ul>
+                                <li class="tab"><a href="javascript:void(0);">我的订单</a></li>
+                                <li class="tab"><a href="javascript:void(0);">退换货</a></li>
+                            </ul>
+                        </li>
+                      </ul>
+                  </li>
+                  <li class="menu">
+                      <ul>
+                        <li class="button"><a href="#">个人资料</a></li>
+                        <li class="dropdown">
+                            <ul>
+                                <li class="tab"><a href="javascript:void(0);">基本资料</a></li>
+                                <li class="tab"><a href="javascript:void(0);">收货地址</a></li>
+                                <li class="tab"><a href="javascript:void(0);">修改密码</a></li>
+                            </ul>
+                        </li>
+                      </ul>
+                  </li>
+                </ul>
+            </div>
+            <div class="informContent fl">
+                <div class="cont1 clearfix">
+                    <div class="informLeft fl">
+                        <div class="myInform clearfix">
+                            <div class="headPortrait por fl">
+                                <span class="poa">编辑资料</span>
+                                <img src="images/head.jpg" alt="">
+                            </div>
+                            <div class="myBuyinform fl">
+                                <div class="name">MobVSzRezsq</div>
+                                <div class="grade">普卡会员</div>
+                            </div>
+                            <div class="binding fr">
+                                <span>手机已激活</span>
+                                <span><a href="#">邮箱未绑定</a></span>
+                                <span><a href="#">绑定支付宝</a></span>
+                            </div>
+                        </div>
+                        <ul class="wait clearfix">
+                            <li><a href="#">待付款</a></li>
+                            <li><a href="#">待发货</a></li>
+                            <li><a href="#">待收货</a></li>
+                            <li><a href="#">待评价</a></li>
+                            <li><a href="#">退款</a></li>
+                        </ul>
+                        <div class="goodsLike">
+                            <div class="titLike por">
+                                <div class="title clearfix por">
+                                    <div class="titName fl">根据浏览，猜我喜欢</div>
+                                    <div class="change1 fr"><i class="icon-undo"></i>&nbsp;换一批</div>
+                                </div>
+                                <sup class="poa"></sup>
+                                <sub class="poa"></sub>
+                            </div>
+                            <div class="contLike">
+                                <ul class="clearfix">
+                                    <li>
+                                        <img src="images/goodsLike1.jpg" alt="">
+                                        <div class="price">￥590.00</div>
+                                        <div class="titleName">秋冬季气质收腰黑色印花连衣裙修身礼服长裙 冬季大码T恤</div>
+                                        <div class="buyNum clearfix"><span class="fr">月销: 15095</span></div>
+                                    </li>
+                                    <li>
+                                        <img src="images/goodsLike1.jpg" alt="">
+                                        <div class="price">￥590.00</div>
+                                        <div class="titleName">秋冬季气质收腰黑色印花连衣裙修身礼服长裙 冬季大码T恤</div>
+                                        <div class="buyNum clearfix"><span class="fr">月销: 15095</span></div>
+                                    </li>
+                                    <li>
+                                        <img src="images/goodsLike1.jpg" alt="">
+                                        <div class="price">￥590.00</div>
+                                        <div class="titleName">秋冬季气质收腰黑色印花连衣裙修身礼服长裙 冬季大码T恤</div>
+                                        <div class="buyNum clearfix"><span class="fr">月销: 15095</span></div>
+                                    </li>
+                                    <li>
+                                        <img src="images/goodsLike1.jpg" alt="">
+                                        <div class="price">￥590.00</div>
+                                        <div class="titleName">秋冬季气质收腰黑色印花连衣裙修身礼服长裙 冬季大码T恤</div>
+                                        <div class="buyNum clearfix"><span class="fr">月销: 15095</span></div>
+                                    </li>
+                                    <li>
+                                        <img src="images/goodsLike1.jpg" alt="">
+                                        <div class="price">￥590.00</div>
+                                        <div class="titleName">秋冬季气质收腰黑色印花连衣裙修身礼服长裙 冬季大码T恤</div>
+                                        <div class="buyNum clearfix"><span class="fr">月销: 15095</span></div>
+                                    </li>
+                                    <li>
+                                        <img src="images/goodsLike1.jpg" alt="">
+                                        <div class="price">￥590.00</div>
+                                        <div class="titleName">秋冬季气质收腰黑色印花连衣裙修身礼服长裙 冬季大码T恤</div>
+                                        <div class="buyNum clearfix"><span class="fr">月销: 15095</span></div>
+                                    </li>
+                                    <li>
+                                        <img src="images/goodsLike1.jpg" alt="">
+                                        <div class="price">￥590.00</div>
+                                        <div class="titleName">秋冬季气质收腰黑色印花连衣裙修身礼服长裙 冬季大码T恤</div>
+                                        <div class="buyNum clearfix"><span class="fr">月销: 15095</span></div>
+                                    </li>
+                                    <li>
+                                        <img src="images/goodsLike1.jpg" alt="">
+                                        <div class="price">￥590.00</div>
+                                        <div class="titleName">秋冬季气质收腰黑色印花连衣裙修身礼服长裙 冬季大码T恤</div>
+                                        <div class="buyNum clearfix"><span class="fr">月销: 15095</span></div>
+                                    </li>
+                                    <li>
+                                        <img src="images/goodsLike1.jpg" alt="">
+                                        <div class="price">￥590.00</div>
+                                        <div class="titleName">秋冬季气质收腰黑色印花连衣裙修身礼服长裙 冬季大码T恤</div>
+                                        <div class="buyNum clearfix"><span class="fr">月销: 15095</span></div>
+                                    </li>
+                                </ul>
+                                <div class="change2"><i class="icon-undo"></i>&nbsp;换一批</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="informRight fr">
+                        <div class="calendar">
+                            <div class="date clearfix"><i class="icon-calendar fl"></i><span>我的日历</span></div>
+                            <div class="day">
+                                <em></em>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cont2">
+                    <div class="titLike por">
+                        <div class="title clearfix por">
+                            <h3 class="titName fl"><i class="icon-file-alt"></i>&nbsp;我的订单</h3>
+                        </div>
+                        <sup class="poa"></sup>
+                        <sub class="poa"></sub>
+                    </div>
+                    <div class="content clearfix">
+                        <table>
+                            <tr>
+                                <th style="width:407px;">宝贝</th>
+                                <th>单价</th>
+                                <th>数量</th>
+                                <th>实付款</th>
+                                <th>交易状态</th>
+                                <th>交易操作</th>
+                            </tr>
+                        </table>
+                        <ul class="indent">
+                            <li>
+                                <table>
+                                    <tr class="name">
+                                        <th style="width:407px;padding-left:10px;"><span>2015-01-09</span>&nbsp;订单号: <span>930507223008422</span></th>
+                                        <th>洛熹旗舰店</th>
+                                        <th colspan="4"><i class="icon-trash"></i></th>
+                                    </tr>
+                                    <tr class="goods">
+                                        <td class="clearfix td1">
+                                            <div class="fl"><img src="images/goods.jpg" alt=""></div>
+                                            <div class="fl goodsName">
+                                                <p>洛熹 中老年羽绒服女短款 2014新款大码妈妈装冬装加厚连帽羽绒衣</p>
+                                                <p>颜色分类：咖啡尺码：3XL-(儿女送礼-温暖妈心)</p>
+                                            </div>
+                                        </td>
+                                        <td class="td2">￥<span>698.00</span></td>
+                                        <td class="td3">1</td>
+                                        <td class="td4">
+                                            <div>￥<span>588.00</span></div>
+                                            <div>(含运费：￥<span>0.00</span>)</div>
+                                        </td>
+                                        <td class="td5">交易成功</td>
+                                        <td class="td6"><a href="#">评价</a>/<a href="#">退换货</a></td>
+                                    </tr>
+                                </table>
+                            </li>
+                            <li>
+                                <table>
+                                    <tr class="name">
+                                        <th style="width:407px;padding-left:10px;"><span>2015-01-09</span>&nbsp;订单号: <span>930507223008422</span></th>
+                                        <th>洛熹旗舰店</th>
+                                        <th colspan="4"><i class="icon-trash"></i></th>
+                                    </tr>
+                                    <tr class="goods">
+                                        <td class="clearfix td1">
+                                            <div class="fl"><img src="images/goods.jpg" alt=""></div>
+                                            <div class="fl goodsName">
+                                                <p>洛熹 中老年羽绒服女短款 2014新款大码妈妈装冬装加厚连帽羽绒衣</p>
+                                                <p>颜色分类：咖啡尺码：3XL-(儿女送礼-温暖妈心)</p>
+                                            </div>
+                                        </td>
+                                        <td class="td2">￥<span>698.00</span></td>
+                                        <td class="td3">1</td>
+                                        <td class="td4">
+                                            <div>￥<span>588.00</span></div>
+                                            <div>(含运费：￥<span>0.00</span>)</div>
+                                        </td>
+                                        <td class="td5">交易成功</td>
+                                        <td class="td6"><a href="#">评价</a>/<a href="#">退换货</a></td>
+                                    </tr>
+                                </table>
+                            </li>
+                            <li>
+                                <table>
+                                    <tr class="name">
+                                        <th style="width:407px;padding-left:10px;"><span>2015-01-09</span>&nbsp;订单号: <span>930507223008422</span></th>
+                                        <th>洛熹旗舰店</th>
+                                        <th colspan="4"><i class="icon-trash"></i></th>
+                                    </tr>
+                                    <tr class="goods">
+                                        <td class="clearfix td1">
+                                            <div class="fl"><img src="images/goods.jpg" alt=""></div>
+                                            <div class="fl goodsName">
+                                                <p>洛熹 中老年羽绒服女短款 2014新款大码妈妈装冬装加厚连帽羽绒衣</p>
+                                                <p>颜色分类：咖啡尺码：3XL-(儿女送礼-温暖妈心)</p>
+                                            </div>
+                                        </td>
+                                        <td class="td2">￥<span>698.00</span></td>
+                                        <td class="td3">1</td>
+                                        <td class="td4">
+                                            <div>￥<span>588.00</span></div>
+                                            <div>(含运费：￥<span>0.00</span>)</div>
+                                        </td>
+                                        <td class="td5">交易成功</td>
+                                        <td class="td6"><a href="#">评价</a>/<a href="#">退换货</a></td>
+                                    </tr>
+                                </table>
+                            </li>
+                            <li>
+                                <table>
+                                    <tr class="name">
+                                        <th style="width:407px;padding-left:10px;"><span>2015-01-09</span>&nbsp;订单号: <span>930507223008422</span></th>
+                                        <th>洛熹旗舰店</th>
+                                        <th colspan="4"><i class="icon-trash"></i></th>
+                                    </tr>
+                                    <tr class="goods">
+                                        <td class="clearfix td1">
+                                            <div class="fl"><img src="images/goods.jpg" alt=""></div>
+                                            <div class="fl goodsName">
+                                                <p>洛熹 中老年羽绒服女短款 2014新款大码妈妈装冬装加厚连帽羽绒衣</p>
+                                                <p>颜色分类：咖啡尺码：3XL-(儿女送礼-温暖妈心)</p>
+                                            </div>
+                                        </td>
+                                        <td class="td2">￥<span>698.00</span></td>
+                                        <td class="td3">1</td>
+                                        <td class="td4">
+                                            <div>￥<span>588.00</span></div>
+                                            <div>(含运费：￥<span>0.00</span>)</div>
+                                        </td>
+                                        <td class="td5">交易成功</td>
+                                        <td class="td6"><a href="#">评价</a>/<a href="#">退换货</a></td>
+                                    </tr>
+                                </table>
+                            </li>
+                            <li>
+                                <table>
+                                    <tr class="name">
+                                        <th style="width:407px;padding-left:10px;"><span>2015-01-09</span>&nbsp;订单号: <span>930507223008422</span></th>
+                                        <th>洛熹旗舰店</th>
+                                        <th colspan="4"><i class="icon-trash"></i></th>
+                                    </tr>
+                                    <tr class="goods">
+                                        <td class="clearfix td1">
+                                            <div class="fl"><img src="images/goods.jpg" alt=""></div>
+                                            <div class="fl goodsName">
+                                                <p>洛熹 中老年羽绒服女短款 2014新款大码妈妈装冬装加厚连帽羽绒衣</p>
+                                                <p>颜色分类：咖啡尺码：3XL-(儿女送礼-温暖妈心)</p>
+                                            </div>
+                                        </td>
+                                        <td class="td2">￥<span>698.00</span></td>
+                                        <td class="td3">1</td>
+                                        <td class="td4">
+                                            <div>￥<span>588.00</span></div>
+                                            <div>(含运费：￥<span>0.00</span>)</div>
+                                        </td>
+                                        <td class="td5">交易成功</td>
+                                        <td class="td6"><a href="#">评价</a>/<a href="#">退换货</a></td>
+                                    </tr>
+                                </table>
+                            </li>
+                        </ul>
+                        <ul class="page clearfix fr">
+                            <li><a href="javascript:void(0);">&lt;</a></li>
+                            <li><a href="javascript:void(0);">1</a></li>
+                            <li><a href="javascript:void(0);">2</a></li>
+                            <li><a href="javascript:void(0);">&gt;</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="cont3">
+                    <div class="titLike por">
+                        <div class="title clearfix por">
+                            <h3 class="titName fl"><i class="icon-folder-open-alt"></i>&nbsp;退换货</h3>
+                        </div>
+                        <sup class="poa"></sup>
+                        <sub class="poa"></sub>
+                    </div>
+                    <div class="content clearfix">
+                        <table>
+                            <tr>
+                                <th style="width:407px;">宝贝</th>
+                                <th>单价</th>
+                                <th>数量</th>
+                                <th>实付款</th>
+                                <th>交易状态</th>
+                            </tr>
+                        </table>
+                        <ul class="indent">
+                            <li>
+                                <table>
+                                    <tr class="name">
+                                        <th style="width:407px;padding-left:10px;"><span>2015-01-09</span>&nbsp;订单号: <span>930507223008422</span></th>
+                                        <th>洛熹旗舰店</th>
+                                        <th colspan="4"><i class="icon-trash"></i></th>
+                                    </tr>
+                                    <tr class="goods">
+                                        <td class="clearfix td1">
+                                            <div class="fl"><img src="images/goods.jpg" alt=""></div>
+                                            <div class="fl goodsName">
+                                                <p>洛熹 中老年羽绒服女短款 2014新款大码妈妈装冬装加厚连帽羽绒衣</p>
+                                                <p>颜色分类：咖啡尺码：3XL-(儿女送礼-温暖妈心)</p>
+                                            </div>
+                                        </td>
+                                        <td class="td2">￥<span>698.00</span></td>
+                                        <td class="td3">1</td>
+                                        <td class="td4">
+                                            <div>￥<span>588.00</span></div>
+                                            <div>(含运费：￥<span>0.00</span>)</div>
+                                        </td>
+                                        <td class="td5">退货成功</td>
+                                    </tr>
+                                </table>
+                            </li>
+                            <li>
+                                <table>
+                                    <tr class="name">
+                                        <th style="width:407px;padding-left:10px;"><span>2015-01-09</span>&nbsp;订单号: <span>930507223008422</span></th>
+                                        <th>洛熹旗舰店</th>
+                                        <th colspan="4"><i class="icon-trash"></i></th>
+                                    </tr>
+                                    <tr class="goods">
+                                        <td class="clearfix td1">
+                                            <div class="fl"><img src="images/goods.jpg" alt=""></div>
+                                            <div class="fl goodsName">
+                                                <p>洛熹 中老年羽绒服女短款 2014新款大码妈妈装冬装加厚连帽羽绒衣</p>
+                                                <p>颜色分类：咖啡尺码：3XL-(儿女送礼-温暖妈心)</p>
+                                            </div>
+                                        </td>
+                                        <td class="td2">￥<span>698.00</span></td>
+                                        <td class="td3">1</td>
+                                        <td class="td4">
+                                            <div>￥<span>588.00</span></div>
+                                            <div>(含运费：￥<span>0.00</span>)</div>
+                                        </td>
+                                        <td class="td5">退货成功</td>
+                                    </tr>
+                                </table>
+                            </li>
+                            <li>
+                                <table>
+                                    <tr class="name">
+                                        <th style="width:407px;padding-left:10px;"><span>2015-01-09</span>&nbsp;订单号: <span>930507223008422</span></th>
+                                        <th>洛熹旗舰店</th>
+                                        <th colspan="4"><i class="icon-trash"></i></th>
+                                    </tr>
+                                    <tr class="goods">
+                                        <td class="clearfix td1">
+                                            <div class="fl"><img src="images/goods.jpg" alt=""></div>
+                                            <div class="fl goodsName">
+                                                <p>洛熹 中老年羽绒服女短款 2014新款大码妈妈装冬装加厚连帽羽绒衣</p>
+                                                <p>颜色分类：咖啡尺码：3XL-(儿女送礼-温暖妈心)</p>
+                                            </div>
+                                        </td>
+                                        <td class="td2">￥<span>698.00</span></td>
+                                        <td class="td3">1</td>
+                                        <td class="td4">
+                                            <div>￥<span>588.00</span></div>
+                                            <div>(含运费：￥<span>0.00</span>)</div>
+                                        </td>
+                                        <td class="td5">退货成功</td>
+                                    </tr>
+                                </table>
+                            </li>
+                            <li>
+                                <table>
+                                    <tr class="name">
+                                        <th style="width:407px;padding-left:10px;"><span>2015-01-09</span>&nbsp;订单号: <span>930507223008422</span></th>
+                                        <th>洛熹旗舰店</th>
+                                        <th colspan="4"><i class="icon-trash"></i></th>
+                                    </tr>
+                                    <tr class="goods">
+                                        <td class="clearfix td1">
+                                            <div class="fl"><img src="images/goods.jpg" alt=""></div>
+                                            <div class="fl goodsName">
+                                                <p>洛熹 中老年羽绒服女短款 2014新款大码妈妈装冬装加厚连帽羽绒衣</p>
+                                                <p>颜色分类：咖啡尺码：3XL-(儿女送礼-温暖妈心)</p>
+                                            </div>
+                                        </td>
+                                        <td class="td2">￥<span>698.00</span></td>
+                                        <td class="td3">1</td>
+                                        <td class="td4">
+                                            <div>￥<span>588.00</span></div>
+                                            <div>(含运费：￥<span>0.00</span>)</div>
+                                        </td>
+                                        <td class="td5">退货成功</td>
+                                    </tr>
+                                </table>
+                            </li>
+                            <li>
+                                <table>
+                                    <tr class="name">
+                                        <th style="width:407px;padding-left:10px;"><span>2015-01-09</span>&nbsp;订单号: <span>930507223008422</span></th>
+                                        <th>洛熹旗舰店</th>
+                                        <th colspan="4"><i class="icon-trash"></i></th>
+                                    </tr>
+                                    <tr class="goods">
+                                        <td class="clearfix td1">
+                                            <div class="fl"><img src="images/goods.jpg" alt=""></div>
+                                            <div class="fl goodsName">
+                                                <p>洛熹 中老年羽绒服女短款 2014新款大码妈妈装冬装加厚连帽羽绒衣</p>
+                                                <p>颜色分类：咖啡尺码：3XL-(儿女送礼-温暖妈心)</p>
+                                            </div>
+                                        </td>
+                                        <td class="td2">￥<span>698.00</span></td>
+                                        <td class="td3">1</td>
+                                        <td class="td4">
+                                            <div>￥<span>588.00</span></div>
+                                            <div>(含运费：￥<span>0.00</span>)</div>
+                                        </td>
+                                        <td class="td5">退货成功</td>
+                                    </tr>
+                                </table>
+                            </li>
+                            <li>
+                                <table>
+                                    <tr class="name">
+                                        <th style="width:407px;padding-left:10px;"><span>2015-01-09</span>&nbsp;订单号: <span>930507223008422</span></th>
+                                        <th>洛熹旗舰店</th>
+                                        <th colspan="4"><i class="icon-trash"></i></th>
+                                    </tr>
+                                    <tr class="goods">
+                                        <td class="clearfix td1">
+                                            <div class="fl"><img src="images/goods.jpg" alt=""></div>
+                                            <div class="fl goodsName">
+                                                <p>洛熹 中老年羽绒服女短款 2014新款大码妈妈装冬装加厚连帽羽绒衣</p>
+                                                <p>颜色分类：咖啡尺码：3XL-(儿女送礼-温暖妈心)</p>
+                                            </div>
+                                        </td>
+                                        <td class="td2">￥<span>698.00</span></td>
+                                        <td class="td3">1</td>
+                                        <td class="td4">
+                                            <div>￥<span>588.00</span></div>
+                                            <div>(含运费：￥<span>0.00</span>)</div>
+                                        </td>
+                                        <td class="td5">退货成功</td>
+                                    </tr>
+                                </table>
+                            </li>
+                        </ul>
+                        <ul class="page clearfix fr">
+                            <li><a href="javascript:void(0);">&lt;</a></li>
+                            <li><a href="javascript:void(0);">1</a></li>
+                            <li><a href="javascript:void(0);">2</a></li>
+                            <li><a href="javascript:void(0);">&gt;</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="cont4">
+                    <div class="titLike por">
+                        <div class="title clearfix por">
+                            <h3 class="titName fl"><i class="icon-user"></i>&nbsp;个人资料</h3>
+                        </div>
+                        <sup class="poa"></sup>
+                        <sub class="poa"></sub>
+                    </div>
+                    <div class="content">
+                        <div class="tit clearfix">
+                            <div class="por"><div class="line poa"></div>基本资料</div>
+                            <div class="por"><div class="line poa"></div>头像照片</div>
+                        </div>
+                        <div class="cont">
+                            <div class="base">
+                                <form action="">
+                                    <div class="clearfix">
+                                        <span class="title">当前头像：</span><div class="box fl por"><img src="images/head.jpg" alt=""><div class="boxChange poa">编辑头像</div></div>
+                                    </div>
+                                    <div>
+                                        <span class="title">用户名：</span><span>181*****965</span>
+                                    </div>
+                                    <div>
+                                        <span class="title">昵&nbsp;&nbsp;称:</span><input type="text" value="MobVSzRezsq" name="username">
+                                    </div>
+                                    <div><span class="title">会员等级：</span><i></i>普卡会员</div>
+                                    <div>
+                                        <span class="title">性&nbsp;&nbsp;别：</span>
+                                        <input type="radio" name="sex" value="0" checked="checked">女&nbsp;<input type="radio" name="sex" value="1">男
+                                    </div>
+                                    <div>
+                                        <span class="title">生&nbsp;&nbsp;日：</span>
+                                        <select name="year" id="year">
+                                        </select>年
+                                        <select name="month" id="month">
+                                        </select>月
+                                        <select name="day" id="day">
+                                        </select>日
+                                    </div>
+                                    <div>
+                                        <span class="title">星&nbsp;&nbsp;座：</span><span>摩羯座</span>
+                                    </div>
+                                    <div>
+                                        <span class="title">购物习惯：</span><span>您通常在网上购买哪类商品（最多3项）</span>
+                                        <div class="choose">
+                                            <input type="checkbox" value="化妆品" name="shophabit"> <label>化妆品</label>
+                                            <input type="checkbox" value="服装" name="shophabit"><label>服装</label>
+                                            <input type="checkbox" value="配饰&珠宝" name="shophabit"><label>配饰&珠宝</label>
+                                            <input type="checkbox" value="母婴" name="shophabit"><label>母婴</label>
+                                            <input type="checkbox" value="家居" name="shophabit"><label>家居</label>
+                                            <input type="checkbox" value="奢侈品" name="shophabit"><label>奢侈品</label>
+                                            <input type="checkbox" value="数码" name="shophabit"><label>数码</label>
+                                            <input type="checkbox" value="婚庆" name="shophabit"><label>婚庆</label>
+                                            <input type="checkbox" value="运动&户外" name="shophabit"><label>运动&户外</label>
+                                        </div>
+                                    </div>
+                                    <button type="sumbit">保存</button>
+                                </form>
+                            </div>
+                            <div class="photo">
+                                <input type="file" id="file">
+                                <div class="clearfix photoes">
+                                    <div class="big fl">
+                                        <img src="images/bigarrow.png" alt="">
+                                    </div>
+                                    <div class="small fl">
+                                        <p>您上传的头像会自动生成三种尺寸，请注意中小的头像是否清晰</p>
+                                        <div class="threehead">
+                                            <div class="bighead fl">
+                                                <div><span>没有预览可用</span></div>大尺寸头像，160x160像素
+                                            </div>
+                                            <div class="twohead fl">
+                                                <div class="middlehead">
+                                                    <div><span>没有预览可用</span></div>中尺寸头像60x60像素
+                                                </div>
+                                                <div class="smallhead">
+                                                    <div><span>没有预览</span></div>小尺寸头像30x30像素
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button type="sumbit">保存</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cont5">
+                    <div class="titLike por">
+                        <div class="title clearfix por">
+                            <h3 class="titName fl"><i class="icon-map-marker"></i>&nbsp;收货地址<i class="icon-plus fr"></i></h3>
+                        </div>
+                        <sup class="poa"></sup>
+                        <sub class="poa"></sub>
+                    </div>
+                    <div class="content por">
+                        <div class="bgAdd" style="display:none;">
+                            <div class="addNew poa">
+                                <div class="add"><span>新增收货地址</span>　电话号码、手机号选填一项, 其余均为必填项<span class="fr close">X</span></div>
+                                <form action="">
+                                    <div class="clearfix"><span>所在地区<span>*</span></span>
+                                        <select name="address" id="address">
+                                            <option>请选择</option>
+                                            <option value="中国大陆">中国大陆</option>
+                                            <option value="台湾">台湾</option>
+                                            <option value="港澳">港澳</option>
+                                            <option value="马来西亚">马来西亚</option>
+                                            <option value="海外其他">海外其他</option>
+                                        </select>
+                                    </div>
+                                    <div class="clearfix"><span>详细地址<span>*</span></span><textarea name="" id="" cols="30" rows="10" placeholder="建议您如实填写详细收货地址，例如街道名称，门牌号码，楼层和房间号等信息"></textarea></div>
+                                    <div class="clearfix"><span>邮政编码</span><input type="text" placeholder="如果您不清楚邮递区号，请填写000000"></div>
+                                    <div class="clearfix"><span>收货人姓名<span>*</span></span><input type="text" placeholder="长度不超过25个字符"></div>
+                                    <div class="clearfix"><span>手机号码</span>
+                                        <select name="" id="">
+                                            <option value="中国大陆 +86">中国大陆 +86</option>
+                                        </select>
+                                        <input type="text" placeholder="电话号码、手机号码必须填一项">
+                                    </div>
+                                    <div class="clearfix"><span>电话号码</span>
+                                        <select name="" id="">
+                                            <option value="中国大陆 +86">中国大陆 +86</option>
+                                        </select>
+                                        <input type="text" placeholder="区号"> - <input type="text" placeholder="电话号码"> - <input type="text" placeholder="分机">
+                                    </div>
+                                    <div class="setting"><input type="checkbox">设置为默认收货地址</div><br>
+                                    <input type="submit" value="保存">
+                                </form>
+                            </div>
+                        </div>
+                        <table border="2">
+                            <tr class="thead">
+                                <th>收货人</th>
+                                <th>所在地区</th>
+                                <th>详细地址</th>
+                                <th>邮编</th>
+                                <th>电话/手机</th>
+                                <th>操作</th>
+                                <th></th>
+                            </tr>
+                            <tr>
+                                <td>张三</td>
+                                <td>河南省 郑州市 郑东新区</td>
+                                <td>河南省郑州市高新区冬青街26号电子商务产业园3号楼一层</td>
+                                <td>450046</td>
+                                <td>18*******75</td>
+                                <td><a href="#">修改</a> | <a href="#" class="del">删除</a></td>
+                                <td class="setAddre"><a href="#">设为默认</a></td>
+                            </tr>
+                            <tr>
+                                <td>王五</td>
+                                <td>浙江省 杭州市 下沙区</td>
+                                <td>杭州师范大学下沙校区</td>
+                                <td>310000</td>
+                                <td>13*******85</td>
+                                <td><a href="#">修改</a> | <a href="#" class="del">删除</a></td>
+                                <td class="addre"><span class="note">默认地址</span></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="cont6">
+                    <div class="titLike por">
+                        <div class="title clearfix por">
+                            <h3 class="titName fl"><i class="icon-map-marker"></i>&nbsp;修改密码</h3>
+                        </div>
+                        <sup class="poa"></sup>
+                        <sub class="poa"></sub>
+                    </div>
+                    <div class="content">
+                        <P>每天互联网都会有大量用户存在着严重被盗的风险。如果您正在使用与其他网站相同的密码，建议您尽快修改。</P>
+                        <form action="">
+                            <div><span>*</span><b>当前密码：</b><input type="password"><span><i></i>密码格式有误，请输入6～16位半角字符。</span><div>请输入当前密码</div></div>
+                            <div><span>*</span><b>新 密 码：</b><input type="password"><span><i></i>密码格式有误，请输入6～12位字母和数字。</span><div>密码由6～12位字母和数字组成，区分大小写</div></div>
+                            <div><span>*</span><b>确认密码：</b><input type="password"><span><i></i>密码格式有误，请输入6～12位字母和数字。</span><div>请再次输入密码</div></div>
+                            <div><button type="sumbit">修改密码</button><button type="reset">重置</button></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- myInformation end -->
+
+    <!-- 底部开始 -->
+    <div class="footer">
+        <div class="wrapper">
+            <div class="service">
+                <ul>
+                    <li class="phonenumber">
+                        <strong><i class="in-block"></i>400-119-111</strong>
+                        <span class="time">8:00-24:00</span><br>
+                        <span class="msg"><i class="in-block"></i>service@yintai.com</span>
+                    </li>
+                    <li class="aftermarket clearfix">
+                        <p class="pic fl"></p>
+                        <p class="content fl">
+                            <strong><i>15天</i>无忧退换货</strong><br>
+                            <span>为您提供优质售后服务</span>
+                        </p>
+                    </li>
+                    <li class="assurance">
+                        <p class="pic fl"></p>
+                        <p class="content fl">
+                            <strong><i>100%</i>正品保证</strong><br>
+                            <span>品质护航 购物无忧</span>
+                        </p>
+                    </li>
+                    <li class="freight">
+                        <p class="pic fl"></p>
+                        <p class="content fl">
+                            <strong><i>满199元</i>免运费</strong><br>
+                            <span>为您提供便利物流</span>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <div class="links">
+                <a href="#">关于爱丽奢</a>
+                <a href="#">帮助中心</a>
+                <a href="#">退换货政策</a>
+                <a href="#">网站地图</a>
+                <a href="#">代理合作</a>
+                <a href="#">品牌招商</a>
+                <a href="#">商务合作</a>
+                <a href="#">网站联盟</a>
+                <a href="#">联系我们</a>
+                <a href="#">加入爱丽奢</a>
+                <a href="#">版权声明</a>
+                <a href="#">法律声明</a>
+            </div>
+            <div class="license">
+                <p class="">
+                    <a href="#" target="_blank">浙ICP备10200233号</a>
+                    <a>京公网安备110105019085</a>
+                    <a>增值电信业务经营许可证：浙B2-20110005</a>
+                </p>
+                <p>Yintai © 2016, 爱丽奢电子商务有限公司.</p>
+            </div>
+            <div class="bottomPhoto">
+                <a href="#" class="in-block"><img src="images/butt01.png"></a>
+                <a href="#" class="in-block"><img src="images/butt02.png" alt=""></a>
+                <a href="#" class="in-block"><img src="images/butt03.gif" alt=""></a>
+            </div>
+        </div>
+    </div>
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/common.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/myInformation.js"></script>
+</body>
+</html>

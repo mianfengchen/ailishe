@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+/*banner开始*/
+.nav{height: 44px; background: url(../images/miaohuo-menu-top.jpg) repeat-x;}
+.menu>a{font-size: 16px; font-weight: bold; line-height: 44px; margin-left:250px;}
+.ban{ background: url(../images/miaohuo-banner-bk.jpg) no-repeat center 0;}
+.banner{height: 400px; overflow:hidden; z-index:2;}
+.banner .sort .tit>li{height: 79px; width: 124px; border-bottom: 1px solid #515151; border-left: 7px solid #515151; background: black;} 
+.banner .sort{left:0; height:0;} 
+.banner .sort .tit li:hover{border-left: 7px solid #e11e62;} 
+.banner .sort .tit li:hover a{color:#e11e62;} 
+.banner .sort .tit a{display: block; padding-top: 18px; text-align: center; color:#fff;}
+.banner .sort .tit span{font: 400 16px/22px "微软雅黑";}
+.banner .sort .list li{width:140px; height:380px; background:url(../images/miaohuo-list-bk.png) no-repeat; padding-left: 16px; line-height: 20px; padding-top: 20px; display:none;}
+.banner .sort .list li a{color: white;}
+.banner .sort .list li i{display:block; width:97px; height:1px; background:url(../images/miaohuo-heng.png) no-repeat center center;}
+.banner .sort .list li a:hover{color: #e5004f;}
+.banner .sort .list li dt{font-size: 14px; font-weight: 400; line-height: 20px; padding-right: 13px; width:100px; margin-top:18px; margin-bottom:5px;}
+.banner .sort .list li dd{display:inline-block; *display:inline; *zoom:1; padding-right: 13px;}
+/*banner结束*/
+
+/*collection开始*/
+.collection{margin-bottom: 70px; margin-top: 40px; width:1200px; height:801px;}
+.collection h2{margin-left: 15px; font-size: 26px; padding-top: 10px;  font-family: "\5FAE\8F6F\96C5\9ED1","\5B8B\4F53";}
+.collection h2 a{color:black; font-size: 26px;}
+.collection h2 .span01{color: #e5004f;}
+.collection h2 .span02{font-size: 14px; font-weight:normal;}
+.collection .collect{height: 720px; margin-top: 30px;}
+.collection .collect li{height: 342px; width: 252px; margin: 10px 11px; border-radius: 35px; border: 1px solid #b8b8b8; box-shadow: 0px 0px 5px 2px #ccc; float: left; text-align:center;}
+.collection .collect .commodity{width: 180px; margin:32px auto 0; line-height: 24px; font: 400 16px/20px "微软雅黑"; color:#666;}
+.collection .collect .commodity span{color:#e5004f;}
+.collection .collect .commodity .block{display:block; height: 40px; margin-top: 4px; overflow: hidden;}
+.collection .collect>a{width: 48px; height: 720px;background:url(../images/miaohuo-lr.jpg) 0 0 no-repeat;}
+.collection .collect>.a2{background-position:-50px 0;}
+.collection .collect .goods{width: 1104px; height: 736px; overflow:hidden;}
+.collection .collect .display{width: 4416px; height: 736px;}
+.collection .collect .display ul{width: 1104px;}
+/*collection结束*/
+
+/*time limitted开始*/
+.timeLimitted{height:515px;}
+.timeLimitted .collect01{margin-top: 30px;}
+.timeLimitted .collect01 li{float: left; text-align:center; width: 232px; height: 427px; overflow: hidden; margin-left: 6px;}
+.timeLimitted .collect01 .li01{margin-left:0;}
+.timeLimitted h2 .span03{font-size: 25px; color: #b8b8b8; padding-left: 20px;}
+.timeLimitted h2 .span04{width:300px; height:48px; background:url(../images/miaohuo-block.png); font-size:0;}
+.timeLimitted h2 .span04 span{ width:48px; height:45px; line-height: 58px; color: #b8b8b8; font-weight: bold; font-size: 28px; text-align:center;}
+.timeLimitted h2 .span04 .day{ margin-left:50px;}
+.timeLimitted .collect01 li a{display:block; width:100%;}
+.timeLimitted .collect01 li a .txt{width:232px; height:73px; background:url(../images/miaohuo-bk01.png); bottom:0; left:0; text-align:center; line-height: 22px; font-size: 26px; padding-top:20px; color:#fff;}
+.timeLimitted .collect01 li a span{font-size: 18px;}
+.timeLimitted .collect01 li a .txt:hover{color:#e5004f;}
+/*time limitted结束*/
+
+/*楼层开始*/
+.floor .lou{height: 739px; padding:0 3px; margin-bottom: 43px;}
+.floor h2{line-height: 86px; text-align: center; font-size: 33px; color: white; margin-bottom: 10px; width: 1180px; height: 86px; background-color: #772d50;}
+.floor h2 a{color: white;}
+.floor h2>div{width:580px;}
+.floor h2 .tit{width:562px; height: 86px; vertical-align:top;}
+.floor h2 .tit li{text-align: -webkit-match-parent; font-family: "\5FAE\8F6F\96C5\9ED1","\5B8B\4F53"; margin-right: 24px; line-height: 56px; font-size: 16px;}
+.floor h2 .tit .li01 b{display:block; width: 3px; height: 68px; background:white;}
+.floor h2 .tit .li01{padding-top:8px; height: 78px; margin-right: 0;}
+.floor h2 .tit .li02{height: 56px; line-height: 56px; margin-left: 20px; font-size: 16px; padding-top:8px;}
+.floor h2 .tit .li02 a{margin-right: 24px;}
+.floor h2 .tit .li01 a span{height: 68px; width: 28px; font-size: 26px; padding-left: 10px; line-height: 28px; vertical-align: top;}
+.floor .goods{ height:648px; width: 1180px;}
+.floor .goods .goodsBk{ border: 1px solid #a5a3a4;}
+.floor .goods .top,.floor .goods .bottom{width: 609px; height: 346px; margin-bottom: 6px; margin-right: 6px; border: 1px solid #a5a3a4;}
+.floor .goods .bottom{width: 609px; height: 286px;}
+.floor .goods .goods1{width: 559px; height: 206px; margin-bottom: 6px;}
+.floor .goods2 .lTop{width: 303px; height: 209px; margin-bottom: 6px; margin-right: 6px;}
+.floor .goods2 .lBottom{width: 303px; height: 209px; margin-bottom: 6px; margin-right: 6px;}
+.floor .goods .goods3{width: 248px; height: 427px; top: 214px; left: 311px;}
+.floor .goods3 img{width: 180px; height: 240px;}
+.floor .goods1 .infor,.floor .goods3 .infor{width:192px; height:85px; padding-top: 70px; padding-left: 56px;}
+.floor .right .infor .tit1{height:27px; z-index:2; text-align: center;}
+.floor .right .infor .line{left:0; top:50%; background:black; width:100%; height:1px; z-index:2;}
+.floor .right .infor .tit1 a{background:#fff; padding: 0 8px; color: #060606; line-height: 27px; z-index:5;}
+.floor .goods .right .infor .tit2{height: 30px; line-height: 28px; text-align: center; font-size: 14px; font-weight: bold; border: 1px solid #bf9dad; background: #762d50; overflow: hidden;}
+.floor .right .infor .tit2 a{color:#fff;}
+.floor .right .infor .tit3{text-align: center; height:28px;}
+.floor .right .infor .tit3 span{color: #993e07; font-size: 20px; line-height: 28px; font-family: "\5B8B\4F53";}
+.floor .right .goodsBk>a{width: 294px; height: 202px; padding-top: 2px; text-align:center;}
+.floor .right .goods2 .goodsBk>a{width: 154px; padding-top: 5px;}
+.floor .goods2 .infor{width: 136px; padding-left: 7px; padding-top: 70px;}
+.floor .goods3 .infor{padding:18px 28px 0;}
+.floor .right .goods3>a{margin: 0 auto; display:block; width:180px; height:240px; padding-top: 50px;}
+.floor .floor2 h2{background-color: #2d4877;}
+.floor .floor3 h2{background-color: #6e4305;}
+.floor .floor4 h2{background-color: #9c381a;}
+.floor .floor5 h2{background-color: #d32b72;}
+.floor .floor6 h2{background-color: #758e4c;}
+.floor .lift{position:fixed; left: 1542.5px; top: 10px; width: 50px; display:none;}
+.floor .lift .F{background: url(../images/miaohuo-floor.png) no-repeat; overflow: hidden; margin-bottom: 5px; width: 50px; height: 50px; cursor: pointer;}
+.floor .lift .F .txt{font-family: "\5FAE\8F6F\96C5\9ED1","\5B8B\4F53"; width:100%; height:100%; background: #e5004f; color:#fff; display:none;}
+.floor .lift .F .display{display:block;}
+.floor .lift .F .txt span{display: block; width:30px; height:30px; line-height: 18px; font-size: 14px; text-align: center; padding:10px 10px 10px;}
+.floor .lift .f1{background-position: 0 -55px;}
+.floor .lift .f2{background-position: 0 -110px;}
+.floor .lift .f3{background-position: 0 -220px;}
+.floor .lift .f4{background-position: 0 -330px;}
+.floor .lift .f5{background-position: 0 -440px;}
+.floor .lift .f6{background-position: 0 -275px;}
+.floor .lift .f7{background-position: 0 -495px;}
+.floor .lift .F:hover .txt{display:block;}
+/*楼层结束*/

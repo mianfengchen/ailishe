@@ -1,0 +1,759 @@
+@charset "UTF-8";
+
+/*banner css*/
+.focus0{
+    background: #fff;
+}
+.focus1{
+    background: url(../images/taoban.jpg);
+}
+.banner .slider{
+    height: 430px;
+}
+.banner .slider .images li{
+    position: absolute;
+    top:0;
+    left: 0;
+}
+.banner .slider .pageBtn{
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+}
+.banner .slider .pageBtn li{
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: #bbbcbe;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.banner .slider .pageBtn .cur{
+    background: #e4004f;
+}
+.banner .bannerNav{
+    position: absolute;
+    top:40px;
+    left: 0;
+    background: #fff;
+    width: 328px;
+    height: 338px;
+}
+.banner .bannerNav .navIcon{
+    padding: 5px;
+}
+.banner .bannerNav .navIcon li{
+    float: left;
+    position: relative;
+    transition:all 1s;
+    perspective:500px;
+}
+.banner .bannerNav .navIcon li a,.banner .bannerNav .navIcon li div{
+    display: inline-block;
+    *display: inline;
+    *zoom:1;
+    width: 104px;
+    height: 94px;
+    border:1px solid #fff;
+    text-align: center;
+}
+.banner .bannerNav .navIcon li div{
+    position: absolute;
+    left: 0;
+    top:0;
+    border:1px solid #bbb;
+    transform:rotateY(90deg);
+    transition:all 1s; 
+    transform-origin:0 0;
+    opacity: 0;
+}
+.banner .bannerNav .navIcon li div .pic1{
+    background-position: -301px 8px;
+}
+.banner .bannerNav .navIcon li div .pic2{
+    background-position: -410px 7px;
+}
+.banner .bannerNav .navIcon li div .pic3{
+    background-position: -516px -1px;
+}
+.banner .bannerNav .navIcon li div .pic4{
+    background-position:  -301px -55px;
+}
+.banner .bannerNav .navIcon li div .pic5{
+    background-position:  -410px -55px;
+}
+.banner .bannerNav .navIcon li div .pic6{
+    background-position:  -513px -55px;
+}
+.banner .bannerNav .navIcon li div .pic7{
+    background-position:  -301px -115px;
+}
+.banner .bannerNav .navIcon li div .pic8{
+    background-position:  -410px -115px;
+}
+.banner .bannerNav .navIcon li div .pic9{
+    background-position:  -516px -115px;
+}
+.banner .bannerNav .navIcon li a s,.banner .bannerNav .navIcon li div s{
+    display: block;
+    width: 60px;
+    height: 50px;
+    margin:12px auto 0;
+    background: url(../images/haitao.jpg) no-repeat;
+}
+ .banner .bannerNav .navIcon li:hover div{
+    transform:rotateY(0deg); 
+    opacity: 1;
+ }
+.banner .bannerNav .navIcon li a .pic1{
+    background-position: 4px 9px;
+}
+.banner .bannerNav .navIcon li a .pic2{
+    background-position: -105px 8px;
+}
+.banner .bannerNav .navIcon li a .pic3{
+    background-position: -211px 0;
+}
+.banner .bannerNav .navIcon li a .pic4{
+    background-position: 4px -55px;
+}
+.banner .bannerNav .navIcon li a .pic5{
+    background-position: -105px -55px;
+}
+.banner .bannerNav .navIcon li a .pic6{
+    background-position: -208px -55px;
+}
+.banner .bannerNav .navIcon li a .pic7{
+    background-position: 4px -115px;
+}
+.banner .bannerNav .navIcon li a .pic8{
+    background-position: -105px -115px;
+}
+.banner .bannerNav .navIcon li a .pic9{
+    background-position: -211px -115px;
+}
+.banner .bannerNav .navBottom a{
+    width: 328px;
+    height: 40px;
+    text-align: center;
+    background: #222222;
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: 700;
+    color:#fff;
+}
+.banner .bannerNav .navBottom a s{
+    width: 15px;
+    height: 15px;
+    margin: 13px 0 0 5px;
+    background: url(../images/haitaoarrow.png) 0 0 no-repeat;
+}
+/*help css*/
+.help{
+    background: #eee;
+    margin-bottom:30px;
+}
+.help a{
+    float: left;
+    display: block;
+    width: 222px;
+    height: 80px;
+    padding: 30px 0 0 72px;
+    border:1px solid #eee;
+    color:#333;
+    position: relative;
+    overflow: hidden;
+}
+.help a p{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:-296px;
+    background: rgba(0,0,0,.2);
+}
+.help a:hover{
+    color:#333;
+}
+.help a i{
+    float: left;
+    display: inline;
+    width: 49px;
+    height: 49px;
+    background: url(../images/haitao1.png) 0 0 no-repeat;
+    margin-right:15px;
+}
+.help a .i2{
+    background-position: 0 -50px;
+}
+.help a .i3{
+    background-position: 0 -100px;
+}
+.help a .i4{
+    background-position: 0 -150px;
+}
+.help a strong{
+    display: block;
+    margin-right: 15px;
+    padding-top: 5px;
+    font-size: 14px;
+    float: left;
+    font-weight: bold;
+}
+.help a strong b{
+    font-weight: 400;
+    display: block;
+}
+.help a s{
+    float: left;
+    width: 18px;
+    height: 30px;
+    background:url(../images/haitao1.png) 0 -220px no-repeat;
+    margin-top:13px;
+}
+/*commended css*/
+.commended{
+    width: 1300px;
+    margin:0 auto;
+    height: 382px;
+    margin-bottom: 20px;
+}
+.commended .title{
+    height: 42px;
+    margin-bottom: 20px;
+    background: url(../images/haitao05.png) 0 0 no-repeat;
+}
+.commended .title .slideUp{
+    float: right;
+    width: 110px;
+    height: 24px;
+    margin:10px 10px 0 0;
+    position: relative;
+    z-index: 20;
+    display: inline;
+}
+.commended .title .slideUp span{
+    display: block;
+    width: 110px;
+    height: 24px;
+    background: url(../images/haitao08.png) 88px 7px no-repeat;
+    background-color: #fff;
+    line-height: 24px;
+    cursor:pointer;
+    text-indent: 10px;
+    color:#666;
+}
+.commended .title .slideUp .hide{
+    border:1px solid #d0d0d0;
+    position: absolute;
+    height: 340px;
+    width: 582px;
+    top:32px;
+    right:-10px;
+    overflow: hidden;
+    display: none;
+    background: #fff;
+}
+.commended .title .slideUp .hide ul li{
+    float: left;
+    width: 140px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+}
+.commended .slideUp .hide ul{
+    margin:10px;
+    padding-bottom: 10px;
+}
+.commended .slideUp .hide ul.top{
+    border-bottom:1px solid #d0d0d0;
+}
+.commended .slideUp .hide .bottom-slideUp{
+    float: right;
+    background-position: 88px -23px;
+}
+.commended .hot{
+    float: left;
+    width: 238px;
+    height: 318px;
+    margin-right:10px;
+    border:1px solid #333;
+    position: relative;
+    overflow: hidden;
+}
+.commended .hot .hotTitle{
+    background: #333;
+    height: 25px;
+    line-height: 25px;
+    color:#fff;
+    text-align: center;     
+}
+.commended .hot .time{
+    height: 28px;
+    text-align: center;
+    color:#e50150;
+    font-weight: bold;
+    font-size: 16px;
+}
+.commended .hot .goods{
+    height: 240px;
+    padding-left: 30px;
+}
+.commended .hot .price{
+    text-align: center;
+}
+.commended .hot .price span{
+    color:#e50150;
+}
+.commended .brands{
+    float: left;
+    overflow: hidden;
+}
+.commended .brands .brandsLeft{
+    width: 360px;
+    height: 320px;
+    overflow: hidden;
+}
+.commended .brands ul{
+     perspective:50000px;
+}
+.commended .brands  ul li{
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    width: 170px;
+    height: 100px;
+    transition:all .4s;
+    transform-style:preserve-3d;
+}
+.commended .brands ul li:hover{
+    transform:rotateX(90deg);
+}
+.commended .brands ul li a{
+    display: block;
+    width: 170px;
+    height: 100px;
+    position: absolute;
+    left:0;
+    top:0;
+}
+.commended .brands ul li .front{
+    transform:translateZ(50px);
+}
+.commended .brands ul li .flop{
+    background: #262626;
+    color:#fff;
+    line-height: 100px;
+    text-align: center;
+    transform:rotateX(-90deg) translateZ(50px);
+}
+.commended .brands ul li .flop2{
+    background: #ffbcb3;
+}
+.commended .brands ul li .flop22{
+    background: #454b62;
+}
+.commended .brands ul li .flop3{
+    background: #f0d2b6;
+}
+.commended .brands ul li .flop23{
+    background: #2e0609;
+}
+.commended .brands  ul li .flop4{
+    background: #955a30;
+}
+.commended .brands  ul li .flop24{
+    background: #65417f;
+}
+.commended .brands  ul li .flop5{
+    background: #b67e67;
+}
+.commended .brands  ul li .flop25{
+    background: #fe4388;
+}
+.commended .brands ul li .flop6{
+    background: #263c2f;
+}
+.commended .brands ul li .flop26{
+    background: #eb2a5e;
+}
+.commended .brands ul li .flop27{
+    background: #2c2a2d;
+}
+.commended .brands .brandsBanner{
+    margin-right: 10px;
+}
+.commended .brands .brandsRight{
+    width: 360px;
+    height: 320px;
+    overflow: hidden;
+}
+.commended .brands .brandsRight ul li{
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+/*match css*/
+.match{
+    height: 660px;
+}
+.match .matchTitle{
+    background: url(../images/haitao06.png);
+    width: 1190px;
+    height: 42px;
+}
+.match .slider{
+    height: 580px;
+    overflow: hidden;
+}
+.match .slider .images{
+    width: 4760px;
+}
+.match .slider .images li{
+    width: 1190px;
+    float: left;
+}
+.match .slider .forward{
+    display: block;
+    width: 20px;
+    height: 60px;
+    background: url(../images/haitao07.png) 0 0 no-repeat;
+    position: absolute;
+    left: 0;
+    top:250px;
+}
+.match .slider .forward:hover{
+    background-position: 0 -120px;
+}
+.match .slider .next{
+    display: block;
+    width: 20px;
+    height: 60px;
+    background: url(../images/haitao07.png) 0 -60px no-repeat;
+    position: absolute;
+    right: 0;
+    top:250px;
+}
+.match .slider .next:hover{
+    background-position: 0 -180px;
+}
+.match .slider .btn{
+    left: 485px;
+    bottom: 10px;
+    z-index: 10;
+}
+.match .slider .btn li{
+    float: left;
+    width: 50px;
+    margin-right:20px;
+    padding:2px 5px;
+    color:#222;
+    cursor:pointer;
+    border:1px solid #fff;
+}
+.match .slider .btn li.cur{
+    border:1px solid #222;
+}
+/*star css*/
+.star{
+    background: #333;
+    padding-bottom: 14px;
+    height: 552px;
+}
+.star .starTitle{
+    background: url(../images/star1.jpg) no-repeat;
+    height: 86px;
+}
+.star .starTitle .items{
+    padding-top: 50px;
+    margin-left: 320px;
+    text-align: right;
+}
+.star .starTitle .items a{
+    color:#fff;
+    margin-right: 10px;
+}
+.star .starTitle .items a:hover{
+    color:#8d8d8d;
+}
+.star .leftBanner{
+    left: 0;
+    top:0;
+}
+.star .rightPic img{
+    width: 180px;
+    height: 240px;
+    margin-top:-40px;
+}
+.star .rightPic .pic6 img,.star .rightPic .pic5 img{
+    margin-top: 0px;
+}
+.star .rightPic .pic2 img,.star .rightPic .pic3 img{
+    margin-left: 55px;
+}
+.star .rightPic .pic5 img{
+     margin-left: 87px;
+}
+.star .rightPic .pic6 img{
+    margin-left: 33px;
+
+}
+
+.star .rightPic .pic .picInfo{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: rgba(255,255,255,1);
+    padding: 0 10px;
+    left:0;
+    top:0;
+    text-align: center;
+    transition:all .2s;
+    transform:translateY(-100%);
+}
+.star .rightPic .pic:hover .picInfo{
+    transform:translateY(0);
+}
+.star .rightPic .pic .picInfo .proTitle{
+    margin-top: 62px;
+    font-weight: bold;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-align: center;
+    color:#333;
+}
+.star .rightPic .pic .picInfo .proPrice{
+    margin-bottom: 20px;
+}
+.star .rightPic .pic .picInfo .proPrice strong{
+    font-weight: bold;
+    font-size: 14px;
+    color:#333;
+    display: inline;
+    margin-right: 5px;
+}
+.star .rightPic .pic1 .picInfo .proPrice strong,.star .rightPic .pic4 .picInfo .proPrice strong,.star .rightPic .pic6 .picInfo .proPrice strong{
+    display: block;
+}
+.star .rightPic .pic .picInfo .proPrice s{
+    color:#999;
+}
+.star .pic{
+    background: #fff;
+    overflow: hidden;
+}
+.star .pic1{
+    top:0;
+    left: 370px;
+    width: 180px;
+    height: 240px;
+}
+.star .pic2{
+    top:0;
+    left: 560px;
+    width: 309px;
+    height: 200px;
+}
+.star .pic3{
+    top:0;
+    left: 880px;
+    width:311px;
+    height: 200px;
+}
+.star .pic4{
+    top:250px;
+    left: 370px;
+    width: 180px;
+    height: 202px;
+}
+.star .pic5{
+    top:212px;
+    left: 560px;
+    width: 370px;
+    height: 240px;
+}
+.star .pic6{
+    top:212px;
+    left: 940px;
+    width: 251px;
+    height: 240px;
+}
+/*newArrival css*/
+.newArrival .newTitle{
+    height: 95px;
+    background: url(../images/new.jpg) 0 0 no-repeat;
+}
+.newArrival .proList{
+    width: 1190px;
+    height: 690px;
+    overflow: hidden;
+}
+.newArrival .proList ul{
+    float: left;
+    width: 1190px;
+    height: 690px;
+}
+.newArrival .proList ul li{
+    float: left;
+    width: 180px;
+    height: 318px;
+    border:1px solid #fff;
+    margin:10px 28px;
+}
+.newArrival .proList ul li a{
+    display: block;
+}
+.newArrival .proList ul li .info{
+    height: 39px;
+    overflow: hidden;
+}
+.newArrival .proList ul li a.price{
+    color:#999;
+}
+.newArrival .proList ul li .price strong{
+    font-weight: bold;
+    color:#e5004f;
+    padding-right: 20px;
+}
+.newArrival .proList ul li .price s{
+    font-style: normal;
+    color:#999;
+}
+.newArrival .proList .forward{
+    display: block;
+    width: 20px;
+    height: 60px;
+    background: url(../images/haitao07.png) 0 0 no-repeat;
+    position: absolute;
+    left: 0;
+    top:250px;
+}
+.newArrival .proList .forward:hover{
+    background-position: 0 -120px;
+}
+.newArrival .proList .next{
+    display: block;
+    width: 20px;
+    height: 60px;
+    background: url(../images/haitao07.png) 0 -60px no-repeat;
+    position: absolute;
+    right: 0;
+    top:250px;
+}
+.newArrival .proList .next:hover{
+    background-position: 0 -180px;
+}
+.newArrival .proList .pageBtn{
+    left:49%;
+    top:0;
+}
+.newArrival .proList .pageBtn a{
+    width:8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-right: 10px;
+    background: #ccc;
+}
+.newArrival .proList .pageBtn a.cur{
+    background: #333;
+}
+.addBottom{
+    margin-bottom:30px;
+}
+.addBottom a{
+    margin-right:3px;
+    float: left;
+}
+
+/*hotSales css*/
+.hotSales .hotTitle{
+    background: url(../images/hots.jpg) 0 0 no-repeat;
+    width: 1190px;
+    height: 95px;
+}
+.hotSales .proList{
+    width: 1190px;
+    height: 690px;
+    overflow: hidden;
+}
+.hotSales .proList ul{
+    float: left;
+    width: 1190px;
+    height: 690px;
+}
+.hotSales .proList ul li{
+    float: left;
+    width: 180px;
+    height: 318px;
+    border:1px solid #fff;
+    margin:10px 28px;
+}
+.hotSales .proList ul li a{
+    display: block;
+}
+.hotSales .proList ul li .info{
+    height: 39px;
+    overflow: hidden;
+}
+.hotSales .proList ul li a.price{
+    color:#999;
+}
+.hotSales .proList ul li .price strong{
+    font-weight: bold;
+    color:#e5004f;
+    padding-right: 20px;
+}
+.hotSales .proList ul li .price s{
+    font-style: normal;
+    color:#999;
+}
+/*explossion css*/
+.explossion{
+    margin-bottom: 30px;
+}
+.explossion .extitle{
+    background: url(../images/ex.jpg) 0 0 no-repeat;
+    width: 1190px;
+    height: 95px;
+}
+.explossion .proList .bannerLeft{
+    float: left;
+    width: 360px;
+    height: 320px;
+    margin-right:10px;
+    background: #eee;
+}
+.explossion .proList ul li{
+    float: left;
+    width: 180px;
+    height: 318px;
+    border:1px solid #fff;
+    margin:10px 11px;
+}
+.explossion .proList ul li a{
+    display: block;
+}
+.explossion .proList ul li .info{
+    height: 39px;
+    overflow: hidden;
+}
+.explossion .proList ul li a.price{
+    color:#999;
+}
+.explossion .proList ul li .price strong{
+    font-weight: bold;
+    color:#e5004f;
+    padding-right: 20px;
+}
+.explossion .proList ul li .price s{
+    font-style: normal;
+    color:#999;
+}

@@ -1,0 +1,131 @@
+﻿@charset "UTF-8";
+
+/*myInformation css*/
+.myInformation .addre{padding: 9px 0; height: 20px;color: #666;}
+.myInformation h2{width: 180px;height:80px;line-height: 80px;text-align: center;font-size: 25px;color:#000;font-family:"楷体";}
+
+.myInformation .informTit .container{width:124px; margin:0 auto;}
+.myInformation .informTit .menu{padding:5px 0; }
+.myInformation .informTit .menu .button a{font-size:21px; padding:10px 20px 0;}
+.myInformation .informTit .menu .dropdown{display:none; padding-top:5px; }
+.myInformation .informTit .menu .dropdown li{border:1px solid #40392C; color:#CCCCCC; margin:5px 0; padding:4px 18px; text-align: center; border-radius: 22px;}
+.myInformation .informTit .menu .tab.changeColor{background:#e5004f; }
+.myInformation .informTit .menu .tab.changeColor a{background:#e5004f; color:#fff; }
+.myInformation .informTit .menu .button.changeColor{background:#fff; }
+.myInformation .informTit .menu .button.changeColor a{color:#e5004f;background-color: #fff;}
+
+.myInformation .informContent>div{margin-left: 10px;}
+.myInformation .informContent{width: 1000px;}
+.myInformation .informContent>div .title h3{font-size: 20px;line-height: 20px;}
+.myInformation .informContent>div .title h3 i{width:20px;height:20px;font-size: 22px;}
+.myInformation .informContent .informLeft{width: 726px;}
+.myInformation .informContent .myInform{border: 1px solid #e4eaee;  font-size: 12px; color: #4b4b4b;padding: 5px 0;background: #f5f8fa;}
+.myInformation .myInform .headPortrait{width: 57px; height: 57px;  margin-right: 13px; margin-left: 12px;border-radius: 50%;border:1px solid grey;cursor: pointer;overflow: hidden;}
+.myInformation .myInform .headPortrait:hover span{display: block;}
+.myInformation .myInform .headPortrait span{left:0;top:0;width:57px;height:57px;line-height: 57px;text-align: center;color:#fff;background-color: #000;opacity: 0.7;display: none;}
+.myInformation .myInform .headPortrait img{width:57px;}
+.myInformation .myInform .myBuyinform div{margin: 7px 0;}
+.myInformation .myInform .myBuyinform .name{font-weight: bold;font-size: 14px;}
+.myInformation .myInform .myBuyinform .grade{height:20px;line-height: 20px;background: url(../images/grade.png) no-repeat;text-indent: 20px;}
+.myInformation .myInform .binding{height:57px;line-height: 57px;margin-right:10px;color:#666;}
+.myInformation .myInform .binding span{margin: 0 15px;}
+.myInformation .informLeft .wait{margin-bottom: 23px;border: 1px solid #e4eaee;}
+.myInformation .informLeft .wait li{width: 20%;float: left;height:52px;line-height: 52px;text-align: center;}
+.myInformation .informLeft .wait li a{padding:0 53px;border-right: 1px solid #e4eaee;}
+.myInformation .informLeft .wait li:last-child a{border-right:none;}
+.myInformation .informCont .informContent .titLike .title{height:18px;font-family: tahoma,arial,'Hiragino Sans GB','Microsoft YaHei',\5b8b\4f53,sans-serif; color: #fff; background: #222; border: #a0cdeb; border-top: #e4eaee;padding: 11px 10px;z-index:10;}
+.myInformation .informLeft .goodsLike div{font-size: 18px; line-height: 18px;}
+.myInformation .informLeft .goodsLike .change1{padding: 0 12px; margin-top: -3px; height: 20px; background: #fff; font-size: 14px; line-height: 20px; color: #4b4b4b;cursor: pointer;}
+.myInformation .informCont .informContent .titLike sup{width:10px;height:40px;left:-9px;top:0;background-color: #222;z-index: 10;}
+.myInformation .informCont .informContent .titLike sub{width:18px;height:40px;left:-9px;top:12px;background-color: #000;transform:skewY(50deg);z-index:2;}
+.myInformation .informLeft .goodsLike .contLike{border: 1px solid #e4eaee; background-color: #f5f8fa;padding-top: 26px;margin: 0 8px;}
+.myInformation .goodsLike .contLike li{margin: 0 8px 20px; width: 218px; height: 313px; float: left; background: #fff; border: 1px solid #e4eaee; color: #595959;}
+.myInformation .goodsLike .contLike li .price{height: 16px; overflow: hidden; margin: 13px 12px 12px 16px; line-height: 16px;font-size: 16px; color: #e5004f;}
+.myInformation .goodsLike .contLike li .titleName{font-size: 12px; overflow: hidden; margin: 0 12px 0 16px; height: 14px; line-height: 1; text-overflow: ellipsis; white-space: nowrap;}
+.myInformation .goodsLike .contLike li .buyNum{font-size: 12px; margin: 0 16px; height: 16px; line-height: 16px; margin-top: 12px; color: #9c9c9c; overflow: hidden;}
+.myInformation .goodsLike .contLike .change2{color: #595959; border: 1px solid #e4eaee; margin: 10px 7px 38px; text-align: center; cursor: pointer; font-size: 12px; height: 28px; line-height: 28px; background-color: #fff;}
+.myInformation .informRight{width: 200px;}
+.myInformation .informRight .calendar .date{text-align: center;color: #fff; text-align: center; background: #323333;padding:11px 10px 8px;font-size: 15px;line-height: 23px;}
+.myInformation .informRight .calendar i{width: 20px;height:20px;}
+.myInformation .informRight .calendar .date span{margin-left: -20px;}
+.myInformation .informRight .calendar .day{color: #323333; height: 144px; background: #f8fffa;padding-top: 16px;text-align: center;border: 1px solid #cfe5d4;}
+.myInformation .informRight .calendar .day em{display:block;height: 66px; line-height: 1; font-size: 60px;font-family: tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;}
+.myInformation .informRight .calendar .day span{display:block;font-size: 15px;margin-bottom: 5px;}
+
+.myInformation .informContent .content{margin:0 10px;border: 1px solid #e4eaee; padding: 5px;min-height:390px;}
+
+.myInformation .content table{width:98%;margin: 10px; background-color: #f5f5f5; border: 1px solid #e8e8e8; }
+.myInformation .content th{height:28px;line-height:28px;padding-top: 5px; padding-bottom: 5px;text-align: center;}
+.myInformation .content .indent table .name th{text-align: left;}
+.myInformation .content .indent table .name th:last-child{text-align: right;padding-right: 20px;}
+.myInformation .content .indent table .name th i{font-size: 16px;cursor: pointer;}
+.myInformation .content .goods{background: #fff;text-align: center;}
+.myInformation .content .goods .td1{width:387px;padding:10px 0 10px 20px;}
+.myInformation .content .goods .td1 .goodsName{width:296px;text-align: left;margin-left: 10px;margin-top: 10px;}
+.myInformation .content .goods .td1 .goodsName p{margin-bottom: 5px;}
+.myInformation .content .goods .td1 .goodsName p:last-child{color:#6c6c6c;}
+.myInformation .cont2 .goods .td2{width:71px;}
+.myInformation .cont2 .goods .td3{width:72px;}
+.myInformation .cont2 .goods .td4{width:108px;}
+.myInformation .cont2 .goods .td4 div:last-child{color:#6c6c6c;}
+.myInformation .cont2 .goods .td5{width:144px;}
+.myInformation .page{margin-right: 10px;}
+.myInformation .page li{float: left;width:40px;height:40px;border:1px solid #eee;text-align: center;line-height: 40px;}
+.myInformation .page li a{display: block;}
+.myInformation .page li:hover{background:#e5004f;}
+.myInformation .page li:hover a{color:#fff;}
+
+.myInformation .cont3 .goods .td2,.myInformation .cont3 .goods .td3{width:98px;}
+.myInformation .cont3 .goods .td4{width:147px;}
+.myInformation .cont3 .goods .td4 div:last-child{color:#6c6c6c;}
+.myInformation .cont3 .goods .td5{width:196px;}
+
+.myInformation .cont4 .tit{margin-top: 10px;border-bottom: 1px solid #999;}
+.myInformation .cont4 .tit div{float: left;margin: 0 10px;font-size: 16px;padding: 5px;}
+.myInformation .cont4 .tit .borderTop{border: 1px solid #999;border-bottom: 0;}
+.myInformation .cont4 .tit .borderTop .line{width:100%;height:1px;background: #fff;left: 0;bottom: -1px;padding: 0;margin: 0;}
+.myInformation .cont4 .base{width:900px;margin: 20px auto 0;}
+.myInformation .cont4 .base div{font-size: 13px;margin-bottom: 10px;}
+.myInformation .cont4 .base .title{width:80px;float: left;}
+.myInformation .cont4 .base .box{width:80px;border: 3px solid #e6e6e6;}
+.myInformation .cont4 .base .box img{width:80px;}
+.myInformation .cont4 .base .box .boxChange{width:100%;height:20px;line-height:20px;text-align:center;bottom: 0;left:0;background: #000;opacity:.7;filter:alpha(opacity=70);margin-bottom: 0;color:#fff;cursor:pointer;display: none;}
+.myInformation .cont4 .base .box:hover .boxChange{display: block;}
+.myInformation .cont4 .base .choose{margin-top: 5px;margin-left: 80px;}
+.myInformation .cont4 .base button{margin-top: 30px;}
+
+.myInformation .cont4 .photo{margin: 30px 40px;}
+.myInformation .cont4 .photo .photoes{margin: 10px 0;}
+.myInformation .cont4 .photo .big{width:400px ;height:200px;background:#f0f0f0;border: 2px solid #e6e6e6;text-align: center;padding-top: 100px;margin-right: 15px;}
+.myInformation .cont4 .photo .small{height:304px;border-left: 1px solid #8e8e8e;padding-left: 15px;}
+.myInformation .cont4 .photo .small p{width:200px;color:#91620f;}
+.myInformation .cont4 .photo .threehead .bighead{margin-top: 20px;font-size: 14px;}
+.myInformation .cont4 .bighead div,.myInformation .cont4 .middlehead div,.myInformation .cont4 .smallhead div{background:#f0f0f0;border: 2px solid #e6e6e6;text-align: center;color:#666;margin-bottom: 10px;}
+.myInformation .cont4 .photo .threehead .bighead div{width:158px;height:158px;line-height: 158px;}
+.myInformation .cont4 .photo .threehead .middlehead{width:60px;}
+.myInformation .cont4 .photo .threehead .middlehead div{width:58px;height:43px;padding-top: 15px;}
+.myInformation .cont4 .photo .threehead .smallhead{width:60px;margin-top: 20px;}
+.myInformation .cont4 .photo .threehead .smallhead div{width:28px;height:28px;font-size: 12px;}
+.myInformation .cont4 .photo .twohead{margin-left: 40px;margin-top: 20px;}
+
+.myInformation .cont5 .title .titName{width:100%;}
+.myInformation .cont5 .title .titName i{cursor: pointer;}
+.myInformation .cont5 .content .bgAdd{position:fixed;left:0;top:0;display:none;width:100%;height:100%;z-index:99999999999;background:rgba(0,0,0,.7)}
+.myInformation .cont5 .content .close{cursor: pointer;}
+.myInformation .cont5 .content .addNew{left:50%;top:50%;border:1px solid #999;background: #eee;padding: 10px;margin-top:-236px ;margin-left: -364px;}
+.myInformation .cont5 .content .addNew .add span{font-size: 16px;font-weight: bold;}
+.myInformation .cont5 .content .addNew form>div{padding-top: 20px;}
+.myInformation .cont5 .content .addNew form>div.setting{margin-left: 50px;}
+.myInformation .cont5 .content .addNew form>input{font-size: 14px;padding: 2px;margin-left: 70px;}
+.myInformation .cont5 .content .addNew form>div>span{width:100px;float: left;text-align: right;margin-right: 10px;}
+.myInformation .cont5 .content .addNew form>div>span>span{color:#e5004f;}
+
+.myInformation .cont5 table th{background:#f2f2f2;}
+.myInformation .cont5 table td{background:#fff;height:50px;text-align: center;}
+.myInformation .cont5 table .setAddre a{visibility: hidden;width:60px;border:1px solid #e5004f;color:#e5004f;margin: 0 auto;padding: 2px;}
+.myInformation .cont5 table .setAddre:hover a{visibility: visible;}
+
+.myInformation .cont6 .content{padding: 20px 15px;}
+.myInformation .cont6 .content p{font-size: 18px;font-weight: bold;margin-bottom: 20px;}
+.myInformation .cont6 .content form div{margin-bottom: 20px;font-size: 14px;}
+.myInformation .cont6 .content button{font-size: 14px;margin-right: 10px;}

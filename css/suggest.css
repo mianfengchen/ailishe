@@ -1,0 +1,22 @@
+﻿@charset "UTF-8";
+
+/*建议部分样式*/
+.suggest{width: 980px;margin:0 auto;}
+.suggest p{color: #999;}
+.suggest .text{width:100%;height: 20px;line-height: 20px;padding:9px 0;}
+.suggest .text span{color: #666}
+.suggest .text a{padding:0 10px;color: #666}
+.suggest .main{padding: 20px 20px 50px;background-color: #fff;}
+.suggest .main .tit{height: 26px;margin-bottom: 15px;border-bottom: 1px solid #e3e3e3;}
+.suggest .main .tit h3{height: 24px;line-height: 24px;font-size: 12px;text-indent: 30px;color: #333;}
+.suggest .main .cont{padding-left: 30px;}
+.suggest .main .cont form>div{margin-bottom: 10px;}
+.suggest .main .cont form>div>h4{height: 24px;font-size: 12px;font-weight: 400;color: #666;}
+.suggest .main .cont .feedSome>div{height: 22px;padding-left: 16px;}
+.suggest .main .cont .feedSome>div label{display: block;line-height: 22px;}
+.suggest .main .cont .feedSome>div label input{vertical-align: middle;margin-right: 5px;}
+.suggest .main .cont .feed-text{padding: 5px 0 10px 16px;}
+.suggest .main .cont .feed-text textarea{width: 500px;height: 120px;padding: 2px;border: 1px solid #bcbcbc;color: #666;}
+.suggest .main .cont .feed-submit{padding-left: 16px;}
+.suggest .main .cont .feed-submit input{margin-right: 10px;vertical-align: top;}
+.suggest .main .cont .feed-submit span{display: none; height: 22px; line-height: 22px; vertical-align: top; color: #e5004f;}
